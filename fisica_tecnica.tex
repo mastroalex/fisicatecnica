@@ -10,13 +10,13 @@
 \usepackage{mathtools}
 \usepackage{esint}
  \usepackage{import}
-
+\usepackage{xcolor}
 \usepackage{geometry}
 \geometry{a4paper, top=2cm, bottom=2cm, left=2.5cm, right=2.5cm,  heightrounded, bindingoffset=5mm}
 
 
 \title{Formulario fisica tecnica}
-\author{Alessandro Mastrofini}
+\author{}
 \date{October 2021}
 
 \begin{document}
@@ -100,6 +100,53 @@ $$\left|d \dot{Q}_{T}\right|=|\tau I d T|=\left|\tau I \frac{d T}{d x} d x\right
 
 \textbf{calore}
 È l’interazione tra il sistema termodinamico e l’esterno, che avviene a causa di una differenza di temperatura, attraverso il contorno (tanto all’interno c’è equilibrio e non mi interessa). Questa definizione è generale, c'è anche quella operativa. 
+
+\subsection{Primo principio della termodinamica}
+Il primo principio della termodinamica stabilisce che il lavoro scambiato in una trasformazione termodinamica {\color{red}{ciclica}} in un sistema {\color{red}{chiuso}} è uguale al calore totale scambiato: 
+\begin{equation}
+	L=Q
+\end{equation}		
+Ricorda Esperienza di Joule e il fatto che lavoro e calore sono sono negativi (lavoro assorbito e calore ceduto) $-|L|=-|Q|$
+
+Generalizzando vale l'uguaglianza integrale e quindi $dQ-dL=dE$ nota come \textbf{energia totale} e si tratta di una funzione di stato infatti $\oint dE=0$.
+
+L'energia totale dipende da variabili interne e variabili esterne. $E=E_{interne}+E_{esterne}$
+Tra le variabili esterne troviamo:
+\begin{itemize}
+	\item velocità del baricentro
+	\item quota del baricentro
+\end{itemize}
+Allora $\Delta E_e=\Delta E_c+\Delta E_p$ (energia cinetica e potenziale).
+
+Tra le variabili interne troviamo:
+\begin{itemize}
+	\item variabili termodinamiche (pressione, volume specifico, temperatura)
+	\item componenti elettrochimiche (reazioni chimiche, fenomeni elettrici o termoelettrici)
+\end{itemize}
+Allora $\Delta E_i=\Delta u+\Delta u_x$ (energia interna termodinamica e energia interna di origine elettrochimica).
+
+\textbf{Primo principio della termodinamica per un sistema chiuso che compie trasformazioni aperte}: 
+\begin{equation}
+	Q-L=\Delta u+\Delta E_c +\Delta E_p 
+\end{equation}
+
+In termini differenziali:
+\begin{equation}
+	dq-dl=du+du_x+{dw^2\over 2}+g dz 
+\end{equation}
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=0.6\columnwidth]{generalizprincipio.jpg}
+	\end{center}
+\end{figure}
+
+\subsection{Calore}
+\textbf{Definizione operativa}: il calore si misura come il lavoro scambiato da un sistema in un'esperienza di Joule. Ovvero un sistema chiuso che compie una trasformazione ciclica. 
+
+
+
+
 
 
 \newpage
