@@ -7,8 +7,10 @@
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amssymb}
+\usepackage{subfigure}
 \usepackage{mathtools}
 \usepackage{esint}
+\usepackage{float}
  \usepackage{import}
 \usepackage{xcolor}
 \usepackage{geometry}
@@ -146,12 +148,151 @@ Lavoriamo in ipotesi di regime stazionario, in cui vale il bilancio di massa.
 $M_t=M_{t+\Delta t}$
 \begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=0.6\columnwidth]{sistemiaperti.jpg}
+		\includegraphics[width=0.6\columnwidth]{sistemaaperto.jpg}
 	\end{center}
 \end{figure}
 
+\textbf{bilancio di energia} $q-l_f-p_2v_2+p_1v_1=\Delta u + \frac{\Delta w^2}{2}+g\Delta z$
+
+Dall'equazione del bilancio dell'energia entra in gioco una nuova grandezza funzione di stato: \textbf{Entalpia}: $h=u+pv$
+
+\begin{equation}
+	q-l_f=\Delta h +\Delta e_c + \Delta e_p
+\end{equation}
+Si definisce Entalpia come il calore scambiato in un sistema aperto dove non è presente lavoro e non ci sono variazioni di energia cinetica e di energia potenziale. $dq=dh$
+
+
 \subsection{Calore}
 \textbf{Definizione operativa}: il calore si misura come il lavoro scambiato da un sistema in un'esperienza di Joule. Ovvero un sistema chiuso che compie una trasformazione ciclica. 
+
+\subsection{Secondo principio della termodinamica}
+
+\textbf{Fromulazione di Plank}:
+E' impossibile che l'unico risultato di una cessione di calore ad un sistema chiuso che compie trasformazioni cicliche sia la produzione di calore.
+
+\textbf{Fromulazione di Clausius}:
+E' impossibile che per un sistema chiuso che compie trasformazioni cicliche l'unico risultato sia la sottrazione di calore da una sorgente inferiore e la cessione di calore ad una sorgente superiore senza alcun effetto compensatorio.
+
+\begin{figure}[H]
+	\begin{center}
+		\caption{Macchina di Newcomen}
+		\includegraphics[width=0.4\columnwidth]{macchinaNewcomen.jpg}
+	\end{center}
+\end{figure}
+
+Definiamo il rendimento come il rapporto tra ciò che si ottiene e ciò che si spende.
+Questo meccanismo venne migliorato dalla macchina di Watt;
+
+\begin{figure}[H]
+	\begin{center}
+		\caption{Macchina di Watt}
+		\includegraphics[width=0.6\columnwidth]{macchinadiWatt.jpg}
+	\end{center}
+\end{figure}
+
+Distinguiamo il calore $Q_1$ che è il calore ceduto dal braciere al sistema termodinamico, il lavoro $L$ come il lavoro positivo esercitato dal sistema verso l'esterno e il calore $Q_2$ come il calore sottratto al sistema per ricondensare il vapore.
+
+Per un sistema termodinamico chiuso che produce lavoro positivo grazie a scambi di calore il limite superiore del rendimento è il rendimento formulato da Carnot: $\eta_{max}=1-\frac{T_2}{T_1}$
+
+\begin{figure}[H]
+	\begin{center}
+		\caption{Macchina motrice termica}
+		\includegraphics[width=0.2\columnwidth]{sistema.jpg}
+	\end{center}
+\end{figure}
+
+Carnot fece una similitudine tra il mulino d'acqua e la macchina di Watt;
+\begin{itemize}
+	\item il lavoro L è lo stesso che produce in entrambi i casi una rotazione
+	\item la quota coincide con la temperatura
+	\item la portata coincide con il calore
+\end{itemize}
+
+il parallelismo errato era quello tra il calore e la portata perchè portava a scrivere $l=Q_1-Q_2=0$
+Ma sappiamo che per produrre lavoro positivo la macchina di Watt deve avere $Q_1>Q_2$
+
+Nei sistemi chiusi non si può invertire il segno del calore e del lavoro $\longrightarrow $ fenomeni sono \textbf{irreversibili}
+
+\subsubsection{equivalenza dei principi}
+
+\textbf{nego Plank}
+
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Nego Plank]{
+		\includegraphics[width=0.25\columnwidth]{Plank.jpg}}
+		\subfigure[Nego Celsius]{
+		\includegraphics[width=0.4\columnwidth]{Clausius.jpg}}
+	\end{center}
+\end{figure}
+
+\subsection{Equazioni del secondo principio}
+\begin{equation}
+	\oint \frac{dQ}{T} \le 0
+\end{equation}
+Questa viene chiamata \textbf{Disuguaglianza di Clausius}; dove T è la temperatura alla quale si scambia calore $dQ$. La disuguaglianza è:
+\begin{itemize}
+	\item $=0$ per trasformazioni reversibili
+	\item $<$ per trasformazioni irreversibili
+\end{itemize}
+
+La disuguaglianza di Clausius cambiata di segno è la \textbf{Traccia termodinamica}
+
+\textbf{ciclo diretto}
+$\frac{Q_1}{T_1} - \frac{Q_2}{T_2} \le 0 \longrightarrow \frac{Q_{ass}}{T_{ass}} \le \frac{Q_{ced}}{T_[ced]}$
+
+\textbf{ciclo inverso}
+$-\frac{Q_1}{T_1} + \frac{Q_2}{T_2} \le 0 \longrightarrow \frac{Q_{ass}}{T_{ass}} \le \frac{Q_{ced}}{T_[ced]}$
+
+Consideriamo la macchina negata della formulazione di Plank e verifichiamo che la disuguaglianza di Clausius sia negata; poichè il calore assorbito è positivo la disuguaglianza di Clausius risulta negata.
+
+\subsection{Entropia}
+per una trasformazione reversibile $\oint \frac{dQ}{T}=0$
+allora la grandezza $\frac{dQ}{T}=ds$: \textbf{Entropia}
+
+se la trasformazione è irreversibile $\oint\frac{dQ}{T} \le 0$ e quindi possiamo scrivere:
+$\frac{dQ}{T}=ds-ds_s$
+
+\textbf{definizione operativa di entropia}
+$\Delta s = s_2-s_1=\int_1^2\frac{dq}{T}$
+
+Essendo una funzione di stato è uguale se calcolata lungo trasformazioni reversibili e irreversibili.
+
+\subsubsection{energia interna in funzione dell'entropia}
+$dq-dl=du+de_c+de_p$
+$du=dq-dl-de_c-de_p$  sappiamo che $dq=Tds$ e $dl=pdv$
+\begin{equation}
+	du=Tds-pdv
+\end{equation}
+
+\subsubsection{entalpia in funzione dell'entropia}
+abbiamo definito $h=u+pv$, il differenziale è:
+$dh=du+pdv+vdp$
+dove $du=Tds-pdv$ quindi:
+
+\begin{equation}
+	dh=Tds+vdp
+\end{equation}
+
+\subsubsection{Teorema dell'aumento di Entropia}
+sistema termodinamico isolato con l'esterno, $dq=0$, allora $ds=ds_s$, quindi quando abbiamo trasformazioni irreversibili  il $ds_s$ va ad aumentare l'entropia. 
+$ds_s \longrightarrow$ termine di produzione entropica
+
+\subsubsection{sorgenti di produzione entropica}
+\begin{itemize}
+	\item sorgenti entropiche di prima specie: cause di irreversibilità di prima specie quali differenza di pressione, di temperatura e attriti.
+	\item sorgenti entropiche di seconda specie: irreversibilità di prima specie dovute a fenomeni elettrochimici
+\end{itemize}
+
+\begin{equation}
+	ds_s=ds_{sI}(\Delta p, \Delta T, attriti)+ds_{sII}(x_i,l_{el})
+\end{equation}
+
+$dS=dQ\left(\frac{1}{T_2}-\frac{1}{T_1}\right)=dS_{sI}(\Delta T)>0$
+
+$ds_{sI}=(\Delta p)=-\frac{vdp}{T}$
+
+
 
 
 

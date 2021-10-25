@@ -7,5 +7,13 @@
 \contentsline {subsection}{\numberline {1.4}Principio zero della termodinamica}{4}{}%
 \contentsline {subsection}{\numberline {1.5}Primo principio della termodinamica}{4}{}%
 \contentsline {subsection}{\numberline {1.6}Sistemi aperti}{5}{}%
-\contentsline {subsection}{\numberline {1.7}Calore}{6}{}%
-\contentsline {section}{\numberline {2}Tesine}{7}{}%
+\contentsline {subsection}{\numberline {1.7}Calore}{5}{}%
+\contentsline {subsection}{\numberline {1.8}Secondo principio della termodinamica}{6}{}%
+\contentsline {subsubsection}{\numberline {1.8.1}equivalenza dei principi}{7}{}%
+\contentsline {subsection}{\numberline {1.9}Equazioni del secondo principio}{7}{}%
+\contentsline {subsection}{\numberline {1.10}Entropia}{8}{}%
+\contentsline {subsubsection}{\numberline {1.10.1}energia interna in funzione dell'entropia}{8}{}%
+\contentsline {subsubsection}{\numberline {1.10.2}entalpia in funzione dell'entropia}{8}{}%
+\contentsline {subsubsection}{\numberline {1.10.3}Teorema dell'aumento di Entropia}{8}{}%
+\contentsline {subsubsection}{\numberline {1.10.4}sorgenti di produzione entropica}{8}{}%
+\contentsline {section}{\numberline {2}Tesine}{9}{}%
