@@ -16,6 +16,23 @@
 \usepackage{geometry}
 \geometry{a4paper, top=2cm, bottom=2cm, left=2.5cm, right=2.5cm,  heightrounded, bindingoffset=5mm}
 
+% Quanto segue serve per inserire l'elenco di equazioni
+\usepackage[subfigure]{tocloft}
+ \newcommand{\listequationsname}{Elenco delle equazioni}
+\newlistof{myequations}{equ}{\listequationsname}
+\newcommand{\myequations}[1]{%
+	\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+% aggiungere per ogni etichetta oltre \label anche \myequations{NOME}
+
+\usepackage{makeidx} %serve per fare l'indice analitico
+% compilare il documento principale
+% viene generato un file nome_file.idx
+% aprire il file e andare su Strumenti -> Comandi -> \makeindex
+% compilare nuovamente il documento iniziale
+\makeindex
+% aggiungere gli elementi con \index{NOME}
+% \index{Voce ! Voce secondaria}
+
 
 \title{Formulario fisica tecnica}
 \author{}
@@ -43,7 +60,7 @@ Lezione interrotta causa problemi di connessione. Appello straordinario; chieder
 
 
 \section{Termodinamica}
-	
+	 \index{Termodinamica}
 \subsection{Introduzione}
 	
 COMPLETA DA pg 10 
@@ -55,10 +72,12 @@ Sistema termodinamico   oggetto del nostro studio.
 Vogliamo relazionare il sistema termodinamico, cioè quello che c’è all’interno, con l’esterno e in particolare ci interessa la relazione, ovvero le interazioni tra l’interno e l’esterno, cioè ci interessa quello che succede NEL sistema.
 
 COMPLETA 
-
+ \index{Lavoro}
 Definizione fisica del \textbf{lavoro}: si parte dal sistema cilindro-pistone \begin{equation}
 	l_i=\int_1^2 p_idv
 \end{equation}
+\label{lavoro}
+\myequations{Lavoro}
 
 \textbf{Convenzione termodinamica}: lavoro positivo se fatto dal sistema verso l'esterno.
 
@@ -98,16 +117,20 @@ assoluto proporzionale alla corrente, alla differenza di temperatura e ad un coe
 $$\left|d \dot{Q}_{T}\right|=|\tau I d T|=\left|\tau I \frac{d T}{d x} d x\right|$$ 
 
 \subsection{Principio zero della termodinamica}
+
 \textbf{Principio zero della termodinamica} o di Fowler. Presi due corpi A in equilibrio con C tramite una parete conduttrice. E il corpo B in equilibrio con lo stesso C. Allora, essendo entrambi in equilibrio con C, saranno A in equilibrio con B. $Longrightarrow$ Possiamo usare C come termoscopio, per misurare se due corpi sono in equilibrio termico. 
 
 \textbf{calore}
 È l’interazione tra il sistema termodinamico e l’esterno, che avviene a causa di una differenza di temperatura, attraverso il contorno (tanto all’interno c’è equilibrio e non mi interessa). Questa definizione è generale, c'è anche quella operativa. 
 
 \subsection{Primo principio della termodinamica}
+ \index{Primo principio}
 Il primo principio della termodinamica stabilisce che il lavoro scambiato in una trasformazione termodinamica {\color{red}{ciclica}} in un sistema {\color{red}{chiuso}} è uguale al calore totale scambiato: 
 \begin{equation}
 	L=Q
 \end{equation}		
+\label{primoprincipio}
+\myequations{Primo principio della termodinamica}
 Ricorda Esperienza di Joule e il fatto che lavoro e calore sono sono negativi (lavoro assorbito e calore ceduto) $-|L|=-|Q|$
 
 Generalizzando vale l'uguaglianza integrale e quindi $dQ-dL=dE$ nota come \textbf{energia totale} e si tratta di una funzione di stato infatti $\oint dE=0$.
@@ -128,14 +151,19 @@ Tra le variabili interne troviamo:
 Allora $\Delta E_i=\Delta u+\Delta u_x$ (energia interna termodinamica e energia interna di origine elettrochimica).
 
 \textbf{Primo principio della termodinamica per un sistema chiuso che compie trasformazioni aperte}: 
+ \index{Primo principio! trasf aperte in un sistema chiuso}
 \begin{equation}
 	Q-L=\Delta u+\Delta E_c +\Delta E_p 
 \end{equation}
+\label{1principio}
+\myequations{Primo principio}
 
 In termini differenziali:
 \begin{equation}
 	dq-dl=du+du_x+{dw^2\over 2}+g dz 
 \end{equation}
+\label{1principiodiff}
+\myequations{Primo principio in termini differenziali}
 
 \begin{figure}[h!]
 	\begin{center}
@@ -163,10 +191,11 @@ Si definisce Entalpia come il calore scambiato in un sistema aperto dove non è 
 
 
 \subsection{Calore}
+\index{Calore}
 \textbf{Definizione operativa}: il calore si misura come il lavoro scambiato da un sistema in un'esperienza di Joule. Ovvero un sistema chiuso che compie una trasformazione ciclica. 
 
 \subsection{Secondo principio della termodinamica}
-
+ \index{Secondo principio}
 \textbf{Fromulazione di Plank}:
 E' impossibile che l'unico risultato di una cessione di calore ad un sistema chiuso che compie trasformazioni cicliche sia la produzione di calore.
 
@@ -214,6 +243,7 @@ Ma sappiamo che per produrre lavoro positivo la macchina di Watt deve avere $Q_1
 Nei sistemi chiusi non si può invertire il segno del calore e del lavoro $\longrightarrow $ fenomeni sono \textbf{irreversibili}
 
 \subsubsection{equivalenza dei principi}
+ \index{Secondo principio! equivalenza}
 
 \textbf{nego Plank}
 
@@ -227,6 +257,7 @@ Nei sistemi chiusi non si può invertire il segno del calore e del lavoro $\long
 \end{figure}
 
 \subsection{Equazioni del secondo principio}
+ \index{Secondo principio! equazioni}
 \begin{equation}
 	\oint \frac{dQ}{T} \le 0
 \end{equation}
@@ -247,6 +278,7 @@ $-\frac{Q_1}{T_1} + \frac{Q_2}{T_2} \le 0 \longrightarrow \frac{Q_{ass}}{T_{ass}
 Consideriamo la macchina negata della formulazione di Plank e verifichiamo che la disuguaglianza di Clausius sia negata; poichè il calore assorbito è positivo la disuguaglianza di Clausius risulta negata.
 
 \subsection{Entropia}
+\index{Entropia}
 per una trasformazione reversibile $\oint \frac{dQ}{T}=0$
 allora la grandezza $\frac{dQ}{T}=ds$: \textbf{Entropia}
 
@@ -301,5 +333,29 @@ $ds_{sI}=(\Delta p)=-\frac{vdp}{T}$
 
 \newpage
 \section{Tesine}
+
+\newpage
+\section{Indici}
+\newpage
+\listoffigures
+\addcontentsline{toc}{subsection}{\listfigurename}
+
+\newpage
+\listoftables
+\addcontentsline{toc}{subsection}{\listtablename}
+\newpage
+\listofmyequations
+\addcontentsline{toc}{subsection}{\listequationsname}
+\newpage
+\addcontentsline{toc}{subsection}{Indice analitico}
+\printindex
+\newpage
+
+
+
+
+
+
+
 
 \end{document}

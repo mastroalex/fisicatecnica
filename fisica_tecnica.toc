@@ -1,5 +1,5 @@
-\babel@toc {italian}{}\relax 
-\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}
+\babel@toc {italian}{}
 \contentsline {section}{\numberline {1}Termodinamica}{4}{}%
 \contentsline {subsection}{\numberline {1.1}Introduzione}{4}{}%
 \contentsline {subsection}{\numberline {1.2}Misure}{4}{}%
@@ -17,3 +17,8 @@
 \contentsline {subsubsection}{\numberline {1.10.3}Teorema dell'aumento di Entropia}{8}{}%
 \contentsline {subsubsection}{\numberline {1.10.4}sorgenti di produzione entropica}{8}{}%
 \contentsline {section}{\numberline {2}Tesine}{9}{}%
+\contentsline {section}{\numberline {3}Indici}{10}{}%
+\contentsline {subsection}{Elenco delle figure}{11}{}%
+\contentsline {subsection}{Elenco delle tabelle}{12}{}%
+\contentsline {subsection}{Elenco delle equazioni}{13}{}%
+\contentsline {subsection}{Indice analitico}{14}{}%
