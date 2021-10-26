@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  26 OCT 2021 09:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  26 OCT 2021 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,57 +472,66 @@ File: sistemaperto.pdf Graphic file (type pdf)
 Package pdftex.def Info: sistemaperto.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 320.46321pt x 106.22968pt.
 ) [5 <./generalizprincipio.jpg> <./sistemaperto.pdf>]
-<macchinaNewcomen.jpg, id=37, 192.72pt x 190.91325pt>
-File: macchinaNewcomen.jpg Graphic file (type jpg)
-<use macchinaNewcomen.jpg>
-Package pdftex.def Info: macchinaNewcomen.jpg  used on input line 212.
-(pdftex.def)             Requested size: 176.4044pt x 174.7509pt.
-<macchinadiWatt.jpg, id=38, 260.172pt x 230.66174pt>
+(./newcommen.pdf_tex
+<newcommen.pdf, id=37, page=1, 190.60976pt x 139.03694pt>
+File: newcommen.pdf Graphic file (type pdf)
+<use newcommen.pdf, page 1>
+Package pdftex.def Info: newcommen.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
+<newcommen.pdf, id=38, page=2, 190.60976pt x 139.03694pt>
+File: newcommen.pdf Graphic file (type pdf)
+<use newcommen.pdf, page 2>
+Package pdftex.def Info: newcommen.pdf , page2 used on input line 60.
+(pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
+)
+<macchinadiWatt.jpg, id=39, 260.172pt x 230.66174pt>
 File: macchinadiWatt.jpg Graphic file (type jpg)
 <use macchinadiWatt.jpg>
-Package pdftex.def Info: macchinadiWatt.jpg  used on input line 222.
+Package pdftex.def Info: macchinadiWatt.jpg  used on input line 223.
 (pdftex.def)             Requested size: 264.61333pt x 234.61015pt.
-<sistema.jpg, id=39, 170.43675pt x 253.54726pt>
+<sistema.jpg, id=40, 170.43675pt x 253.54726pt>
 File: sistema.jpg Graphic file (type jpg)
 <use sistema.jpg>
-Package pdftex.def Info: sistema.jpg  used on input line 233.
+Package pdftex.def Info: sistema.jpg  used on input line 234.
 (pdftex.def)             Requested size: 88.2022pt x 131.2147pt.
+ [6 <./newcommen.pdf> <./newcommen.pdf
 
-[6 <./macchinaNewcomen.jpg> <./macchinadiWatt.jpg>]
-<Plank.jpg, id=43, 162.6075pt x 147.55125pt>
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./newcommen.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./macchinadiWatt.jpg>]
+<Plank.jpg, id=58, 162.6075pt x 147.55125pt>
 File: Plank.jpg Graphic file (type jpg)
 <use Plank.jpg>
-Package pdftex.def Info: Plank.jpg  used on input line 257.
+Package pdftex.def Info: Plank.jpg  used on input line 258.
 (pdftex.def)             Requested size: 110.25443pt x 100.04758pt.
-<Clausius.jpg, id=44, 204.765pt x 118.64325pt>
+<Clausius.jpg, id=59, 204.765pt x 118.64325pt>
 File: Clausius.jpg Graphic file (type jpg)
 <use Clausius.jpg>
-Package pdftex.def Info: Clausius.jpg  used on input line 259.
+Package pdftex.def Info: Clausius.jpg  used on input line 260.
 (pdftex.def)             Requested size: 176.4044pt x 102.21765pt.
- [7 <./sistema.jpg> <./Plank.jpg> <./Clausius.jpg>] [8] [9] [10] (./fisica_tecn
-ica.lof)
+ [7 <./sistema.jpg> <./Plank.jpg> <./Clausius.jpg>]
+[8] [9] [10] (./fisica_tecnica.lof)
 \tf@lof=\write5
 \openout5 = `fisica_tecnica.lof'.
 
- [11]
-(./fisica_tecnica.lot)
+ [11] (./fisica_tecnica.lot)
 \tf@lot=\write6
 \openout6 = `fisica_tecnica.lot'.
 
- [12] (./fisica_tecnica.equ)
+ [12]
+(./fisica_tecnica.equ)
 \tf@equ=\write7
 \openout7 = `fisica_tecnica.equ'.
 
- [13] (./fisica_tecnica.ind
-[14
+ [13] (./fisica_tecnica.ind [14
 
 
 ]) (./fisica_tecnica.aux) ) 
 Here is how much of TeX's memory you used:
- 7017 strings out of 478994
- 95447 string characters out of 5858184
+ 7023 strings out of 478994
+ 95582 string characters out of 5858184
  428162 words of memory out of 5000000
- 24362 multiletter control sequences out of 15000+600000
+ 24366 multiletter control sequences out of 15000+600000
  418211 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,15n,74p,454b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -545,10 +554,10 @@ fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></u
 sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr
 /local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on fisica_tecnica.pdf (14 pages, 356538 bytes).
+Output written on fisica_tecnica.pdf (14 pages, 622333 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
