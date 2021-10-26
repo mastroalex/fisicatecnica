@@ -33,6 +33,8 @@
 % aggiungere gli elementi con \index{NOME}
 % \index{Voce ! Voce secondaria}
 
+\renewcommand{\thesubsubsection}{}
+%rimuove la numerazione dalle sotto-sotto sezione
 
 \title{Formulario fisica tecnica}
 \author{}
@@ -176,9 +178,11 @@ Lavoriamo in ipotesi di regime stazionario, in cui vale il bilancio di massa.
 $M_t=M_{t+\Delta t}$
 \begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=0.6\columnwidth]{sistemaaperto.jpg}
+%		\includegraphics[width=0.6\columnwidth]{sistemaaperto.jpg}
+		 \input{sistemaperto.pdf_tex}
 	\end{center}
 \end{figure}
+
 
 \textbf{bilancio di energia} $q-l_f-p_2v_2+p_1v_1=\Delta u + \frac{\Delta w^2}{2}+g\Delta z$
 
@@ -306,7 +310,7 @@ dove $du=Tds-pdv$ quindi:
 	dh=Tds+vdp
 \end{equation}
 
-\subsubsection{Teorema dell'aumento di Entropia}
+\subsubsection{teorema dell'aumento di Entropia}
 sistema termodinamico isolato con l'esterno, $dq=0$, allora $ds=ds_s$, quindi quando abbiamo trasformazioni irreversibili  il $ds_s$ va ad aumentare l'entropia. 
 $ds_s \longrightarrow$ termine di produzione entropica
 

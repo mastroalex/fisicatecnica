@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  26 OCT 2021 09:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  26 OCT 2021 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,26 +348,26 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 (./fisica_tecnica.aux)
 \openout1 = `fisica_tecnica.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \it@ocap on input line 41.
-LaTeX Info: Redefining \it@ccap on input line 41.
+LaTeX Info: Redefining \it@ocap on input line 43.
+LaTeX Info: Redefining \it@ccap on input line 43.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -426,19 +426,19 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+esint on input line 4
-4.
+6.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
@@ -458,71 +458,74 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 163.
+(amsmath)                 on input line 165.
 
 <generalizprincipio.jpg, id=28, 1644.1425pt x 381.425pt>
 File: generalizprincipio.jpg Graphic file (type jpg)
 <use generalizprincipio.jpg>
-Package pdftex.def Info: generalizprincipio.jpg  used on input line 170.
+Package pdftex.def Info: generalizprincipio.jpg  used on input line 172.
 (pdftex.def)             Requested size: 264.61333pt x 61.38426pt.
-<sistemaaperto.jpg, id=29, 350.5095pt x 129.48375pt>
-File: sistemaaperto.jpg Graphic file (type jpg)
-<use sistemaaperto.jpg>
-Package pdftex.def Info: sistemaaperto.jpg  used on input line 179.
-(pdftex.def)             Requested size: 264.61333pt x 97.75467pt.
-[5 <./generalizprincipio.jpg> <./sistemaaperto.jpg>]
-<macchinaNewcomen.jpg, id=35, 192.72pt x 190.91325pt>
+(./sistemaperto.pdf_tex
+<sistemaperto.pdf, id=29, page=1, 320.46321pt x 106.22185pt>
+File: sistemaperto.pdf Graphic file (type pdf)
+<use sistemaperto.pdf, page 1>
+Package pdftex.def Info: sistemaperto.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 320.46321pt x 106.22968pt.
+) [5 <./generalizprincipio.jpg> <./sistemaperto.pdf>]
+<macchinaNewcomen.jpg, id=37, 192.72pt x 190.91325pt>
 File: macchinaNewcomen.jpg Graphic file (type jpg)
 <use macchinaNewcomen.jpg>
-Package pdftex.def Info: macchinaNewcomen.jpg  used on input line 208.
+Package pdftex.def Info: macchinaNewcomen.jpg  used on input line 212.
 (pdftex.def)             Requested size: 176.4044pt x 174.7509pt.
-<macchinadiWatt.jpg, id=36, 260.172pt x 230.66174pt>
+<macchinadiWatt.jpg, id=38, 260.172pt x 230.66174pt>
 File: macchinadiWatt.jpg Graphic file (type jpg)
 <use macchinadiWatt.jpg>
-Package pdftex.def Info: macchinadiWatt.jpg  used on input line 218.
+Package pdftex.def Info: macchinadiWatt.jpg  used on input line 222.
 (pdftex.def)             Requested size: 264.61333pt x 234.61015pt.
-<sistema.jpg, id=37, 170.43675pt x 253.54726pt>
+<sistema.jpg, id=39, 170.43675pt x 253.54726pt>
 File: sistema.jpg Graphic file (type jpg)
 <use sistema.jpg>
-Package pdftex.def Info: sistema.jpg  used on input line 229.
+Package pdftex.def Info: sistema.jpg  used on input line 233.
 (pdftex.def)             Requested size: 88.2022pt x 131.2147pt.
- [6 <./macchinaNewcomen.jpg> <./macchinadiWatt.jpg>]
-<Plank.jpg, id=41, 162.6075pt x 147.55125pt>
+
+[6 <./macchinaNewcomen.jpg> <./macchinadiWatt.jpg>]
+<Plank.jpg, id=43, 162.6075pt x 147.55125pt>
 File: Plank.jpg Graphic file (type jpg)
 <use Plank.jpg>
-Package pdftex.def Info: Plank.jpg  used on input line 253.
+Package pdftex.def Info: Plank.jpg  used on input line 257.
 (pdftex.def)             Requested size: 110.25443pt x 100.04758pt.
-<Clausius.jpg, id=42, 204.765pt x 118.64325pt>
+<Clausius.jpg, id=44, 204.765pt x 118.64325pt>
 File: Clausius.jpg Graphic file (type jpg)
 <use Clausius.jpg>
-Package pdftex.def Info: Clausius.jpg  used on input line 255.
+Package pdftex.def Info: Clausius.jpg  used on input line 259.
 (pdftex.def)             Requested size: 176.4044pt x 102.21765pt.
- [7 <./sistema.jpg> <./Plank.jpg> <./Clausius.jpg>]
-[8] [9] [10] (./fisica_tecnica.lof)
+ [7 <./sistema.jpg> <./Plank.jpg> <./Clausius.jpg>] [8] [9] [10] (./fisica_tecn
+ica.lof)
 \tf@lof=\write5
 \openout5 = `fisica_tecnica.lof'.
 
- [11] (./fisica_tecnica.lot)
+ [11]
+(./fisica_tecnica.lot)
 \tf@lot=\write6
 \openout6 = `fisica_tecnica.lot'.
 
- [12]
-(./fisica_tecnica.equ)
+ [12] (./fisica_tecnica.equ)
 \tf@equ=\write7
 \openout7 = `fisica_tecnica.equ'.
 
- [13] (./fisica_tecnica.ind [14
+ [13] (./fisica_tecnica.ind
+[14
 
 
 ]) (./fisica_tecnica.aux) ) 
 Here is how much of TeX's memory you used:
- 7008 strings out of 478994
- 95308 string characters out of 5858184
- 427166 words of memory out of 5000000
- 24356 multiletter control sequences out of 15000+600000
+ 7017 strings out of 478994
+ 95447 string characters out of 5858184
+ 428162 words of memory out of 5000000
+ 24362 multiletter control sequences out of 15000+600000
  418211 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,74p,454b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,15n,74p,454b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/
 cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm
 -super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/
@@ -542,10 +545,10 @@ fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></u
 sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr
 /local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on fisica_tecnica.pdf (14 pages, 367799 bytes).
+Output written on fisica_tecnica.pdf (14 pages, 356538 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
