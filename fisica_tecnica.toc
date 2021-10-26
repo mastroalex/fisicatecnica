@@ -18,7 +18,7 @@
 \contentsline {subsubsection}{\numberline {}sorgenti di produzione entropica}{8}{}%
 \contentsline {section}{\numberline {2}Tesine}{9}{}%
 \contentsline {section}{\numberline {3}Indici}{10}{}%
-\contentsline {subsection}{Elenco delle figure}{11}{}%
-\contentsline {subsection}{Elenco delle tabelle}{12}{}%
-\contentsline {subsection}{Elenco delle equazioni}{13}{}%
-\contentsline {subsection}{Indice analitico}{14}{}%
+\contentsline {subsection}{Elenco delle figure}{10}{}%
+\contentsline {subsection}{Elenco delle tabelle}{11}{}%
+\contentsline {subsection}{Elenco delle equazioni}{12}{}%
+\contentsline {subsection}{Indice analitico}{13}{}%

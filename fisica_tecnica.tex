@@ -2,9 +2,9 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8x]{inputenc}
 \usepackage[italian]{babel}
-
 \usepackage{graphicx}
 \usepackage{amsmath}
+\numberwithin{equation}{section}% numera eq come #section.#formula
 \usepackage{amsthm}
 \usepackage{amssymb}
 \usepackage{subfigure}
@@ -37,7 +37,11 @@
 %rimuove la numerazione dalle sotto-sotto sezione
 
 \title{Formulario fisica tecnica}
-\author{}
+\author{
+	Mastrofini Alessandro\\
+	\and
+	Volpato Rebecca\\
+}
 \date{October 2021}
 
 \begin{document}
@@ -341,7 +345,6 @@ $ds_{sI}=(\Delta p)=-\frac{vdp}{T}$
 
 \newpage
 \section{Indici}
-\newpage
 \listoffigures
 \addcontentsline{toc}{subsection}{\listfigurename}
 
