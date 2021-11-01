@@ -15,7 +15,7 @@
 \usepackage{xcolor}
 \usepackage{geometry}
 \geometry{a4paper, top=2cm, bottom=2cm, left=2.5cm, right=2.5cm,  heightrounded, bindingoffset=5mm}
-\setlength{\parindent}{0pt}
+\setlength{\parindent}{0pt} %riduce l'indentazione dei paragrafi
 % Quanto segue serve per inserire l'elenco di equazioni
 \usepackage[subfigure]{tocloft}
  \newcommand{\listequationsname}{Elenco delle equazioni}
@@ -23,6 +23,9 @@
 \newcommand{\myequations}[1]{%
 	\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
 % aggiungere per ogni etichetta oltre \label anche \myequations{NOME}
+\setlength{\cftmyequationsnumwidth}{2.3em}
+\setlength{\cftmyequationsindent}{1.5em}
+
 
 \usepackage{makeidx} %serve per fare l'indice analitico
 % compilare il documento principale
@@ -195,6 +198,7 @@ Dall'equazione del bilancio dell'energia entra in gioco una nuova grandezza funz
 \begin{equation}
 	q-l_f=\Delta h +\Delta e_c + \Delta e_p
 \end{equation}
+\myequations{Primo principio per sistemi aperti}
 Si definisce Entalpia come il calore scambiato in un sistema aperto dove non è presente lavoro e non ci sono variazioni di energia cinetica e di energia potenziale. $dq=dh$
 
 \subsubsection{Espansore}
@@ -208,6 +212,7 @@ Si definisce Entalpia come il calore scambiato in un sistema aperto dove non è 
 Applichiamo il principio di conservazione della massa in regime stazionario e il principio di conservazione dell'energia (1° principio)  nel caso in cui $q=0$. Allora abbiamo \begin{equation}
 	l_f=h_1-h_2>0
 \end{equation}
+\myequations{Lavoro dell'espansore}
 Il fluido esce con un'entalpia minore. 
 
 La potenza meccanica $P=l_f\cdot G_1=G\left(h_2-h_1\right)>0$
@@ -225,7 +230,7 @@ Con le stesse relazioni dell'espansore otteniamo un lavoro negativo (ceduto al s
 \begin{equation}
 	l_f=h_1-h_2<0
 \end{equation}
-
+\myequations{Lavoro del compressore}
 
 \begin{figure}[H]
 	\begin{center}
@@ -251,7 +256,7 @@ Allora dall'equazione del primo principio otteniamo
 \begin{equation}
 	\Delta h=0\Longrightarrow h_1=h_2
 \end{equation}
-
+\myequations{Valvola di laminazione}
 È una tipica trasformazione \underline{irreversibile} poiché c'è un salto finito di pressione, cioè NON si parla di una trasformazione isoentalpica ma solo dell'uguglianza $h_1=h_2$. 
 
 \subsubsection{Tubo di efflusso}
@@ -340,6 +345,7 @@ Nei sistemi chiusi non si può invertire il segno del calore e del lavoro $\long
 \begin{equation}
 	\oint \frac{dQ}{T} \le 0
 \end{equation}
+\myequations{Disuguaglianza di Clausius}
 Questa viene chiamata \textbf{Disuguaglianza di Clausius}; dove T è la temperatura alla quale si scambia calore $dQ$. La disuguaglianza è:
 \begin{itemize}
 	\item $=0$ per trasformazioni reversibili
@@ -389,11 +395,11 @@ dove $du=Tds-pdv$ quindi:
 \end{equation}
 \myequations{Entalpia in funzione dell'entropia}
 
-\subsubsection{Teorema dell'aumento di Entropia}
+\subsubsection{Teorema dell'aumento di Entropia}\index{Entropia!teorema dell'aumento di entropia}
 sistema termodinamico isolato con l'esterno, $dq=0$, allora $ds=ds_s$, quindi quando abbiamo trasformazioni irreversibili  il $ds_s$ va ad aumentare l'entropia. 
 $ds_s \longrightarrow$ termine di produzione entropica
 
-\subsubsection{Sorgenti di produzione entropica}
+\subsubsection{Sorgenti di produzione entropica}\index{Entropia!sorgenti entropiche}
 \begin{itemize}
 	\item sorgenti entropiche di prima specie: cause di irreversibilità di prima specie quali differenza di pressione, di temperatura e attriti.
 	\item sorgenti entropiche di seconda specie: irreversibilità di prima specie dovute a fenomeni elettrochimici
@@ -456,7 +462,7 @@ Il lavoro meccanico reale è diminuito a causa delle irreversibilità di prima s
 
 In caso di sistema aperto con trasformazione reversibile per ottenere lavoro positivo il fluido si deve espandere e quindi la pressione deve diminuire $dp>0$. 
 
-\subsection{Ciclo motore o ciclo diretto}
+\subsection{Ciclo motore o ciclo diretto}\index{Ciclo motore}
 
 Si intende un ciclo che produce lavoro positivo verso l'esterno. La rappresentazione schematica è il ciclo di Watt. 
 
@@ -477,7 +483,7 @@ Mettendo in relazione la traccia termodinamica (inverso della disugualianza di C
 
 Il primo termine corrisponde al rendimento massimo, ovvero quello di una macchina di Carnot (trasformazione reversibile, $\tau =0$).
 
-\subsubsection{Macchina di Carnot}
+\subsubsection{Macchina di Carnot}\index{Ciclo motore! macchina di Carnot}
 
 È reversibile ($p_1=p_2,T_1=T_2,$ no attriti).
 
@@ -496,7 +502,7 @@ Quindi abbiamo $d s=\frac{d q}{T}+d s_{S} \Rightarrow d s=0$ allora tra 2 -3 e 4
 È un ciclo motore particolare, infatti vale che il rendimento $\eta = \eta_c-f\left(\tau\right)$
 N.B. Il rendimento di un ciclo termomeccanico massimo \textbf{non} è 1 ma $\eta_c =1-{T_2\over T_1}$
 
-\subsection{Ciclo inverso}
+\subsection{Ciclo inverso}\index{Ciclo inverso}
 
 \begin{itemize}
 	\item ciclo frigorifero, se lo scopo è sottrarre $Q_2$ alla sorgente inferiore
@@ -512,13 +518,13 @@ N.B. Il rendimento di un ciclo termomeccanico massimo \textbf{non} è 1 ma $\eta
 	\end{center}
 \end{figure}
 
-\subsubsection{Ciclo frigorifero}
+\subsubsection{Ciclo frigorifero}\index{Ciclo inverso! frigorifero}
 Il rendimento del ciclo frigorifero $\eta_F={Q_2\over L}=\frac{T_{2}}{T_{1}-T_{2}}-\frac{\tau}{L} \cdot \frac{T_{1} T_{2}}{T_{1}-T_{2}}$.
 
 Il secondo termine contiene le irreversibilità.
 Il diagramma nel piano Ts è un rettangolo.
 
-\subsubsection{Pompa di calore}
+\subsubsection{Pompa di calore}\index{Ciclo inverso! pompa di calore}
 
 Il rendimento della pompa di calore $\eta_{PC}={Q_1\over L}=\frac{T_{1}}{T_{1}-T_{2}}-\frac{\tau}{L} \cdot \frac{T_{1} T_{2}}{T_{1}-T_{2}}$
 

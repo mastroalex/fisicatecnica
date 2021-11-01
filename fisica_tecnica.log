@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  1 NOV 2021 18:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  1 NOV 2021 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,26 +348,26 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 (./fisica_tecnica.aux)
 \openout1 = `fisica_tecnica.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \it@ocap on input line 47.
-LaTeX Info: Redefining \it@ccap on input line 47.
+LaTeX Info: Redefining \it@ocap on input line 50.
+LaTeX Info: Redefining \it@ccap on input line 50.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -426,19 +426,19 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+esint on input line 5
-0.
+3.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
@@ -458,12 +458,12 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 169.
+(amsmath)                 on input line 172.
 
 <generalizprincipio.jpg, id=28, 1644.1425pt x 381.425pt>
 File: generalizprincipio.jpg Graphic file (type jpg)
 <use generalizprincipio.jpg>
-Package pdftex.def Info: generalizprincipio.jpg  used on input line 176.
+Package pdftex.def Info: generalizprincipio.jpg  used on input line 179.
 (pdftex.def)             Requested size: 264.61333pt x 61.38426pt.
 (./sistemaperto.pdf_tex
 <sistemaperto.pdf, id=29, page=1, 320.46321pt x 106.22185pt>
@@ -475,26 +475,27 @@ Package pdftex.def Info: sistemaperto.pdf , page1 used on input line 56.
 <espansore.png, id=30, 269.005pt x 311.1625pt>
 File: espansore.png Graphic file (type png)
 <use espansore.png>
-Package pdftex.def Info: espansore.png  used on input line 204.
+Package pdftex.def Info: espansore.png  used on input line 208.
 (pdftex.def)             Requested size: 88.2022pt x 102.02397pt.
  [5 <./generalizprincipio.jpg> <./sistemaperto.pdf>]
 <compressore.png, id=39, 305.14pt x 270.00874pt>
 File: compressore.png Graphic file (type png)
 <use compressore.png>
-Package pdftex.def Info: compressore.png  used on input line 232.
+Package pdftex.def Info: compressore.png  used on input line 237.
 (pdftex.def)             Requested size: 88.2022pt x 78.04507pt.
 <valvolalaminazione.png, id=40, 399.4925pt x 132.495pt>
 File: valvolalaminazione.png Graphic file (type png)
 <use valvolalaminazione.png>
-Package pdftex.def Info: valvolalaminazione.png  used on input line 246.
+Package pdftex.def Info: valvolalaminazione.png  used on input line 251.
 (pdftex.def)             Requested size: 132.30666pt x 43.88116pt.
-<tuboefflusso.png, id=41, 334.24875pt x 432.61626pt>
-File: tuboefflusso.png Graphic file (type png)
-<use tuboefflusso.png>
-Package pdftex.def Info: tuboefflusso.png  used on input line 263.
-(pdftex.def)             Requested size: 132.30666pt x 171.24791pt.
 
 [6 <./espansore.png> <./compressore.png> <./valvolalaminazione.png>]
+<tuboefflusso.png, id=50, 334.24875pt x 432.61626pt>
+File: tuboefflusso.png Graphic file (type png)
+<use tuboefflusso.png>
+Package pdftex.def Info: tuboefflusso.png  used on input line 268.
+(pdftex.def)             Requested size: 132.30666pt x 171.24791pt.
+
 (./newcommen.pdf_tex
 <newcommen.pdf, id=51, page=1, 190.60976pt x 139.03694pt>
 File: newcommen.pdf Graphic file (type pdf)
@@ -510,7 +511,7 @@ Package pdftex.def Info: newcommen.pdf , page2 used on input line 60.
 <macchinadiWatt.jpg, id=53, 260.172pt x 230.66174pt>
 File: macchinadiWatt.jpg Graphic file (type jpg)
 <use macchinadiWatt.jpg>
-Package pdftex.def Info: macchinadiWatt.jpg  used on input line 297.
+Package pdftex.def Info: macchinadiWatt.jpg  used on input line 302.
 (pdftex.def)             Requested size: 264.61333pt x 234.61015pt.
  [7 <./tuboefflusso.png> <./newcommen.pdf> <./newcommen.pdf
 
@@ -520,38 +521,38 @@ ion: multiple pdfs with page group included in a single page
 <sistema.jpg, id=72, 170.43675pt x 253.54726pt>
 File: sistema.jpg Graphic file (type jpg)
 <use sistema.jpg>
-Package pdftex.def Info: sistema.jpg  used on input line 308.
+Package pdftex.def Info: sistema.jpg  used on input line 313.
 (pdftex.def)             Requested size: 88.2022pt x 131.2147pt.
 <Plank.jpg, id=73, 162.6075pt x 147.55125pt>
 File: Plank.jpg Graphic file (type jpg)
 <use Plank.jpg>
-Package pdftex.def Info: Plank.jpg  used on input line 332.
+Package pdftex.def Info: Plank.jpg  used on input line 337.
 (pdftex.def)             Requested size: 110.25443pt x 100.04758pt.
 <Clausius.jpg, id=74, 204.765pt x 118.64325pt>
 File: Clausius.jpg Graphic file (type jpg)
 <use Clausius.jpg>
-Package pdftex.def Info: Clausius.jpg  used on input line 334.
+Package pdftex.def Info: Clausius.jpg  used on input line 339.
 (pdftex.def)             Requested size: 176.4044pt x 102.21765pt.
  [8 <./macchinadiWatt.jpg> <./sistema.jpg>] [9 <./Plank.jpg> <./Clausius.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 444--446
+Underfull \hbox (badness 10000) in paragraph at lines 450--452
 
  []
 
 <ciclomotore.png, id=82, 389.455pt x 276.03125pt>
 File: ciclomotore.png Graphic file (type png)
 <use ciclomotore.png>
-Package pdftex.def Info: ciclomotore.png  used on input line 466.
+Package pdftex.def Info: ciclomotore.png  used on input line 472.
 (pdftex.def)             Requested size: 132.30666pt x 93.77356pt.
 [10]
 <carnot.png, id=86, 442.65375pt x 306.14375pt>
 File: carnot.png Graphic file (type png)
 <use carnot.png>
-Package pdftex.def Info: carnot.png  used on input line 489.
+Package pdftex.def Info: carnot.png  used on input line 495.
 (pdftex.def)             Requested size: 176.4044pt x 122.0022pt.
 <cicloinverso.png, id=87, 451.6875pt x 303.1325pt>
 File: cicloinverso.png Graphic file (type png)
 <use cicloinverso.png>
-Package pdftex.def Info: cicloinverso.png  used on input line 510.
+Package pdftex.def Info: cicloinverso.png  used on input line 516.
 (pdftex.def)             Requested size: 132.30666pt x 88.79425pt.
  [11 <./ciclomotore.png> <./carnot.png> <./cicloinverso.png>] [12] [13]
 (./fisica_tecnica.lof)
@@ -562,46 +563,12 @@ Package pdftex.def Info: cicloinverso.png  used on input line 510.
 \tf@lot=\write6
 \openout6 = `fisica_tecnica.lot'.
 
- [15] (./fisica_tecnica.equ
-Overfull \hbox (2.7771pt too wide) detected at line 5
-\T1/cmr/m/n/10 1.10 
- []
-
-
-Overfull \hbox (2.7771pt too wide) detected at line 6
-\T1/cmr/m/n/10 1.11 
- []
-
-
-Overfull \hbox (2.7771pt too wide) detected at line 7
-\T1/cmr/m/n/10 1.12 
- []
-
-
-Overfull \hbox (2.7771pt too wide) detected at line 8
-\T1/cmr/m/n/10 1.13 
- []
-
-
-Overfull \hbox (2.7771pt too wide) detected at line 9
-\T1/cmr/m/n/10 1.14 
- []
-
-
-Overfull \hbox (2.7771pt too wide) detected at line 10
-\T1/cmr/m/n/10 1.15 
- []
-
-
-Overfull \hbox (2.7771pt too wide) detected at line 11
-\T1/cmr/m/n/10 1.16 
- []
-
-)
+ [15] (./fisica_tecnica.equ)
 \tf@equ=\write7
 \openout7 = `fisica_tecnica.equ'.
 
- [16] (./fisica_tecnica.ind [17
+
+[16] (./fisica_tecnica.ind [17
 
 
 ]) (./fisica_tecnica.aux) ) 
@@ -634,7 +601,7 @@ sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr
 /local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/l
 ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/loc
 al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on fisica_tecnica.pdf (17 pages, 986296 bytes).
+Output written on fisica_tecnica.pdf (17 pages, 986565 bytes).
 PDF statistics:
  178 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams

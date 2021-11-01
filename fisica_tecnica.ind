@@ -1,10 +1,17 @@
 \begin{theindex}
 
-  \item Calore, 5
+  \item Calore, 7
+  \item Ciclo inverso, 11
+    \subitem  frigorifero, 12
+    \subitem  pompa di calore, 12
+  \item Ciclo motore, 10
+    \subitem  macchina di Carnot, 11
 
   \indexspace
 
-  \item Entropia, 8
+  \item Entropia, 9
+    \subitem sorgenti entropiche, 10
+    \subitem teorema dell'aumento di entropia, 9
 
   \indexspace
 
@@ -17,9 +24,9 @@
 
   \indexspace
 
-  \item Secondo principio, 6
-    \subitem  equazioni, 7
-    \subitem  equivalenza, 7
+  \item Secondo principio, 7
+    \subitem  equazioni, 9
+    \subitem  equivalenza, 8
 
   \indexspace
 
