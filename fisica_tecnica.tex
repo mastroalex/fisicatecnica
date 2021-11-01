@@ -15,7 +15,7 @@
 \usepackage{xcolor}
 \usepackage{geometry}
 \geometry{a4paper, top=2cm, bottom=2cm, left=2.5cm, right=2.5cm,  heightrounded, bindingoffset=5mm}
-
+\setlength{\parindent}{0pt}
 % Quanto segue serve per inserire l'elenco di equazioni
 \usepackage[subfigure]{tocloft}
  \newcommand{\listequationsname}{Elenco delle equazioni}
@@ -170,7 +170,7 @@ In termini differenziali:
 \end{equation}
 \label{1principiodiff}
 \myequations{Primo principio in termini differenziali}
-
+ 
 \begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=0.6\columnwidth]{generalizprincipio.jpg}
@@ -197,6 +197,76 @@ Dall'equazione del bilancio dell'energia entra in gioco una nuova grandezza funz
 \end{equation}
 Si definisce Entalpia come il calore scambiato in un sistema aperto dove non è presente lavoro e non ci sono variazioni di energia cinetica e di energia potenziale. $dq=dh$
 
+\subsubsection{Espansore}
+È un sistema aperto per produrre lavoro verso l'esterno. Il fluido si espando, diminuisce la pressione $\longrightarrow$ lavoro positivo (vedi \eqref{eq:lavorosistemiaperti}). 
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.2\columnwidth]{espansore.png}
+	\end{center}
+\end{figure}
+
+Applichiamo il principio di conservazione della massa in regime stazionario e il principio di conservazione dell'energia (1° principio)  nel caso in cui $q=0$. Allora abbiamo \begin{equation}
+	l_f=h_1-h_2>0
+\end{equation}
+Il fluido esce con un'entalpia minore. 
+
+La potenza meccanica $P=l_f\cdot G_1=G\left(h_2-h_1\right)>0$
+
+Il rendimento dell'espansore $\rho_{e}=\frac{l_{\text {reale }}}{l_{\text {ideale }}}=\frac{h_{1}-h_{2}}{\left(h_{1}-h_{2}\right)_{s}}$ , ha come limite superiore 1 (reversibilità). Nel caso ideale ($q=0$) consideriamo non ci siano cause di irreversibilità allora è una trasformazione adiabatica e reversibile $\Rightarrow$  isoentropica.
+
+Quindi: $\rho_{e} \leq 1\begin{cases}
+	=1 \text { per le trasformazioni reversibili } \\
+	<1 \text { per le trasformazioni irreversibili reali }
+\end{cases}$
+
+\subsubsection{Compressore}
+
+Con le stesse relazioni dell'espansore otteniamo un lavoro negativo (ceduto al sistema) 
+\begin{equation}
+	l_f=h_1-h_2<0
+\end{equation}
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.2\columnwidth]{compressore.png}
+	\end{center}
+\end{figure}
+
+C'è un aumento di entalpia dovuto al fatto che viene fornito lavoro al fluido $\Rightarrow$ aumento di pressione. $p_2>p_1$.
+
+Analogamente per la potenza e il rendimento del compressore è il reciproco del rendimento dell'espansore. Il limite superiore è sempre 1 e valgono le stesse considerazioni dell'espansore. 
+
+\subsubsection{Valvola di laminazione}
+
+Non abbiamo scambi di calore ($q=0$) e $T_1=T_2$ e non c'è lavoro in quanto non c'è nessun organo meccanico che scambia lavoro. 
+
+\begin{figure}[H]
+	\begin{center}
+				\includegraphics[width=0.3\columnwidth]{valvolalaminazione.png}
+	\end{center}
+\end{figure}
+
+Allora dall'equazione del primo principio otteniamo
+\begin{equation}
+	\Delta h=0\Longrightarrow h_1=h_2
+\end{equation}
+
+È una tipica trasformazione \underline{irreversibile} poiché c'è un salto finito di pressione, cioè NON si parla di una trasformazione isoentalpica ma solo dell'uguglianza $h_1=h_2$. 
+
+\subsubsection{Tubo di efflusso}
+
+Riguarda la conversione dell'entalpia di un fluido in energia cinetica.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.3\columnwidth]{tuboefflusso.png}
+	\end{center}
+\end{figure}
+
+Esperienza di Torricelli $\frac{w^{2}}{2 g}=h \rightarrow w=\sqrt{2 g h}$. 
+
+Applicando il 1° principio (trascurando calore e lavoro) otteniamo $w_{2}^{2}=2 g\left(z_{1}-z_{2}\right)=2 g h$ da cui si torna al teorema di Torricelli.
 
 \subsection{Calore}
 \index{Calore}
@@ -299,27 +369,31 @@ $\Delta s = s_2-s_1=\int_1^2\frac{dq}{T}$
 
 Essendo una funzione di stato è uguale se calcolata lungo trasformazioni reversibili e irreversibili.
 
-\subsubsection{energia interna in funzione dell'entropia}
+\subsubsection{Energia interna in funzione dell'entropia}
 $dq-dl=du+de_c+de_p$
 $du=dq-dl-de_c-de_p$  sappiamo che $dq=Tds$ e $dl=pdv$
 \begin{equation}
 	du=Tds-pdv
+	\label{eq:energiainternaentropia}
 \end{equation}
+\myequations{Energia interna in funzione dell'entropia}
 
-\subsubsection{entalpia in funzione dell'entropia}
+\subsubsection{Entalpia in funzione dell'entropia}
 abbiamo definito $h=u+pv$, il differenziale è:
 $dh=du+pdv+vdp$
 dove $du=Tds-pdv$ quindi:
 
 \begin{equation}
 	dh=Tds+vdp
+		\label{eq:entalpiaentropia}
 \end{equation}
+\myequations{Entalpia in funzione dell'entropia}
 
-\subsubsection{teorema dell'aumento di Entropia}
+\subsubsection{Teorema dell'aumento di Entropia}
 sistema termodinamico isolato con l'esterno, $dq=0$, allora $ds=ds_s$, quindi quando abbiamo trasformazioni irreversibili  il $ds_s$ va ad aumentare l'entropia. 
 $ds_s \longrightarrow$ termine di produzione entropica
 
-\subsubsection{sorgenti di produzione entropica}
+\subsubsection{Sorgenti di produzione entropica}
 \begin{itemize}
 	\item sorgenti entropiche di prima specie: cause di irreversibilità di prima specie quali differenza di pressione, di temperatura e attriti.
 	\item sorgenti entropiche di seconda specie: irreversibilità di prima specie dovute a fenomeni elettrochimici
@@ -328,15 +402,128 @@ $ds_s \longrightarrow$ termine di produzione entropica
 \begin{equation}
 	ds_s=ds_{sI}(\Delta p, \Delta T, attriti)+ds_{sII}(x_i,l_{el})
 \end{equation}
+\label{sorgentientropiche}
+\myequations{Sorgenti entropichei}
 
 $dS=dQ\left(\frac{1}{T_2}-\frac{1}{T_1}\right)=dS_{sI}(\Delta T)>0$
 
 $ds_{sI}=(\Delta p)=-\frac{vdp}{T}$
 
+Per le cause di irreversibilità di seconda specie, consideriamo la variazione di energia interna elettrochimica $d u_{x}=\left(\frac{\partial e_{i}}{\partial x}\right) d x=X d x$ cioè  $d u_{x}=-d l_{e l}-T d s_{s I I}$. La $x$ rappresenta il grado di avanzamento della reazioni chimica e $dx$ la sua variazione.
+
+Dissipata sotto forma di lavoro elettrico (il '-' per analogia con il 1° principio) o di irreversibilità ($Tds_{II}$ ), il '-' in analogia al calore, noto come calore dissipato non utilizzato a causa delle irreversibilità).
+
+Quindi la sorgente entropica di seconda specie è: 
+\begin{equation}
+d s_{S I I}=\frac{1}{T}\left(-d u_{x}-d l_{e l}\right)=-\frac{d l_{e l}}{T}-\frac{X d x}{T}\text{ (sist. chiusi)}
+\end{equation}
+\label{sorgentientropiche2sistchiusi}
+\myequations{Sorgenti entropiche di seconda specie per i sistemi chiusi}
+
+Ragionando per i sist. aperti consideriamo la variazione di entalpia: $d h_{t}=d h+d h_{x}$ con un contributo termodinamico e uno della reazione elettrochimica. $\Longrightarrow$ $d h_{x}=\left(\frac{\partial h_{t}}{\partial x}\right) d xXx^{\prime} d x$. Quindi consideriamo che la variazione può dar luogo a lavoro elttrodico o sorgente entropica di seconda specie $d h_{x}=-d l_{e l}-T d s_{s I I}$.
+
+In conclusione, la sorgente entropica di seconda specie: 
+\begin{equation}
+d s_{S I I}=-\frac{d l_{e l}}{T}-\frac{x^{\prime} d x}{T}\text{ (sist. aperti)}
+\label{eq:sorgentientropiche2sistaperti}
+\end{equation}
+\myequations{Sorgenti entropiche di seconda specie per i sistemi aperti}
+
+\subsubsection{Lavoro meccanico in presenza di sorgenti entropiche (trasformazioni irreversibili)}
+
+ 
+\textbf{Sistemi chiusi}
+Inseriamo le sorgenti entropiche nel 1° principio della termodinamica aggiungendo al lavoro il termine elettrico $dl_t=dl_m+dl_{ell}$ . Quindi dal 1° principio abbiamo che $du_t=dq-dl_t$ ma $du_t=du+du_x$ e per $dq=Tds-Td{s_s}$. Allora, sfruttando l'equazione  $d u_{x}=-d l_{e l}-T d s_{s I I}$  e \eqref{eq:energiainternaentropia}  otteniamo:
+
+\begin{equation}
+	dl_m=pdv-Tds_{sI}
+	\label{eq:lavorosistemichiusi}
+\end{equation}
+\myequations{Lavoro per sistemi aperti}
+
+Il lavoro meccanico è diminuito a causa delle irreversibilità di prima specie. 
+\\
+
+\textbf{Sistemi aperti}
+Partendo dal primo principiamo consideriamo il lavoro con anche i fenomeni elettrici. Abbiamo $dh_t=dq-dl_t$ e $dh_t=dh+dh_x$ e che che $dq=Tds-Tds_s$. Sostituendo e ricordando che \eqref{eq:entalpiaentropia}  e che $d h_{x}=-d l_{e l}-T d s_{s I I}$ otteniamo:
+\begin{equation}
+	dl_m=-vdp-Tds_{sI}
+	\label{eq:lavorosistemiaperti}
+\end{equation}
+\myequations{Lavoro per sistemi chiusi}
+
+Il lavoro meccanico reale è diminuito a causa delle irreversibilità di prima specie. 
+
+In caso di sistema aperto con trasformazione reversibile per ottenere lavoro positivo il fluido si deve espandere e quindi la pressione deve diminuire $dp>0$. 
+
+\subsection{Ciclo motore o ciclo diretto}
+
+Si intende un ciclo che produce lavoro positivo verso l'esterno. La rappresentazione schematica è il ciclo di Watt. 
+
+\begin{figure}[H]
+	\begin{center}
+
+		\includegraphics[width=0.3\columnwidth]{ciclomotore.png}
+				\caption{Ciclo motore}
+	\end{center}
+\end{figure}
+
+Otteniamo lavoro $L=Q_1-Q_2$.
+
+Mettendo in relazione la traccia termodinamica (inverso della disugualianza di Clausius) ed il rendimento $\eta={L\over Q_1}={1-{Q_2\over Q_1}}$ otteniamo il rendimento del ciclo motore irreversibile 
+\begin{equation}
+	\eta=\left(1-{T_2\over T_1}\right)-\left. \tau T_2\over Q_1\right.
+\end{equation}
+
+Il primo termine corrisponde al rendimento massimo, ovvero quello di una macchina di Carnot (trasformazione reversibile, $\tau =0$).
+
+\subsubsection{Macchina di Carnot}
+
+È reversibile ($p_1=p_2,T_1=T_2,$ no attriti).
+
+Isoterme tra 1-2 e 3-4 (calore è l'area sottesa).
+
+\begin{figure}[H]
+	\begin{center}
+		
+		\includegraphics[width=0.4\columnwidth]{carnot.png}
+		\caption{Ciclo motore}
+	\end{center}
+\end{figure}
+
+Quindi abbiamo $d s=\frac{d q}{T}+d s_{S} \Rightarrow d s=0$ allora tra 2 -3 e 4-1 sono\textbf{ isoentropiche} (:=adiabatica reversibile).
+
+È un ciclo motore particolare, infatti vale che il rendimento $\eta = \eta_c-f\left(\tau\right)$
+N.B. Il rendimento di un ciclo termomeccanico massimo \textbf{non} è 1 ma $\eta_c =1-{T_2\over T_1}$
+
+\subsection{Ciclo inverso}
+
+\begin{itemize}
+	\item ciclo frigorifero, se lo scopo è sottrarre $Q_2$ alla sorgente inferiore
+	\item pompa di calore, se lo scopo è cedere $Q_1$ alla sorgente superiore
+\end{itemize}
 
 
+\begin{figure}[H]
+	\begin{center}
+		
+		\includegraphics[width=0.3\columnwidth]{cicloinverso.png}
+		\caption{Ciclo inverso}
+	\end{center}
+\end{figure}
 
+\subsubsection{Ciclo frigorifero}
+Il rendimento del ciclo frigorifero $\eta_F={Q_2\over L}=\frac{T_{2}}{T_{1}-T_{2}}-\frac{\tau}{L} \cdot \frac{T_{1} T_{2}}{T_{1}-T_{2}}$.
 
+Il secondo termine contiene le irreversibilità.
+Il diagramma nel piano Ts è un rettangolo.
+
+\subsubsection{Pompa di calore}
+
+Il rendimento della pompa di calore $\eta_{PC}={Q_1\over L}=\frac{T_{1}}{T_{1}-T_{2}}-\frac{\tau}{L} \cdot \frac{T_{1} T_{2}}{T_{1}-T_{2}}$
+
+Il secondo termine contiene le irreversibilità, se la trasformazione è reversibile $\tau=0$.
+Il diagramma Ts è lo stesso rettangolo del ciclo frigorifero. 
 
 
 
@@ -345,6 +532,11 @@ $ds_{sI}=(\Delta p)=-\frac{vdp}{T}$
 
 \newpage
 \section{Indici}
+
+
+
+
+
 \listoffigures
 \addcontentsline{toc}{subsection}{\listfigurename}
 
