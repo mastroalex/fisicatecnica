@@ -7,6 +7,7 @@
 \numberwithin{equation}{section}% numera eq come #section.#formula
 \usepackage{amsthm}
 \usepackage{amssymb}
+\usepackage{cancel}
 \usepackage{subfigure}
 \usepackage{mathtools}
 \usepackage{esint}
@@ -57,13 +58,17 @@
 
 \newpage 
 
-Novità rispetto al programma;
+Novità rispetto al programma:
+\begin{itemize}
+	\item Al posto degli esercizi sulla trasmissione del calore verranno raccontate alcune esperienze.
+	\item 	\textbf{Orale}: tre domande di teoria (termodinamica, termofluidodinamica, termocinetica o trasporto di massa) 
+	\item \textbf{Scritto}: due esercitazioni, una sulle miscele aria-vapore (studio del benessere ambientale, saper regolare ambienti in ambienti clinici), cicli frigoriferi, terza domanda semi teorica (raccontare una delle esercitazioni citate sopra). 
+	\item Esercitazioni sulla criochirurgia, sulla termoregolazione del corpo umano, sul trasporto di massa in aorta aneurismatica, sul trasporto di massa nel circolo di Willis e sull’acustica ovvero rumore provocato dalle valvole stenotiche. 
+	\item Non ci sono esercizi sulla trasmissione del calore e termofluidodinamica.
+	\item Testo: Problematiche di fisica tecnica in ingegneria medica (9 capitoli, da Texmat). Risultati di lavori fatti da colleghi o in tesi di dottorato o nella tesi magistrale ecc.
+	
+\end{itemize}
 
-Al posto degli esercizi sulla trasmissione del calore verranno raccontate alcune esperienze.
-Orale: tre domande di teoria (termodinamica, termofluidodinamica, termocinetica o trasporto di massa) Scritto: due esercitazioni, una sulle miscele aria-vapore (studio del benessere ambientale, saper regolare ambienti in ambienti clinici), cicli frigoriferi, terza domanda semi teorica (raccontare una delle esercitazioni citate sopra). 
-Esercitazioni sulla criochirurgia, sulla termoregolazione del corpo umano, sul trasporto di massa in aorta aneurismatica, sul trasporto di massa nel circolo di Willis e sull’acustica ovvero rumore provocato dalle valvole stenotiche. Non ci sono esercizi sulla trasmissione del calore e termofluidodinamica.
-Testo: Problematiche di fisica tecnica in ingegneria medica (9 capitoli, da Texmat). Risultati di lavori fatti da colleghi o in tesi di dottorato o nella tesi magistrale ecc.
-Lezione interrotta causa problemi di connessione. Appello straordinario; chiedere alla segreteria Scritto e orale nello stesso appello.
 
 \newpage 
 
@@ -72,27 +77,59 @@ Lezione interrotta causa problemi di connessione. Appello straordinario; chieder
 	 \index{Termodinamica}
 \subsection{Introduzione}
 	
-COMPLETA DA pg 10 
+parliamo delle termodinamica classica $\rightarrow$ Ottocentesca
 
 
-La prima cosa che bisogna fare nella termodinamica classica è definire l’oggetto del nostro studio, cioè l’insieme dei corpi che vogliamo studiare e che chiameremo sistema termodinamico (insieme degli oggetti che vogliamo studiare), si decide quale sistema termodinamico si vuole studiare, ad esempio l’aria nella stanza.
+La prima cosa che bisogna fare nella termodinamica classica è definire l’oggetto del nostro studio, cioè l’insieme dei corpi che vogliamo studiare e che chiameremo \textcolor{red}{sistema termodinamico} (insieme degli oggetti che vogliamo studiare), si decide quale sistema termodinamico si vuole studiare, ad esempio l’aria nella stanza.
 Nel momento in cui decidiamo il sistema, decidiamo anche il contorno fisico del nostro sistema termodinamico S scelto arbitrariamente; quello che c’è all’interno del nostro sistema è l’oggetto del nostro studio, tutto il resto è l’esterno E, mentre S è all’interno del contorno fisico.
-Sistema termodinamico   oggetto del nostro studio.
+\textbf{Sistema termodinamico} : oggetto del nostro studio.
 Vogliamo relazionare il sistema termodinamico, cioè quello che c’è all’interno, con l’esterno e in particolare ci interessa la relazione, ovvero le interazioni tra l’interno e l’esterno, cioè ci interessa quello che succede NEL sistema.
 
-COMPLETA 
+Consideriamo tre tipologie di scambi:
+\begin{itemize}
+	\item Scambi di massa (sistemi aperti)
+	\item Scambi di lavoro (attraverso il contorno)
+	\item Scambi di calore (attraverso il contorno)
+\end{itemize}
+
+Individuiamo quindi lo stato termodinamico del sistema univocamente con:
+\begin{itemize}
+	\item $M$, composizione chimica
+	\item $p,v,T$ , variabili interne 
+	\item $w,z$, variabili esterne (velocità e quota)
+\end{itemize}
+
+Sono ipotesi lontane dalla realtà poiché la termodinamica classica studia \underline{solo stati di equilibrio}. 
+
+
+ 
  \index{Lavoro}
 Definizione fisica del \textbf{lavoro}: si parte dal sistema cilindro-pistone \begin{equation}
 	l_i=\int_1^2 p_idv
 \end{equation}
 \label{lavoro}
-\myequations{Lavoro}
+\myequations{Lavoro}  
+
+Lo so definisce a partire dal sistema cilindro-pistone al quale applichiamo una forza $F$. 
 
 \textbf{Convenzione termodinamica}: lavoro positivo se fatto dal sistema verso l'esterno.
 
 \textbf{Convenzione termodinamica}: calore positivo se assorbito dal sistema (convezione opposta al lavoro).
-\textbf{Temperatura}:
 
+Ricordiamo che siamo in uno stato di equilibrio, ovvero il caso limite. 
+
+Nell'esempio del palloncino affinché possa aumentare il volume dovremo essere nelle condizioni in cui il lavoro di dilatazione è trascurabile, $l_i=l_e+\cancel{l_d}$. Questo è possibile quando:
+\begin{itemize}
+	\item c'è equilibrio termodinamico interno
+	\item $p_i=p_e$, altrimenti la differenza di pressione dilata il materiale
+	\item Assenza di attriti
+	\item $T_i=T_e$
+\end{itemize}
+
+Queste condizioni non sono mai realizzabili, l’importanza della termodinamica però è che è una scienza che ragiona al limite; lo scopo dell’ingegneria è quello di dire vediamo di ridurre l’importanza di queste differenze di pressione tra interno ed esterno.
+
+
+\textbf{Temperatura}: a partire dal termosocopio scegliamo una funzione che dipende da una delle variabili del sistema $\theta_A=f0(x)$ e nel sistema internazionale scegliamo una funzione lineare: $f'(x)=ax=T_A$. Quindi si dimostra che la \textbf{temperatura empirica} $\theta _A$ è uguale alla \textbf{temperatura termodinamica} $T_A$. Fissando il punto triplo dell'acqua $T_T=273.16 \text{K}$ eliminiamo la costante incognita  $rightarrow  T=273.16 {\over x_T}$. Usando il punti fisso del ghiaccio e il punto fisso del vapore $rightarrow T_{v}-T_{g}=a\left(x_{v}-x_{g}\right) \Rightarrow \frac{T}{T_{v}-T_{g}}=\frac{x}{x_{v}-x_{g}} $. Nel  S.I.$T\left({ }^{\circ} C\right)=T(K)-273,15$
 
 
 \subsection{Misure}
@@ -115,7 +152,13 @@ Permettono di misurare la temperatura.
 
 \textbf{Effetto Seebeck}
 
-COMPLETA
+Presi due metalli saldati alle estremità. Mettendo le due saldature a T diverse misuriamo un forza elettromotrice $\Delta E=f\left(T_A-T_B\right)=\alpha_{A B}\left(T_{A}-\mathrm{T}_{B}\right) $ dove l coefficiente di Seebeck dipende dai materiali ed è definito come $\alpha_{A B}:=\lim _{\Delta T \rightarrow 0} \frac{\Delta E}{\Delta T}=\frac{d E}{d T}$. Usato nei dispositivi di misura: termocoppie. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.2\columnwidth]{seebeck.png}
+	\end{center}
+\end{figure}
 
 \textbf{Effetto Peltier} completa
 
@@ -127,7 +170,7 @@ $$\left|d \dot{Q}_{T}\right|=|\tau I d T|=\left|\tau I \frac{d T}{d x} d x\right
 
 \subsection{Principio zero della termodinamica}
 
-\textbf{Principio zero della termodinamica} o di Fowler. Presi due corpi A in equilibrio con C tramite una parete conduttrice. E il corpo B in equilibrio con lo stesso C. Allora, essendo entrambi in equilibrio con C, saranno A in equilibrio con B. $Longrightarrow$ Possiamo usare C come termoscopio, per misurare se due corpi sono in equilibrio termico. 
+\textbf{Principio zero della termodinamica} o di Fowler. Presi due corpi A in equilibrio con C tramite una parete conduttrice. E il corpo B in equilibrio con lo stesso C. Allora, essendo entrambi in equilibrio con C, saranno A in equilibrio con B. $\Longrightarrow$ Possiamo usare C come termoscopio, per misurare se due corpi sono in equilibrio termico. 
 
 \textbf{calore}
 È l’interazione tra il sistema termodinamico e l’esterno, che avviene a causa di una differenza di temperatura, attraverso il contorno (tanto all’interno c’è equilibrio e non mi interessa). Questa definizione è generale, c'è anche quella operativa. 

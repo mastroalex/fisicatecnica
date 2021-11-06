@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  1 NOV 2021 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  6 NOV 2021 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -174,6 +174,9 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip55
@@ -348,26 +351,26 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 (./fisica_tecnica.aux)
 \openout1 = `fisica_tecnica.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \it@ocap on input line 50.
-LaTeX Info: Redefining \it@ccap on input line 50.
+LaTeX Info: Redefining \it@ocap on input line 51.
+LaTeX Info: Redefining \it@ccap on input line 51.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -426,19 +429,19 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+esint on input line 5
-3.
+4.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
@@ -454,132 +457,137 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [3] [4]
+) [3]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 172.
+(amsmath)                 on input line 132.
 
-<generalizprincipio.jpg, id=28, 1644.1425pt x 381.425pt>
+[4]
+<seebeck.png, id=31, 395.4775pt x 238.8925pt>
+File: seebeck.png Graphic file (type png)
+<use seebeck.png>
+Package pdftex.def Info: seebeck.png  used on input line 159.
+(pdftex.def)             Requested size: 88.2022pt x 53.27826pt.
+ [5 <./seebeck.png>]
+<generalizprincipio.jpg, id=38, 1644.1425pt x 381.425pt>
 File: generalizprincipio.jpg Graphic file (type jpg)
 <use generalizprincipio.jpg>
-Package pdftex.def Info: generalizprincipio.jpg  used on input line 179.
+Package pdftex.def Info: generalizprincipio.jpg  used on input line 222.
 (pdftex.def)             Requested size: 264.61333pt x 61.38426pt.
-(./sistemaperto.pdf_tex
-<sistemaperto.pdf, id=29, page=1, 320.46321pt x 106.22185pt>
+ (./sistemaperto.pdf_tex
+<sistemaperto.pdf, id=39, page=1, 320.46321pt x 106.22185pt>
 File: sistemaperto.pdf Graphic file (type pdf)
 <use sistemaperto.pdf, page 1>
 Package pdftex.def Info: sistemaperto.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 320.46321pt x 106.22968pt.
 )
-<espansore.png, id=30, 269.005pt x 311.1625pt>
+<espansore.png, id=40, 269.005pt x 311.1625pt>
 File: espansore.png Graphic file (type png)
 <use espansore.png>
-Package pdftex.def Info: espansore.png  used on input line 208.
+Package pdftex.def Info: espansore.png  used on input line 251.
 (pdftex.def)             Requested size: 88.2022pt x 102.02397pt.
- [5 <./generalizprincipio.jpg> <./sistemaperto.pdf>]
-<compressore.png, id=39, 305.14pt x 270.00874pt>
+ [6 <./generalizprincipio.jpg> <./sistemaperto.pdf> <./espansore.png>]
+<compressore.png, id=48, 305.14pt x 270.00874pt>
 File: compressore.png Graphic file (type png)
 <use compressore.png>
-Package pdftex.def Info: compressore.png  used on input line 237.
+Package pdftex.def Info: compressore.png  used on input line 280.
 (pdftex.def)             Requested size: 88.2022pt x 78.04507pt.
-<valvolalaminazione.png, id=40, 399.4925pt x 132.495pt>
+<valvolalaminazione.png, id=49, 399.4925pt x 132.495pt>
 File: valvolalaminazione.png Graphic file (type png)
 <use valvolalaminazione.png>
-Package pdftex.def Info: valvolalaminazione.png  used on input line 251.
+Package pdftex.def Info: valvolalaminazione.png  used on input line 294.
 (pdftex.def)             Requested size: 132.30666pt x 43.88116pt.
-
-[6 <./espansore.png> <./compressore.png> <./valvolalaminazione.png>]
 <tuboefflusso.png, id=50, 334.24875pt x 432.61626pt>
 File: tuboefflusso.png Graphic file (type png)
 <use tuboefflusso.png>
-Package pdftex.def Info: tuboefflusso.png  used on input line 268.
+Package pdftex.def Info: tuboefflusso.png  used on input line 311.
 (pdftex.def)             Requested size: 132.30666pt x 171.24791pt.
-
-(./newcommen.pdf_tex
-<newcommen.pdf, id=51, page=1, 190.60976pt x 139.03694pt>
+ [7 <./compressore.png> <./valvolalaminazione.png>] (./newcommen.pdf_tex
+<newcommen.pdf, id=58, page=1, 190.60976pt x 139.03694pt>
 File: newcommen.pdf Graphic file (type pdf)
 <use newcommen.pdf, page 1>
 Package pdftex.def Info: newcommen.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
-<newcommen.pdf, id=52, page=2, 190.60976pt x 139.03694pt>
+<newcommen.pdf, id=59, page=2, 190.60976pt x 139.03694pt>
 File: newcommen.pdf Graphic file (type pdf)
 <use newcommen.pdf, page 2>
 Package pdftex.def Info: newcommen.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
 )
-<macchinadiWatt.jpg, id=53, 260.172pt x 230.66174pt>
+<macchinadiWatt.jpg, id=60, 260.172pt x 230.66174pt>
 File: macchinadiWatt.jpg Graphic file (type jpg)
 <use macchinadiWatt.jpg>
-Package pdftex.def Info: macchinadiWatt.jpg  used on input line 302.
+Package pdftex.def Info: macchinadiWatt.jpg  used on input line 345.
 (pdftex.def)             Requested size: 264.61333pt x 234.61015pt.
- [7 <./tuboefflusso.png> <./newcommen.pdf> <./newcommen.pdf
+ [8 <./tuboefflusso.png> <./newcommen.pdf> <./newcommen.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./newcommen.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-<sistema.jpg, id=72, 170.43675pt x 253.54726pt>
+<sistema.jpg, id=78, 170.43675pt x 253.54726pt>
 File: sistema.jpg Graphic file (type jpg)
 <use sistema.jpg>
-Package pdftex.def Info: sistema.jpg  used on input line 313.
+Package pdftex.def Info: sistema.jpg  used on input line 356.
 (pdftex.def)             Requested size: 88.2022pt x 131.2147pt.
-<Plank.jpg, id=73, 162.6075pt x 147.55125pt>
+<Plank.jpg, id=79, 162.6075pt x 147.55125pt>
 File: Plank.jpg Graphic file (type jpg)
 <use Plank.jpg>
-Package pdftex.def Info: Plank.jpg  used on input line 337.
+Package pdftex.def Info: Plank.jpg  used on input line 380.
 (pdftex.def)             Requested size: 110.25443pt x 100.04758pt.
-<Clausius.jpg, id=74, 204.765pt x 118.64325pt>
+<Clausius.jpg, id=80, 204.765pt x 118.64325pt>
 File: Clausius.jpg Graphic file (type jpg)
 <use Clausius.jpg>
-Package pdftex.def Info: Clausius.jpg  used on input line 339.
+Package pdftex.def Info: Clausius.jpg  used on input line 382.
 (pdftex.def)             Requested size: 176.4044pt x 102.21765pt.
- [8 <./macchinadiWatt.jpg> <./sistema.jpg>] [9 <./Plank.jpg> <./Clausius.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
+ [9 <./macchinadiWatt.jpg> <./sistema.jpg>] [10 <./Plank.jpg> <./Clausius.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
 
  []
 
-<ciclomotore.png, id=82, 389.455pt x 276.03125pt>
+<ciclomotore.png, id=88, 389.455pt x 276.03125pt>
 File: ciclomotore.png Graphic file (type png)
 <use ciclomotore.png>
-Package pdftex.def Info: ciclomotore.png  used on input line 472.
+Package pdftex.def Info: ciclomotore.png  used on input line 515.
 (pdftex.def)             Requested size: 132.30666pt x 93.77356pt.
-[10]
-<carnot.png, id=86, 442.65375pt x 306.14375pt>
+[11]
+<carnot.png, id=92, 442.65375pt x 306.14375pt>
 File: carnot.png Graphic file (type png)
 <use carnot.png>
-Package pdftex.def Info: carnot.png  used on input line 495.
+Package pdftex.def Info: carnot.png  used on input line 538.
 (pdftex.def)             Requested size: 176.4044pt x 122.0022pt.
-<cicloinverso.png, id=87, 451.6875pt x 303.1325pt>
+<cicloinverso.png, id=93, 451.6875pt x 303.1325pt>
 File: cicloinverso.png Graphic file (type png)
 <use cicloinverso.png>
-Package pdftex.def Info: cicloinverso.png  used on input line 516.
+Package pdftex.def Info: cicloinverso.png  used on input line 559.
 (pdftex.def)             Requested size: 132.30666pt x 88.79425pt.
- [11 <./ciclomotore.png> <./carnot.png> <./cicloinverso.png>] [12] [13]
+ [12 <./ciclomotore.png> <./carnot.png> <./cicloinverso.png>] [13] [14]
 (./fisica_tecnica.lof)
 \tf@lof=\write5
 \openout5 = `fisica_tecnica.lof'.
 
- [14] (./fisica_tecnica.lot)
+ [15] (./fisica_tecnica.lot)
 \tf@lot=\write6
 \openout6 = `fisica_tecnica.lot'.
 
- [15] (./fisica_tecnica.equ)
+ [16] (./fisica_tecnica.equ)
 \tf@equ=\write7
 \openout7 = `fisica_tecnica.equ'.
 
 
-[16] (./fisica_tecnica.ind [17
+[17] (./fisica_tecnica.ind [18
 
 
 ]) (./fisica_tecnica.aux) ) 
 Here is how much of TeX's memory you used:
- 7078 strings out of 478994
- 96595 string characters out of 5858184
- 430300 words of memory out of 5000000
- 24411 multiletter control sequences out of 15000+600000
+ 7116 strings out of 478994
+ 97171 string characters out of 5858184
+ 431126 words of memory out of 5000000
+ 24444 multiletter control sequences out of 15000+600000
  419745 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,15n,74p,454b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,15n,74p,737b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/
 cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm
 -super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/
@@ -592,19 +600,20 @@ ts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
 /cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/esint-type1/esint
-10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000
-.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.p
-fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on fisica_tecnica.pdf (17 pages, 986565 bytes).
+10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont
+/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfb
+x1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1
+200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx144
+0.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pf
+b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on fisica_tecnica.pdf (18 pages, 1046032 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 187 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

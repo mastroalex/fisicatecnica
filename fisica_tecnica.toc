@@ -2,33 +2,33 @@
 \babel@toc {italian}{}
 \contentsline {section}{\numberline {1}Termodinamica}{4}{}%
 \contentsline {subsection}{\numberline {1.1}Introduzione}{4}{}%
-\contentsline {subsection}{\numberline {1.2}Misure}{4}{}%
-\contentsline {subsection}{\numberline {1.3}Frigoriferi ad effetto termoelettrico}{4}{}%
-\contentsline {subsection}{\numberline {1.4}Principio zero della termodinamica}{4}{}%
-\contentsline {subsection}{\numberline {1.5}Primo principio della termodinamica}{4}{}%
-\contentsline {subsection}{\numberline {1.6}Sistemi aperti}{5}{}%
+\contentsline {subsection}{\numberline {1.2}Misure}{5}{}%
+\contentsline {subsection}{\numberline {1.3}Frigoriferi ad effetto termoelettrico}{5}{}%
+\contentsline {subsection}{\numberline {1.4}Principio zero della termodinamica}{5}{}%
+\contentsline {subsection}{\numberline {1.5}Primo principio della termodinamica}{5}{}%
+\contentsline {subsection}{\numberline {1.6}Sistemi aperti}{6}{}%
 \contentsline {subsubsection}{\numberline {}Espansore}{6}{}%
-\contentsline {subsubsection}{\numberline {}Compressore}{6}{}%
-\contentsline {subsubsection}{\numberline {}Valvola di laminazione}{6}{}%
+\contentsline {subsubsection}{\numberline {}Compressore}{7}{}%
+\contentsline {subsubsection}{\numberline {}Valvola di laminazione}{7}{}%
 \contentsline {subsubsection}{\numberline {}Tubo di efflusso}{7}{}%
-\contentsline {subsection}{\numberline {1.7}Calore}{7}{}%
-\contentsline {subsection}{\numberline {1.8}Secondo principio della termodinamica}{7}{}%
-\contentsline {subsubsection}{\numberline {}equivalenza dei principi}{8}{}%
-\contentsline {subsection}{\numberline {1.9}Equazioni del secondo principio}{9}{}%
-\contentsline {subsection}{\numberline {1.10}Entropia}{9}{}%
-\contentsline {subsubsection}{\numberline {}Energia interna in funzione dell'entropia}{9}{}%
-\contentsline {subsubsection}{\numberline {}Entalpia in funzione dell'entropia}{9}{}%
-\contentsline {subsubsection}{\numberline {}Teorema dell'aumento di Entropia}{9}{}%
-\contentsline {subsubsection}{\numberline {}Sorgenti di produzione entropica}{10}{}%
-\contentsline {subsubsection}{\numberline {}Lavoro meccanico in presenza di sorgenti entropiche (trasformazioni irreversibili)}{10}{}%
-\contentsline {subsection}{\numberline {1.11}Ciclo motore o ciclo diretto}{10}{}%
-\contentsline {subsubsection}{\numberline {}Macchina di Carnot}{11}{}%
-\contentsline {subsection}{\numberline {1.12}Ciclo inverso}{11}{}%
-\contentsline {subsubsection}{\numberline {}Ciclo frigorifero}{12}{}%
-\contentsline {subsubsection}{\numberline {}Pompa di calore}{12}{}%
-\contentsline {section}{\numberline {2}Tesine}{13}{}%
-\contentsline {section}{\numberline {3}Indici}{14}{}%
-\contentsline {subsection}{Elenco delle figure}{14}{}%
-\contentsline {subsection}{Elenco delle tabelle}{15}{}%
-\contentsline {subsection}{Elenco delle equazioni}{16}{}%
-\contentsline {subsection}{Indice analitico}{17}{}%
+\contentsline {subsection}{\numberline {1.7}Calore}{8}{}%
+\contentsline {subsection}{\numberline {1.8}Secondo principio della termodinamica}{8}{}%
+\contentsline {subsubsection}{\numberline {}equivalenza dei principi}{9}{}%
+\contentsline {subsection}{\numberline {1.9}Equazioni del secondo principio}{10}{}%
+\contentsline {subsection}{\numberline {1.10}Entropia}{10}{}%
+\contentsline {subsubsection}{\numberline {}Energia interna in funzione dell'entropia}{10}{}%
+\contentsline {subsubsection}{\numberline {}Entalpia in funzione dell'entropia}{10}{}%
+\contentsline {subsubsection}{\numberline {}Teorema dell'aumento di Entropia}{10}{}%
+\contentsline {subsubsection}{\numberline {}Sorgenti di produzione entropica}{11}{}%
+\contentsline {subsubsection}{\numberline {}Lavoro meccanico in presenza di sorgenti entropiche (trasformazioni irreversibili)}{11}{}%
+\contentsline {subsection}{\numberline {1.11}Ciclo motore o ciclo diretto}{11}{}%
+\contentsline {subsubsection}{\numberline {}Macchina di Carnot}{12}{}%
+\contentsline {subsection}{\numberline {1.12}Ciclo inverso}{12}{}%
+\contentsline {subsubsection}{\numberline {}Ciclo frigorifero}{13}{}%
+\contentsline {subsubsection}{\numberline {}Pompa di calore}{13}{}%
+\contentsline {section}{\numberline {2}Tesine}{14}{}%
+\contentsline {section}{\numberline {3}Indici}{15}{}%
+\contentsline {subsection}{Elenco delle figure}{15}{}%
+\contentsline {subsection}{Elenco delle tabelle}{16}{}%
+\contentsline {subsection}{Elenco delle equazioni}{17}{}%
+\contentsline {subsection}{Indice analitico}{18}{}%
