@@ -12,8 +12,11 @@
 # Table of contents
 
 1. Termodinamica
+2. <details>
 * Introduzione
  * Misure
+</details>  
+
   2. Completa
 
 
