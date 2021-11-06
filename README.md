@@ -10,8 +10,8 @@
   <summary><b>Table of contents</b></summary>
   <br/>
 1. Termodinamica
-- Introduzione
-  - Misure
+* Introduzione
+ * Misure
   2. Completa
 </details>  
 
