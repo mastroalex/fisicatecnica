@@ -3,6 +3,12 @@
 \usepackage[utf8x]{inputenc}
 \usepackage[italian]{babel}
 \usepackage{graphicx}
+\graphicspath{{figures/}} %Setting the graphicspath
+\makeatletter
+\providecommand*{\input@path}{}
+\edef\input@path{{figures/}{}\input@path}% prepend
+\makeatother
+  
 \usepackage{amsmath}
 \numberwithin{equation}{section}% numera eq come #section.#formula
 \usepackage{amsthm}
@@ -366,7 +372,7 @@ Per un sistema termodinamico chiuso che produce lavoro positivo grazie a scambi 
 Carnot fece una similitudine tra il mulino d'acqua e la macchina di Watt;
 \begin{itemize}
 	\item il lavoro L è lo stesso che produce in entrambi i casi una rotazione
-	\item la quota coincide con la temperatura
+	\item la quota coincide con la temperaturalatex d
 	\item la portata coincide con il calore
 \end{itemize}
 
