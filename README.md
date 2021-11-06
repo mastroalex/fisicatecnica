@@ -12,7 +12,8 @@
 # Table of contents
 
 1. Termodinamica
-2. <details>
+2.  n
+<details>
   <summary>Termodinamica></summary>
   <br/>
 * Introduzione
