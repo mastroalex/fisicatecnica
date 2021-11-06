@@ -13,7 +13,7 @@
 
 
 <details>
-  <summary>Termodinamica></summary>
+  <summary>Termodinamica</summary>
   <br/>
 <ul>
   <li>Introduzione</li>
@@ -23,7 +23,7 @@
 </details>  
 
 <details>
-  <summary>Tesine></summary>
+  <summary>Tesine</summary>
   <br/>
 <ul>
   <li>Completa</li>
@@ -31,7 +31,7 @@
 </details>  
 
 <details>
-  <summary>Indici></summary>
+  <summary>Indici</summary>
   <br/>
 <ul>
   <li>Indice delle figure</li>
