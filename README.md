@@ -12,7 +12,9 @@
 # Table of contents
 
 1. Termodinamica
-2. <details><summery><b>Termodinamica</b></summary>
+2. <details>
+  <summary>Termodinamica></summary>
+  <br/>
 * Introduzione
  * Misure
 </details>  
