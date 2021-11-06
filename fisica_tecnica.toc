@@ -10,10 +10,10 @@
 \contentsline {subsubsection}{\numberline {}Espansore}{6}{}%
 \contentsline {subsubsection}{\numberline {}Compressore}{7}{}%
 \contentsline {subsubsection}{\numberline {}Valvola di laminazione}{7}{}%
-\contentsline {subsubsection}{\numberline {}Tubo di efflusso}{7}{}%
+\contentsline {subsubsection}{\numberline {}Tubo di efflusso}{8}{}%
 \contentsline {subsection}{\numberline {1.7}Calore}{8}{}%
 \contentsline {subsection}{\numberline {1.8}Secondo principio della termodinamica}{8}{}%
-\contentsline {subsubsection}{\numberline {}equivalenza dei principi}{9}{}%
+\contentsline {subsubsection}{\numberline {}equivalenza dei principi}{10}{}%
 \contentsline {subsection}{\numberline {1.9}Equazioni del secondo principio}{10}{}%
 \contentsline {subsection}{\numberline {1.10}Entropia}{10}{}%
 \contentsline {subsubsection}{\numberline {}Energia interna in funzione dell'entropia}{10}{}%

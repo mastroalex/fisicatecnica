@@ -127,9 +127,9 @@ Nell'esempio del palloncino affinché possa aumentare il volume dovremo essere n
 \end{itemize}
 
 Queste condizioni non sono mai realizzabili, l’importanza della termodinamica però è che è una scienza che ragiona al limite; lo scopo dell’ingegneria è quello di dire vediamo di ridurre l’importanza di queste differenze di pressione tra interno ed esterno.
+\\
 
-
-\textbf{Temperatura}: a partire dal termosocopio scegliamo una funzione che dipende da una delle variabili del sistema $\theta_A=f0(x)$ e nel sistema internazionale scegliamo una funzione lineare: $f'(x)=ax=T_A$. Quindi si dimostra che la \textbf{temperatura empirica} $\theta _A$ è uguale alla \textbf{temperatura termodinamica} $T_A$. Fissando il punto triplo dell'acqua $T_T=273.16 \text{K}$ eliminiamo la costante incognita  $rightarrow  T=273.16 {\over x_T}$. Usando il punti fisso del ghiaccio e il punto fisso del vapore $rightarrow T_{v}-T_{g}=a\left(x_{v}-x_{g}\right) \Rightarrow \frac{T}{T_{v}-T_{g}}=\frac{x}{x_{v}-x_{g}} $. Nel  S.I.$T\left({ }^{\circ} C\right)=T(K)-273,15$
+\textbf{Temperatura}: a partire dal \textit{termoscopio}scegliamo una funzione che dipende da una delle variabili del sistema $\theta_A=f0(x)$ e nel sistema internazionale scegliamo una funzione lineare: $f'(x)=ax=T_A$. Quindi si dimostra che la \textbf{temperatura empirica} $\theta _A$ è uguale alla \textbf{temperatura termodinamica} $T_A$. Fissando il punto triplo dell'acqua $T_T=273.16 \text{K}$ eliminiamo la costante incognita  $rightarrow  T=273.16 {\over x_T}$. Usando il punti fisso del ghiaccio e il punto fisso del vapore $rightarrow T_{v}-T_{g}=a\left(x_{v}-x_{g}\right) \Rightarrow \frac{T}{T_{v}-T_{g}}=\frac{x}{x_{v}-x_{g}} $. Nel  S.I.$T\left({ }^{\circ} C\right)=T(K)-273,15$
 
 
 \subsection{Misure}
@@ -150,23 +150,29 @@ Allora si ottiene che la pressione del fluido in esame rispetto la pressione atm
 
 Permettono di misurare la temperatura. 
 
-\textbf{Effetto Seebeck}
+\textbf{Effetto Seebeck}.Presi due metalli saldati alle estremità. Mettendo le due saldature a T diverse misuriamo un forza elettromotrice $\Delta E=f\left(T_A-T_B\right)=\alpha_{A B}\left(T_{A}-\mathrm{T}_{B}\right) $ dove l coefficiente di Seebeck dipende dai materiali ed è definito come $\alpha_{A B}:=\lim _{\Delta T \rightarrow 0} \frac{\Delta E}{\Delta T}=\frac{d E}{d T}$. Usato nei dispositivi di misura: termocoppie. 
 
-Presi due metalli saldati alle estremità. Mettendo le due saldature a T diverse misuriamo un forza elettromotrice $\Delta E=f\left(T_A-T_B\right)=\alpha_{A B}\left(T_{A}-\mathrm{T}_{B}\right) $ dove l coefficiente di Seebeck dipende dai materiali ed è definito come $\alpha_{A B}:=\lim _{\Delta T \rightarrow 0} \frac{\Delta E}{\Delta T}=\frac{d E}{d T}$. Usato nei dispositivi di misura: termocoppie. 
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.2\columnwidth]{seebeck.png}
-	\end{center}
-\end{figure}
-
-\textbf{Effetto Peltier} completa
+\textbf{Effetto Peltier}. Due metalli dove passa corrente. Alla giunzione si osserva una cassione di calore $\dot Q$ proporzionale alla corrente per il coefficiente di Peltier: $\dot Q=\pi _{AB}I$. Legato anche al  coefficiente di Seebeck: $\pi_{AB}=\alpha_{A B} T$.
 
 
 \textbf{Effetto Thompson} 
 Corrente in un conduttore metallico $\Longrightarrow$ differenza di temperatura. La quantità di calore che viene scambiata con l’esterno è in valore
 assoluto proporzionale alla corrente, alla differenza di temperatura e ad un coefficiente che è chiamato coefficiente di Thomson.
 $$\left|d \dot{Q}_{T}\right|=|\tau I d T|=\left|\tau I \frac{d T}{d x} d x\right|$$ 
+
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Seebeck]{
+			\includegraphics[height=0.15\columnwidth]{seebeck.png}}
+		\subfigure[Peltier]{
+			\includegraphics[height=0.15\columnwidth]{peltier.png}}
+				\subfigure[Thompson]{
+			\includegraphics[height=0.15\columnwidth]{thompson.png}}
+	\end{center}
+				\caption{Frigoriferi a effetto termoelettrico}
+\end{figure}
+
 
 \subsection{Principio zero della termodinamica}
 
@@ -372,14 +378,14 @@ Nei sistemi chiusi non si può invertire il segno del calore e del lavoro $\long
 \subsubsection{equivalenza dei principi}
  \index{Secondo principio! equivalenza}
 
-\textbf{nego Plank}
 
 \begin{figure}[H]
 	\begin{center}
 		\subfigure[Nego Plank]{
-		\includegraphics[width=0.25\columnwidth]{Plank.jpg}}
+		\includegraphics[height=0.2\columnwidth]{Plank.jpg}}
 		\subfigure[Nego Celsius]{
-		\includegraphics[width=0.4\columnwidth]{Clausius.jpg}}
+		\includegraphics[height=0.2\columnwidth]{Clausius.jpg}}
+				\caption{Uguaglianza delle formulazioni Planck, Clausius}
 	\end{center}
 \end{figure}
 
