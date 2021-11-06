@@ -9,11 +9,13 @@
 <details>
   <summary><b>Table of contents</b></summary>
   <br/>
+
+</details>  
+
 1. Termodinamica
 * Introduzione
  * Misure
   2. Completa
-</details>  
 
 ![Wallpaper](https://github.com/mastroalex/fisicatecnica/blob/main/figures/cicloinverso.png)
 
