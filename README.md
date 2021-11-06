@@ -1,9 +1,10 @@
 # Fisica tecnica
 
-🔥 [Formulario](https://github.com/mastroalex/fisicatecnica/blob/main/fisica_tecnica.pdf)
+🔥 [Formulary](https://github.com/mastroalex/fisicatecnica/blob/main/fisica_tecnica.pdf)
 <br>
-📝 [Appunti](https://github.com/mastroalex/fisicatecnica/blob/main/fisica_tecnica.pdf)
+📝 [Notes](https://alessandromastrofini.it/prodotto/fisica-tecnica-2/)
 <br>
+⌨️ [About LaTeχ](https://alessandromastrofini.it/2021/10/04/documento-latex/)
 <br>
 
 ![Wallpaper](https://github.com/mastroalex/fisicatecnica/blob/main/figures/cicloinverso.png)
