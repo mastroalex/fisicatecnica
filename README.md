@@ -12,7 +12,7 @@
 # Table of contents
 
 1. Termodinamica
-2. <details>
+2. <details><b>Termodinamica</b></summary>
 * Introduzione
  * Misure
 </details>  
