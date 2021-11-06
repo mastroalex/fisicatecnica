@@ -11,16 +11,34 @@
 
 # Table of contents
 
-1. Termodinamica
-2.  n
+
 <details>
   <summary>Termodinamica></summary>
   <br/>
-* Introduzione
- * Misure
+<ul>
+  <li>Introduzione</li>
+  <li>Misure</li>
+  <li>Frigoriferi ad effetto termoelettrico</li>
+</ul>
 </details>  
 
-  2. Completa
+<details>
+  <summary>Tesine></summary>
+  <br/>
+<ul>
+  <li>Completa</li>
+</ul>
+</details>  
 
+<details>
+  <summary>Indici></summary>
+  <br/>
+<ul>
+  <li>Indice delle figure</li>
+  <li>Indice delle tabelle</li>
+  <li>Indice delle equazioni</li>
+  <li>Indice analitico</li>
+</ul>
+</details>  
 
 
