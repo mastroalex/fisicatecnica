@@ -11,24 +11,33 @@
 \contentsline {subsubsection}{\numberline {}Compressore}{7}{}%
 \contentsline {subsubsection}{\numberline {}Valvola di laminazione}{7}{}%
 \contentsline {subsubsection}{\numberline {}Tubo di efflusso}{8}{}%
+\contentsline {subsubsection}{\numberline {}Generalizzazione dei sistemi aperti}{8}{}%
 \contentsline {subsection}{\numberline {1.7}Calore}{8}{}%
-\contentsline {subsection}{\numberline {1.8}Secondo principio della termodinamica}{8}{}%
+\contentsline {subsection}{\numberline {1.8}Secondo principio della termodinamica}{9}{}%
 \contentsline {subsubsection}{\numberline {}equivalenza dei principi}{10}{}%
 \contentsline {subsection}{\numberline {1.9}Equazioni del secondo principio}{10}{}%
-\contentsline {subsection}{\numberline {1.10}Entropia}{10}{}%
-\contentsline {subsubsection}{\numberline {}Energia interna in funzione dell'entropia}{10}{}%
-\contentsline {subsubsection}{\numberline {}Entalpia in funzione dell'entropia}{10}{}%
-\contentsline {subsubsection}{\numberline {}Teorema dell'aumento di Entropia}{10}{}%
+\contentsline {subsection}{\numberline {1.10}Entropia}{11}{}%
+\contentsline {subsubsection}{\numberline {}Energia interna in funzione dell'entropia}{11}{}%
+\contentsline {subsubsection}{\numberline {}Entalpia in funzione dell'entropia}{11}{}%
+\contentsline {subsubsection}{\numberline {}Teorema dell'aumento di Entropia}{11}{}%
 \contentsline {subsubsection}{\numberline {}Sorgenti di produzione entropica}{11}{}%
-\contentsline {subsubsection}{\numberline {}Lavoro meccanico in presenza di sorgenti entropiche (trasformazioni irreversibili)}{11}{}%
-\contentsline {subsection}{\numberline {1.11}Ciclo motore o ciclo diretto}{11}{}%
+\contentsline {subsubsection}{\numberline {}Lavoro meccanico in presenza di sorgenti entropiche (trasformazioni irreversibili)}{12}{}%
+\contentsline {subsection}{\numberline {1.11}Ciclo motore o ciclo diretto}{12}{}%
 \contentsline {subsubsection}{\numberline {}Macchina di Carnot}{12}{}%
-\contentsline {subsection}{\numberline {1.12}Ciclo inverso}{12}{}%
+\contentsline {subsection}{\numberline {1.12}Ciclo inverso}{13}{}%
 \contentsline {subsubsection}{\numberline {}Ciclo frigorifero}{13}{}%
 \contentsline {subsubsection}{\numberline {}Pompa di calore}{13}{}%
-\contentsline {section}{\numberline {2}Tesine}{14}{}%
-\contentsline {section}{\numberline {3}Indici}{15}{}%
-\contentsline {subsection}{Elenco delle figure}{15}{}%
-\contentsline {subsection}{Elenco delle tabelle}{16}{}%
-\contentsline {subsection}{Elenco delle equazioni}{17}{}%
-\contentsline {subsection}{Indice analitico}{18}{}%
+\contentsline {subsection}{\numberline {1.13}Diagrammi termodinamici}{13}{}%
+\contentsline {subsubsection}{\numberline {}Isobare nel $Ts$}{13}{}%
+\contentsline {subsubsection}{\numberline {}Isobare nel diagramma $hs$}{14}{}%
+\contentsline {subsection}{\numberline {1.14}Propriet\IeC {\`a} della sostanze}{15}{}%
+\contentsline {subsubsection}{\numberline {}Gas perfetti e coefficienti}{15}{}%
+\contentsline {subsubsection}{\numberline {}Calore specifico}{15}{}%
+\contentsline {subsubsection}{\numberline {}Equazioni di Maxwell}{16}{}%
+\contentsline {subsubsection}{\numberline {}Relazioni tra calori specifici}{18}{}%
+\contentsline {section}{\numberline {2}Tesine}{19}{}%
+\contentsline {section}{\numberline {3}Indici}{20}{}%
+\contentsline {subsection}{Elenco delle figure}{20}{}%
+\contentsline {subsection}{Elenco delle tabelle}{21}{}%
+\contentsline {subsection}{Elenco delle equazioni}{22}{}%
+\contentsline {subsection}{Indice analitico}{23}{}%

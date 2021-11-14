@@ -8,7 +8,7 @@
 \providecommand*{\input@path}{}
 \edef\input@path{{figures/}{}\input@path}% prepend
 \makeatother
-  
+  \usepackage{multicol}
 \usepackage{amsmath}
 \numberwithin{equation}{section}% numera eq come #section.#formula
 \usepackage{amsthm}
@@ -241,7 +241,7 @@ $M_t=M_{t+\Delta t}$
 \begin{figure}[h!]
 	\begin{center}
 %		\includegraphics[width=0.6\columnwidth]{sistemaaperto.jpg}
-		 \input{sistemaperto.pdf_tex}
+		 \input{figures/sistemaperto.pdf_tex}
 	\end{center}
 \end{figure}
 
@@ -328,16 +328,46 @@ Esperienza di Torricelli $\frac{w^{2}}{2 g}=h \rightarrow w=\sqrt{2 g h}$.
 
 Applicando il 1° principio (trascurando calore e lavoro) otteniamo $w_{2}^{2}=2 g\left(z_{1}-z_{2}\right)=2 g h$ da cui si torna al teorema di Torricelli.
 
+\subsubsection{Generalizzazione dei sistemi aperti}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{sistemiapertigen.png}
+	\end{center}
+\end{figure}
+
+Siamo in regime stazionario. Vale il principio di conservazione della portata in massa $\sum_{e=1}^{m} G_{e}=\sum_{u=1}^{n} G_{u}$.
+
+Vale il primo principio della termodinamica per i sistemi aperti e possiamo moltiplicarlo per le portate $G=G_1=G_2$.  Ovvero otteniamo:
+
+\begin{equation}
+	\dot{Q}-P_{f}=\sum_{u=1}^{n} G_{u}\left(h_{u}+e_{c u}+e_{p u}\right)-\sum_{e=1}^{m} G_{e}\left(h_{e}+e_{c e}+e_{p e}\right)
+\end{equation}
+\myequations{generalizzazione del 1° principio per i sistemi aperti}
+
+Possiamo estenderla al regime \textcolor{red}{ non} stazionario:
+
+  $\Longrightarrow$ la portata non si conserva: $\sum_{\rho} G_{e}-\sum_{u} G_{u}=\frac{d M}{d t}=\frac{M_{f}-M_{i}}{\Delta t}$
+  
+  Allora, applichiamo il primo principio della termodinamica considerando l'intervallo di tempo d'interesse ($\Delta t$), ovvero: 
+  \begin{equation}
+  	Q-L_{f}=\sum_{u} G_{u} \Delta t\left(h_{u}+e_{c u}+e_{p u}\right)-\sum_{e} G_{e} \Delta t\left(h_{e}+e_{c e}+e_{p e}\right)+M_{f} e_{t f}-M_{i} e_{t i}
+  \end{equation}
+
+Abbiamo aggiunto un termine che contiene l'energia totale (è variata sia l'energia potenziale che cinetica) e la quantità di massa che risulta variata. 
+
+
+
 \subsection{Calore}
 \index{Calore}
 \textbf{Definizione operativa}: il calore si misura come il lavoro scambiato da un sistema in un'esperienza di Joule. Ovvero un sistema chiuso che compie una trasformazione ciclica. 
 
 \subsection{Secondo principio della termodinamica}
  \index{Secondo principio}
-\textbf{Fromulazione di Plank}:
+\textbf{Formulazione di Plank}:
 E' impossibile che l'unico risultato di una cessione di calore ad un sistema chiuso che compie trasformazioni cicliche sia la produzione di calore.
 
-\textbf{Fromulazione di Clausius}:
+\textbf{Formulazione di Clausius}:
 E' impossibile che per un sistema chiuso che compie trasformazioni cicliche l'unico risultato sia la sottrazione di calore da una sorgente inferiore e la cessione di calore ad una sorgente superiore senza alcun effetto compensatorio.
 
 \begin{figure}[H]
@@ -585,6 +615,346 @@ Il rendimento della pompa di calore $\eta_{PC}={Q_1\over L}=\frac{T_{1}}{T_{1}-T
 
 Il secondo termine contiene le irreversibilità, se la trasformazione è reversibile $\tau=0$.
 Il diagramma Ts è lo stesso rettangolo del ciclo frigorifero. 
+
+\subsection{Diagrammi termodinamici}
+
+\subsubsection{Isobare nel $Ts$}
+
+Partendo dal differenziale esatto dell'entalpia e dalla \eqref{eq:entalpiaentropia} e considerando che per un'isobara $dp=0$, abbiamo che: $d h=\left(\frac{\partial h}{\partial T}\right)_{p} d T=c_{p} d T=T d s$.
+Calore specifico isobaro:
+\begin{equation}
+	\left(\frac{\partial h}{\partial T}\right)_{p}=c_{p}
+	\label{eq:calore_specifico_isobaro}
+\end{equation}
+\myequations{Calore specifico isobaro}
+
+Possiamo misurare le derivate parziali (sono quantità fisiche): $\left(\frac{\partial T}{\partial s}\right)_{p}=\frac{T}{c_{p}}>0$
+
+Oss: se $cp\approx cost \Longrightarrow$ la pendenza cresce con la temperatura $T$.  Allora la curva isobara ha la concavità verso l’alto,$\rightarrow$ curva crescente
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{isobara_Ts.png}
+		\caption{Isobara}
+	\end{center}
+\end{figure}
+
+\begin{itemize}
+	\item Espansore, in \textcolor{red}{rosso}, tratteggiata la trasformazione reale irreversibile in cui è presente $\Delta s_s$. 
+	\item Compressore, in \textcolor{green}{verde}, discorso analogo
+\end{itemize}
+In entrambi i casi la temperatura del caso irreversibile è più alta del caso reversibile. Nel caso irreversibile si ottiene meno lavoro che viene dissipato sotto forma di calore per le irreversibilità. 
+\newline
+Nel diagramma $Ts$ l'isobara a pressione maggiore si trova sopra.
+
+Considerando \eqref{eq:sistemi_aperti_coefficienti} se la trasformazione è isoentropica e  sfruttando \eqref{eq:coeff_dilatazione_isobara} abbiamo:
+\begin{equation}
+\frac{c_{p}}{T} d T=\left(\frac{\partial v}{\partial T}\right)_{p} d p \Rightarrow \frac{d T}{d p}=\frac{v \beta T}{c_{p}}>0
+\end{equation}
+ Quindi, muovendosi lungo un’isoentropica, ad un aumento di temperatura corrisponde un aumento di pressione.
+ \newline
+ 
+ Abbiamo anche la pendenza dell'isocora è maggiore di quella dell'isobara.
+Vedi pg. \pageref{relazioni_cv_cp}.
+
+
+
+
+
+\subsubsection{Isobare nel diagramma $hs$}
+
+Prendiamo il differenziale dell'entalpia e ricordiamo  \eqref{eq:entalpiaentropia} e per un'isobara $dp=0$, abbiamo che: $d h=\left(\frac{\partial h}{\partial s}\right)_{p} d s=T d s \Rightarrow\left(\frac{\partial h}{\partial s}\right)_{p}=T$ 
+La pendenza dell'isobara nel piano $hs$ è $T$.
+Oss: se $cp\approx cost \Longrightarrow$ la pendenza cresce con la temperatura $T$.  Allora la curva isobara ha la concavità verso l’alto,$\rightarrow$ curva crescente
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{isobara_hs.png}
+		\caption{Isobara}
+	\end{center}
+\end{figure}
+
+\begin{itemize}
+	\item Espansore, in \textcolor{red}{rosso}, tratteggiata la trasformazione reale irreversibile in cui è presente $\Delta s_s$. 
+	\item Compressore, in \textcolor{green}{verde}, discorso analogo
+	\item Valvola di laminazione, l'entalpia di ingresso è uguale a quella di uscita (orizzontale). È irreversibile e arriva ad una pressione di uscita inferiore. 
+\end{itemize}
+In entrambi i casi l'entalpia del caso irreversibile è più alta del caso reversibile. 
+
+\subsection{Proprietà della sostanze}
+
+\subsubsection{Gas perfetti e coefficienti}
+Obbediscono all'equazione di stato dei gas perfetti 
+\begin{equation}
+	pv=RT
+		\label{eq:gas_perfetti}
+\end{equation}
+\myequations{Legge di stato dei gas perfetti}
+
+La costante specifica di gas $R={R_u\over p.m.}$
+
+Note le funzioni termodinamiche generiche, possiamo procedere come se fossero espressioni matematiche, tutto quello che otteniamo ha un significato fisico ed è rappresentato da grandezze misurabili.
+
+Sostanza che scambia calore e subisce una variazione di temperatura ha una corrispondente variazione del suo volume specifico: $d v=\left(\frac{\partial v}{\partial T}\right)_{p} d T+\left(\frac{\partial v}{\partial p}\right)_{T} d p$. Da cui la quantità misurabile, il coefficiente di dilatazione isobara:
+\begin{equation}
+	\left(\frac{\partial v}{\partial T}\right)_{p} \frac{1}{v}=\beta
+\label{eq:coeff_dilatazione_isobara}
+\end{equation}
+
+E il coefficiente di compressione isoterma:
+\begin{equation}
+	\left(\frac{\partial v}{\partial p}\right)_{T}\left(-\frac{1}{v}\right)=\gamma
+\end{equation}
+
+Se le variazioni di volume specifico avvengono a sezione costante, possiamo dividere per la sezione e ottenere il coefficiente di dilatazione lineare:
+\begin{equation}
+\frac{1}{x}\left(\frac{\partial x}{\partial T}\right)_{p}=\alpha
+\end{equation}
+
+Quindi l'equazione differenziale del volume specifico: 
+\begin{equation}
+	d v=\beta v d T-\gamma v d p
+	\label{eq:differenziale_volume_specifico}
+\end{equation}
+\myequations{Equazione differenziale del volume specifico}
+
+\subsubsection{Calore specifico}
+
+\begin{equation}
+c={dq\over dT}
+\end{equation}
+
+Dipende dalla trasformazione in quanto $dq$ non è differenziale esatto.
+\begin{itemize}
+\item Se è adiabatica $dq=0\Rightarrow c=0$
+\item Se è isoterma $dT=0$ ma $dq=0\Rightarrow c=\pm \infty$
+\end{itemize}
+
+\textbf{Sistemi chiusi}
+Partendo dal primo principio della termodinamica e considerando una trasformazione reversibile (per cui $dl=pdv$), otteniamo: $dq=du+pdv$.
+Sostituendo nel calore specifico otteniamo $c=\frac{d q}{d T}=\frac{d u}{d T}+p \frac{d v}{d T}$.
+Quindi il differenziale esatto di $u=u(T,v)$ e possiamo dividere per $dT$ e sostituire nell'espressione del calore specifico, poi moltiplichiamo il tutto per $dT$:
+\begin{equation}
+dq=\left(\frac{\partial u}{\partial T}\right)_{v} d T+\left[p+\left(\frac{\partial u}{\partial v}\right)_{T}\right]{dv}
+\end{equation}
+
+Se la trasformazione è isocora allora otteniamo il \textbf{calore specifico a volume costante} 
+\begin{equation}
+c_{v}=\left(\frac{\partial u}{\partial T}\right)_{v}
+\end{equation}
+\myequations{Calore specifico a volume costante}
+In queste condizioni vale che $dq=c_vdT$ e quindi possiamo misurarlo come $c_{v}=\left.\frac{d q}{d T}\right|_{v}=\left.\frac{q}{\Delta T}\right|_{v}$
+
+Se la trasformazione è isoterma allora otteniamo il \textbf{calore specifico di dilatazione isoterma} 
+\begin{equation}
+c_{d}=\left[p+\left(\frac{\partial u}{\partial v}\right)_{T}\right] 
+\end{equation}
+\myequations{Calore specifico di dilatazione isoterma }
+In queste condizioni vale che $dq=c_ddv$ e allora possiamo misurarlo: $c_{d}=\left.\frac{d q}{d v}\right|_{T}$. Possibile solo nei passaggi di stato.
+
+Quindi per i \textbf{sistemi chiusi} vale che:
+\begin{equation}
+dq=c_vdT+c_ddv 
+\label{eq:calore_sistemi_chiusi}
+\end{equation}
+\myequations{Calore per sistemi chiusi}
+E  il calore specifico possiamo esprimerlo come:
+\begin{equation}
+c=c_v+c_d{dv\over dT}
+\end{equation}
+\myequations{Calore specifico per sistemi chiusi}
+
+
+\textbf{Sistemi aperti}
+Partiamo dal primo primo principio della termodinamica per sistemi aperti e supponendo la trasformazione reversibile ($dl_f=-vdp$). Otteniamo che $dq=dh-vdp$. Allora sostituendo nella relazione del calore specifico otteniamo $c=\frac{d q}{d T}=\frac{d h}{d T}-v \frac{d p}{d T}$. Quindi possiamo fare il differenziale esatto di $h=h(p,T)$ e dividere per $dT$. Poi sostituiamo nell'espressione del calore specifico e moltiplichiamo per $dT$, quindi otteniamo:
+\begin{equation}
+d q=\left(\frac{\partial h}{\partial T}\right)_{p} d T+\left[\left(\frac{\partial h}{\partial p}\right)_{T}-v\right] d p
+\end{equation}
+
+
+Se la trasformazione è isobara allora otteniamo il \textbf{calore specifico a pressione costante} 
+\begin{equation}
+	c_{p}=\left(\frac{\partial h}{\partial T}\right)_{p}
+\end{equation}
+\myequations{Calore specifico a pressione costante}
+In queste condizioni vale che $dq=c_pdT$ e quindi possiamo misurarlo come $c_{p}=\left.\frac{d q}{d T}\right|_{p}=\left.\frac{q}{\Delta T}\right|_{p}$
+
+Se la trasformazione è isoterma allora otteniamo il \textbf{calore specifico di comprimibilità isoterma} 
+\begin{equation}
+	c_{c}=\left[\left(\frac{\partial h}{\partial p}\right)_{T}-v\right]
+\end{equation}
+\myequations{Calore specifico di comprimibilità isoterma }
+In queste condizioni vale che $dq=c_cdp$ e allora possiamo misurarlo: $c_{c}=\left.\frac{d q}{d p}\right|_{T}$. Possibile solo nei passaggi di stato.
+
+Quindi per i \textbf{sistemi aperti} vale che:
+\begin{equation}
+	dq=c_pdT+c_cdp 
+	\label{eq:calore_sistemi_aperti}
+\end{equation}
+\myequations{Calore per sistemi aperti}
+E  il calore specifico possiamo esprimerlo come:
+\begin{equation}
+	c=c_p+c_c{dp\over dT}
+\end{equation}
+\myequations{Calore specifico per sistemi aperti}
+
+\subsubsection{Equazioni di Maxwell}
+
+Introduciamo due nuove grandezze funzioni di stato:
+\begin{itemize}
+\item Energia libera di Gibbs $e_u=u.-Ts$
+\item Entalpia libera di Helmotz $e_h=h-Ts$
+\end{itemize}
+
+Possiamo farne i differenziali esatti (considerando anche \eqref{eq:energiainternaentropia} e \eqref{eq:entalpiaentropia}) otteniamo:
+\begin{itemize}
+	\item $de_u=-pdv-sdT$
+	\item $de_h=vdp-sdT$
+\end{itemize}
+
+Nei passaggi di tasto (isotermobariche) abbiamo $de_h=0$.
+
+Per un'isoterma abbiamo $p d v=-d e_{u} \rightarrow \int_{1}^{2} p d v=l_{21}=e_{u 1}-e_{u 2}$ quindi riconduciamo il calcolo del lavoro ad una variazione di una funzioni di stato. 
+
+Applicando il teorema di Swartz all'energia libera, entalpia libera, energia interna e entalpia otteniamo le quattro \textbf{equazioni di Maxwell}
+\begin{equation}
+\left.\begin{aligned}
+	-\left(\frac{\partial p}{\partial T}\right)_{v}&=-\left(\frac{\partial s}{\partial v}\right)_{T} \\
+	\left(\frac{\partial v}{\partial T}\right)_{p}&=-\left(\frac{\partial s}{\partial p}\right)_{T} \\
+	\left(\frac{\partial T}{\partial v}\right)_{s}&=-\left(\frac{\partial p}{\partial s}\right)_{v} \\
+	\left(\frac{\partial T}{\partial p}\right)_{s}&=\left(\frac{\partial v}{\partial s}\right)_{p}
+\end{aligned}\right.
+\end{equation}
+\myequations{Equazioni di Maxwell}
+
+Cerchiamo delle espressioni analitiche per $c_d$ e $c_c$.
+Dalla definizione di entropia $ds=dq/T$ sostituiamo la definizione di calore \ref{eq:calore_sistemi_chiusi}. Poi possiamo farne il differenziale esatto $ds=ds(T,v)$ e otteniamo:
+\begin{equation}
+d s=\left(\frac{\partial s}{\partial T}\right)_{v} d T+\left(\frac{\partial s}{\partial v}\right)_{T} d v
+\end{equation}
+
+\begin{itemize}
+\item Trasformazioni isocore $c_{v}=\left(\frac{\partial s}{\partial T}\right)_{v} T$
+\item Trasformazioni isoterme $c_{d}=\left(\frac{\partial s}{\partial v}\right)_{T} T$
+\end{itemize}
+
+Quindi dalla prima equazione di Maxwell: 
+\begin{equation}
+c_{d}=T\left(\frac{\partial p}{\partial T}\right)_{v}
+\end{equation}
+
+Nota l'equazione di stato possiamo calcolarlo analiticamente. 
+\newline
+
+
+Dalla definizione di entropia $ds=dq/T$ sostituiamo la definizione di calore \ref{eq:calore_sistemi_aperti}. Poi possiamo farne il differenziale esatto $ds=ds(T,p)$ e otteniamo:
+\begin{equation}
+d s=\left(\frac{\partial s}{\partial T}\right)_{p} d T+\left(\frac{\partial s}{\partial p}\right)_{T} d p
+\end{equation}
+
+\begin{itemize}
+	\item Trasformazioni isobare $c_{p}=T\left(\frac{\partial s}{\partial T}\right)_{p}$
+	\item Trasformazioni isoterme $c_{c}=T\left(\frac{\partial s}{\partial p}\right)_{T}$
+\end{itemize}
+
+Quindi dalla seconda equazione di Maxwell: 
+\begin{equation}
+c_{c}=-T\left(\frac{\partial v}{\partial T}\right)_{p}
+\end{equation}
+Nota l'equazione di stato possiamo calcolarlo analiticamente. 
+\newline
+
+In conclusione: 
+
+\begin{multicols}{2}
+	\begin{center}
+\textbf{Sistemi chiusi}
+	\end{center}
+
+\begin{equation}
+\begin{aligned}
+	&d q=c_{v} d T+T\left(\frac{\partial p}{\partial T}\right)_{v} d v \\
+	&d u=c_{v} d T+\left[T\left(\frac{\partial p}{\partial T}\right)_{v}-p\right] d v \\
+	&d s=\frac{c_{v}}{T} d T+\left(\frac{\partial p}{\partial T}\right)_{v} d v
+\end{aligned}
+	\label{eq:sistemi_chiusi_coefficienti}
+\end{equation}
+
+
+\begin{center}
+\textbf{Sistemi aperti}
+\end{center}
+\begin{equation}
+\begin{aligned}
+	&d q=c_{p} d T-T\left(\frac{\partial v}{\partial T}\right)_{p} d p \\
+	&d h=c_{p} d T+\left[v-T\left(\frac{\partial v}{\partial T}\right)_{p}\right] d p \\
+	&d s=\frac{c_{p}}{T} d T-\left(\frac{\partial v}{\partial T}\right)_{p} d p 
+\end{aligned}
+\label{eq:sistemi_aperti_coefficienti}
+\end{equation}
+
+
+
+
+\end{multicols}
+
+\subsubsection{Relazioni tra calori specifici}\label{relazioni_cv_cp}
+
+ Consideriamo l'ultima da \eqref{eq:sistemi_chiusi_coefficienti} se la trasformazione è isocora abbiamo la pendenza dell'isocora sul piano $Ts$:
+ \begin{equation}
+d s=\left.\frac{c_{v}}{T} d T \Rightarrow \frac{d T}{d s}\right|_{v}=\left.\frac{T}{c_{v}}\right|_{v}
+ \end{equation}
+
+Considerando  l'ultima da \eqref{eq:sistemi_aperti_coefficienti} se la trasformazione è isobara otteniamo la pendenza dell'isobara sul ppiano $Ts$:
+\begin{equation}
+d s=\left.\frac{c_{p}}{T} d T \Rightarrow \frac{d T}{d s}\right|_{p}=\left.\frac{T}{c_{p}}\right|_{p}
+\end{equation}
+
+Poiché $c_p>c_v$ (lo dimostreremo) la pendenza dell'isobara è minore dell'isocora.
+
+Considerando  l'ultima da \eqref{eq:sistemi_aperti_coefficienti} esplicitiamo $c_p$ e dall'ultima da \eqref{eq:sistemi_chiusi_coefficienti} esplicitiamo $c_v$. Dalla loro differenza otteniamo: 
+\begin{equation}
+	c_{p}-c_{v}=\left(\frac{\partial v}{\partial T}\right)_{p} T \frac{d p}{d T}+\left(\frac{\partial p}{\partial T}\right)_{v} T \frac{d v}{d T}
+\end{equation}
+
+Consideriamo il differenziale esatto di $p=p(T,v)$ e dividiamo per $dT$ allora sostituiamo in $c_p-c_v$ e otteniamo:
+
+\begin{equation}
+	c_{p}-c_{v}=\left(\frac{\partial v}{\partial T}\right)_{p} T\left(\frac{\partial p}{\partial T}\right)_{v}
+\end{equation}
+Avendo semplificato grazie al teorema dei differenziali esatti.
+\newline
+
+Oss: per i gas perfetti otteniamo $p v=R T \rightarrow\left(\frac{\partial p}{\partial T}\right)_{v}=\frac{R}{v}$ e $\left(\frac{\partial v}{\partial p}\right)_{T}=-\frac{R T}{p^{2}}$.
+Quindi otteniamo \begin{equation}
+	c_{p}-c_{v}=T \frac{R^{2}}{v^{2}} \cdot \frac{R T}{p^{2}}=R \Rightarrow {c}_{{p}}-{c}_{v}=\boldsymbol{R}
+\end{equation}
+\newline
+Se è isoentropica dalle ultime di  \eqref{eq:sistemi_aperti_coefficienti} e  \eqref{eq:sistemi_chiusi_coefficienti} possiamo esplicitare $c_p$ e $c_v$ e considerarne il rapporto: \begin{equation}
+\frac{c_{p}}{c_{v}}=-\frac{\left(\frac{\partial v}{\partial T}\right)_{p}}{\left(\frac{\partial p}{\partial T}\right)_{v}} \cdot \frac{\left(\frac{\partial p}{\partial T}\right)_{s}}{\left(\frac{\partial v}{\partial T}\right)_{s}}=\left(\frac{\partial v}{\partial p}\right)_{T}\left(\frac{\partial p}{\partial v}\right)_{s}
+\end{equation}
+Dove ho semplificato il $\partial T$
+
+Inoltre $\frac{\left(\frac{\partial v}{\partial T}\right)_{p}}{\left(\frac{\partial p}{\partial T}\right)_{v}}=-\left(\frac{\partial v}{\partial p}\right)_{T}$ per Swartz. 
+\newline
+Oss: nei gas perfetti: 
+$p v=R T \rightarrow\left(\frac{\partial v}{\partial p}\right)_{T}=-\frac{R T}{p^{2}}$
+e quindi per le trasformazioni \textbf{isoentropiche} \begin{equation}
+	pv^k=\operatorname{cost}
+\end{equation}
+
+Facendone la derivata possiamo ricavare 
+\begin{equation}
+\left(\frac{\partial p}{\partial v}\right)_{s}=-k p \frac{v^{k-1}}{v^{k}}=-k \frac{p}{v}
+\end{equation}
+
+E allora:
+
+\begin{equation}
+\frac{c_{p}}{c_{v}}=+\frac{R T}{p^{2}} \cdot k \frac{p}{v}=\frac{R T}{p v} k=k \Rightarrow \frac{\boldsymbol{c}_{\boldsymbol{p}}}{\boldsymbol{c}_{v}}=\boldsymbol{k}
+\end{equation}
+
 
 
 
