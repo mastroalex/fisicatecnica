@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  14 NOV 2021 19:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  15 NOV 2021 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -674,43 +674,105 @@ File: figures//isobara_hs.png Graphic file (type png)
 <use figures//isobara_hs.png>
 Package pdftex.def Info: figures//isobara_hs.png  used on input line 673.
 (pdftex.def)             Requested size: 176.4044pt x 133.98314pt.
-[14 <./figures//isobara_Ts.png> <./figures//isobara_hs.png>] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 847--849
+[14 <./figures//isobara_Ts.png> <./figures//isobara_hs.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 733--735
+
+ []
+
+<figures//confermasperimentale.png, id=119, 285.065pt x 321.2pt>
+File: figures//confermasperimentale.png Graphic file (type png)
+<use figures//confermasperimentale.png>
+Package pdftex.def Info: figures//confermasperimentale.png  used on input line 
+741.
+(pdftex.def)             Requested size: 132.30666pt x 149.07709pt.
+[15 <./figures//confermasperimentale.png>]
+Overfull \hbox (41.00002pt too wide) in paragraph at lines 753--755
+\T1/cmr/m/n/10 vo-lu-me ($\OML/cmm/m/it/10 dv \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10
+ = 0$\T1/cmr/m/n/10 ) ot-te-nia-mo che $[][] \OT1/cmr/m/n/10 = 0$\T1/cmr/m/n/10
+ . Ov-ve-ro ab-bia-mo con-fer-ma-to che $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--755
+
+ []
+
+<figures//jouleT.png, id=124, 368.37625pt x 154.5775pt>
+File: figures//jouleT.png Graphic file (type png)
+<use figures//jouleT.png>
+Package pdftex.def Info: figures//jouleT.png  used on input line 760.
+(pdftex.def)             Requested size: 132.30666pt x 55.51811pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--766
+
+ []
+
+<figures//jt-pt.png, id=125, 467.7475pt x 323.2075pt>
+File: figures//jt-pt.png Graphic file (type png)
+<use figures//jt-pt.png>
+Package pdftex.def Info: figures//jt-pt.png  used on input line 779.
+(pdftex.def)             Requested size: 176.4044pt x 121.89296pt.
+[16 <./figures//jouleT.png> <./figures//jt-pt.png>] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 921--923
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 938--941
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 864--867
+Underfull \hbox (badness 10000) in paragraph at lines 988--990
 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 925--928
+
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1004
 
  []
 
-[18] [19] (./fisica_tecnica.lof)
+[19]
+<figures//guoj.png, id=142, 477.785pt x 342.27875pt>
+File: figures//guoj.png Graphic file (type png)
+<use figures//guoj.png>
+Package pdftex.def Info: figures//guoj.png  used on input line 1057.
+(pdftex.def)             Requested size: 132.30666pt x 94.7824pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1069
+
+ []
+
+[20 <./figures//guoj.png>]
+<figures//diagrammaexergia.png, id=148, 477.785pt x 353.32pt>
+File: figures//diagrammaexergia.png Graphic file (type png)
+<use figures//diagrammaexergia.png>
+Package pdftex.def Info: figures//diagrammaexergia.png  used on input line 1083
+.
+(pdftex.def)             Requested size: 220.50887pt x 163.0629pt.
+ [21 <./figures//diagrammaexergia.png>] [22]
+(./fisica_tecnica.lof)
 \tf@lof=\write5
 \openout5 = `fisica_tecnica.lof'.
 
- [20] (./fisica_tecnica.lot)
+ [23] (./fisica_tecnica.lot)
 \tf@lot=\write6
 \openout6 = `fisica_tecnica.lot'.
 
- [21]
-(./fisica_tecnica.equ)
+ [24] (./fisica_tecnica.equ)
 \tf@equ=\write7
 \openout7 = `fisica_tecnica.equ'.
 
- [22] (./fisica_tecnica.ind [23
+
+[25] (./fisica_tecnica.ind [26
 
 
 ]) (./fisica_tecnica.aux) ) 
 Here is how much of TeX's memory you used:
- 7301 strings out of 478994
- 101055 string characters out of 5858184
- 442042 words of memory out of 5000000
- 24609 multiletter control sequences out of 15000+600000
+ 7337 strings out of 478994
+ 101859 string characters out of 5858184
+ 444114 words of memory out of 5000000
+ 24640 multiletter control sequences out of 15000+600000
  423188 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,15n,74p,744b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -739,10 +801,10 @@ pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pf
 b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on fisica_tecnica.pdf (23 pages, 1341916 bytes).
+Output written on fisica_tecnica.pdf (26 pages, 1639230 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
+ 246 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

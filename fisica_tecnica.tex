@@ -696,18 +696,18 @@ La costante specifica di gas $R={R_u\over p.m.}$
 
 Note le funzioni termodinamiche generiche, possiamo procedere come se fossero espressioni matematiche, tutto quello che otteniamo ha un significato fisico ed è rappresentato da grandezze misurabili.
 
-Sostanza che scambia calore e subisce una variazione di temperatura ha una corrispondente variazione del suo volume specifico: $d v=\left(\frac{\partial v}{\partial T}\right)_{p} d T+\left(\frac{\partial v}{\partial p}\right)_{T} d p$. Da cui la quantità misurabile, il coefficiente di dilatazione isobara:
+Sostanza che scambia calore e subisce una variazione di temperatura ha una corrispondente variazione del suo volume specifico: $d v=\left(\frac{\partial v}{\partial T}\right)_{p} d T+\left(\frac{\partial v}{\partial p}\right)_{T} d p$. Da cui la quantità misurabile, il \textbf{coefficiente di dilatazione isobara}:
 \begin{equation}
 	\left(\frac{\partial v}{\partial T}\right)_{p} \frac{1}{v}=\beta
 \label{eq:coeff_dilatazione_isobara}
 \end{equation}
 
-E il coefficiente di compressione isoterma:
+E il \textbf{coefficiente di compressione isoterma}:
 \begin{equation}
 	\left(\frac{\partial v}{\partial p}\right)_{T}\left(-\frac{1}{v}\right)=\gamma
 \end{equation}
 
-Se le variazioni di volume specifico avvengono a sezione costante, possiamo dividere per la sezione e ottenere il coefficiente di dilatazione lineare:
+Se le variazioni di volume specifico avvengono a sezione costante, possiamo dividere per la sezione e ottenere il \textbf{coefficiente di dilatazione lineare}:
 \begin{equation}
 \frac{1}{x}\left(\frac{\partial x}{\partial T}\right)_{p}=\alpha
 \end{equation}
@@ -718,6 +718,78 @@ Quindi l'equazione differenziale del volume specifico:
 	\label{eq:differenziale_volume_specifico}
 \end{equation}
 \myequations{Equazione differenziale del volume specifico}
+
+
+Abbiamo visto le relazioni tra $c_v$ e $c_p$, cioè \eqref{eq:cp-cv} e \eqref{eq:cp/cv}, e  \eqref{eq:cp-cv-R}  \eqref{eq:cp/cv-k} e che questi, per i gas perfetti, dipendono solo da $T$. Inoltre vale che 
+\begin{equation}
+	\begin{aligned}
+d u=c_{v}(T) d T\\
+dh=c_{p}(T) d T
+	\end{aligned}
+\end{equation}
+
+E possiamo trovare il \textbf{coefficiente di dilatazione isobara $\beta$} per i gas perfetti \begin{equation}
+\beta=\frac{1}{v}\left(\frac{\partial v}{\partial T}\right)_{p}=\frac{1}{v} \cdot \frac{R}{P}=\frac{R}{R T}=\frac{1}{T} \Rightarrow \beta=\frac{1}{T}
+\end{equation}
+\newline
+\subsubsection{Conferma sperimentale $d u=c_{v}(T) d T$ e $dh=c_{p}(T) d T$}
+
+Nell'esperienza di Joule c'è un gas che compie una trasformazione in cui varia il suo volume e la temperatura rimane costante.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.3\columnwidth]{confermasperimentale.png}
+	\end{center}
+\end{figure}
+
+Quindi applichiamo il primo principio della termodinamica per sistemi chiusi:
+\begin{itemize}
+\item non scambia lavoro
+\item $q=0$ temperatura costante
+\item velocità nulla
+\item non cambia la quota del baricentro
+\end{itemize}
+
+$\Longrightarrow$ $du=0$ e il suo differenziale esatto $ u(v, T) \rightarrow d u=\left(\frac{\partial u}{\partial v}\right)_{T} d v+\left(\frac{\partial u}{\partial T}\right)_{v} d T$ in cui c'è una variazione di volume ($dv\neq 0$) otteniamo che $\left(\frac{\partial u}{\partial v}\right)_{T}=0$. Ovvero abbiamo confermato che \underline{$u$ è funzione solo della temperatura} e non del volume specifico.
+\newline
+
+Considerando l'esperienza di Joule-Thompson 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.3\columnwidth]{jouleT.png}
+	\end{center}
+\end{figure}
+
+Applichiamo il primo principio della termodinamica per sistemi aperti e con considerazioni analoghe alle precedenti $\Longrightarrow$ $dh=0$.  Ne facciamo il differenziale: $h(p, T) \rightarrow d h=\left(\frac{\partial h}{\partial T}\right)_{p} d T+\left(\frac{\partial h}{\partial p}\right)_{T} d p$ e, considerando che c'è un $dp\neq 0$, troviamo che $\left(\frac{\partial h}{\partial p}\right)_{T}=0$. Ovvero abbiamo confermato che \underline{$h$ è funzione solo della temperatura} e non della pressione.
+\newline
+
+In condizioni reali però $dT\neq 0$ e se un gas espande si ottiene una variazione della temperatura (diminuzione) e quindi $h=h\left(p,T\right)$. 
+
+Possiamo rappresentare l'esperienza in un diagramma $pT$ rappresentando esperienze successive con pressioni sempre più basse otteniamo un andamento inizialmente crescente e poi decrescente. Unendo i massimi troviamo la curva dove $c_{JT}=0$. 
+
+In particolare, il \textbf{coefficiente di Joule-Thompson}:
+\begin{equation}
+C_{J T}=\left.\left(\frac{\Delta T}{\Delta p}\right)\right|_{h}=-\frac{\left(\frac{\partial h}{\partial p}\right)_{T}}{c_{p}}
+\end{equation}
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{jt-pt.png}
+		\caption{Esperienza Joule-Thompson sul $pT$}
+	\end{center}
+\end{figure}
+
+Conviene leggerle dal dx verso sx (nell'esperienza andiamo da $p$ maggiori a $p$ minori). 
+
+Di solito, un gas che si espande si raffredda, ma questo vale nel tratto a sx del massimo. Esiste una temperatura in cui$ c_{JT}=0$ , nota come \textbf{temperatura limite} o di inversione. A partire da questa il gas che si espande si riscalda sempre.
+
+Sperimentalmente si misura un $\Delta T/\Delta p$ e si ottiene un proporzionalità a $\Delta p/T^2$ come:  $ c_{J T}=\frac{\Delta T}{\Delta p}=\frac{\Delta p}{T^{2}} \cdot k \rightarrow\left\{\begin{array}{l}
+	\text { se } k>0, \Delta T>0 \\
+	\text { se } k<0, \Delta T<0
+\end{array}\right.$ (legge empirica).
+
 
 \subsubsection{Calore specifico}
 
@@ -742,6 +814,7 @@ dq=\left(\frac{\partial u}{\partial T}\right)_{v} d T+\left[p+\left(\frac{\parti
 Se la trasformazione è isocora allora otteniamo il \textbf{calore specifico a volume costante} 
 \begin{equation}
 c_{v}=\left(\frac{\partial u}{\partial T}\right)_{v}
+\label{eq:cv}
 \end{equation}
 \myequations{Calore specifico a volume costante}
 In queste condizioni vale che $dq=c_vdT$ e quindi possiamo misurarlo come $c_{v}=\left.\frac{d q}{d T}\right|_{v}=\left.\frac{q}{\Delta T}\right|_{v}$
@@ -776,6 +849,7 @@ d q=\left(\frac{\partial h}{\partial T}\right)_{p} d T+\left[\left(\frac{\partia
 Se la trasformazione è isobara allora otteniamo il \textbf{calore specifico a pressione costante} 
 \begin{equation}
 	c_{p}=\left(\frac{\partial h}{\partial T}\right)_{p}
+	\label{eq:cp}
 \end{equation}
 \myequations{Calore specifico a pressione costante}
 In queste condizioni vale che $dq=c_pdT$ e quindi possiamo misurarlo come $c_{p}=\left.\frac{d q}{d T}\right|_{p}=\left.\frac{q}{\Delta T}\right|_{p}$
@@ -803,7 +877,7 @@ E  il calore specifico possiamo esprimerlo come:
 
 Introduciamo due nuove grandezze funzioni di stato:
 \begin{itemize}
-\item Energia libera di Gibbs $e_u=u.-Ts$
+\item Energia libera di Gibbs $e_u=u-Ts$
 \item Entalpia libera di Helmotz $e_h=h-Ts$
 \end{itemize}
 
@@ -829,7 +903,7 @@ Applicando il teorema di Swartz all'energia libera, entalpia libera, energia int
 \myequations{Equazioni di Maxwell}
 
 Cerchiamo delle espressioni analitiche per $c_d$ e $c_c$.
-Dalla definizione di entropia $ds=dq/T$ sostituiamo la definizione di calore \ref{eq:calore_sistemi_chiusi}. Poi possiamo farne il differenziale esatto $ds=ds(T,v)$ e otteniamo:
+Dalla definizione di entropia $ds=dq/T$ sostituiamo la definizione di calore \eqref{eq:calore_sistemi_chiusi}. Poi possiamo farne il differenziale esatto $ds=ds(T,v)$ e otteniamo:
 \begin{equation}
 d s=\left(\frac{\partial s}{\partial T}\right)_{v} d T+\left(\frac{\partial s}{\partial v}\right)_{T} d v
 \end{equation}
@@ -848,7 +922,7 @@ Nota l'equazione di stato possiamo calcolarlo analiticamente.
 \newline
 
 
-Dalla definizione di entropia $ds=dq/T$ sostituiamo la definizione di calore \ref{eq:calore_sistemi_aperti}. Poi possiamo farne il differenziale esatto $ds=ds(T,p)$ e otteniamo:
+Dalla definizione di entropia $ds=dq/T$ sostituiamo la definizione di calore \eqref{eq:calore_sistemi_aperti}. Poi possiamo farne il differenziale esatto $ds=ds(T,p)$ e otteniamo:
 \begin{equation}
 d s=\left(\frac{\partial s}{\partial T}\right)_{p} d T+\left(\frac{\partial s}{\partial p}\right)_{T} d p
 \end{equation}
@@ -906,12 +980,13 @@ In conclusione:
 d s=\left.\frac{c_{v}}{T} d T \Rightarrow \frac{d T}{d s}\right|_{v}=\left.\frac{T}{c_{v}}\right|_{v}
  \end{equation}
 
-Considerando  l'ultima da \eqref{eq:sistemi_aperti_coefficienti} se la trasformazione è isobara otteniamo la pendenza dell'isobara sul ppiano $Ts$:
+Considerando  l'ultima da \eqref{eq:sistemi_aperti_coefficienti} se la trasformazione è isobara otteniamo la pendenza dell'isobara sul piano $Ts$:
 \begin{equation}
 d s=\left.\frac{c_{p}}{T} d T \Rightarrow \frac{d T}{d s}\right|_{p}=\left.\frac{T}{c_{p}}\right|_{p}
 \end{equation}
 
 Poiché $c_p>c_v$ (lo dimostreremo) la pendenza dell'isobara è minore dell'isocora.
+\newline
 
 Considerando  l'ultima da \eqref{eq:sistemi_aperti_coefficienti} esplicitiamo $c_p$ e dall'ultima da \eqref{eq:sistemi_chiusi_coefficienti} esplicitiamo $c_v$. Dalla loro differenza otteniamo: 
 \begin{equation}
@@ -922,6 +997,7 @@ Consideriamo il differenziale esatto di $p=p(T,v)$ e dividiamo per $dT$ allora s
 
 \begin{equation}
 	c_{p}-c_{v}=\left(\frac{\partial v}{\partial T}\right)_{p} T\left(\frac{\partial p}{\partial T}\right)_{v}
+		\label{eq:cp-cv}
 \end{equation}
 Avendo semplificato grazie al teorema dei differenziali esatti.
 \newline
@@ -929,14 +1005,16 @@ Avendo semplificato grazie al teorema dei differenziali esatti.
 Oss: per i gas perfetti otteniamo $p v=R T \rightarrow\left(\frac{\partial p}{\partial T}\right)_{v}=\frac{R}{v}$ e $\left(\frac{\partial v}{\partial p}\right)_{T}=-\frac{R T}{p^{2}}$.
 Quindi otteniamo \begin{equation}
 	c_{p}-c_{v}=T \frac{R^{2}}{v^{2}} \cdot \frac{R T}{p^{2}}=R \Rightarrow {c}_{{p}}-{c}_{v}=\boldsymbol{R}
+		\label{eq:cp-cv-R}
 \end{equation}
 \newline
 Se è isoentropica dalle ultime di  \eqref{eq:sistemi_aperti_coefficienti} e  \eqref{eq:sistemi_chiusi_coefficienti} possiamo esplicitare $c_p$ e $c_v$ e considerarne il rapporto: \begin{equation}
 \frac{c_{p}}{c_{v}}=-\frac{\left(\frac{\partial v}{\partial T}\right)_{p}}{\left(\frac{\partial p}{\partial T}\right)_{v}} \cdot \frac{\left(\frac{\partial p}{\partial T}\right)_{s}}{\left(\frac{\partial v}{\partial T}\right)_{s}}=\left(\frac{\partial v}{\partial p}\right)_{T}\left(\frac{\partial p}{\partial v}\right)_{s}
+	\label{eq:cp/cv}
 \end{equation}
 Dove ho semplificato il $\partial T$
 
-Inoltre $\frac{\left(\frac{\partial v}{\partial T}\right)_{p}}{\left(\frac{\partial p}{\partial T}\right)_{v}}=-\left(\frac{\partial v}{\partial p}\right)_{T}$ per Swartz. 
+Inoltre $\frac{\left(\frac{\partial v}{\partial T}\right)_{p}}{\left(\frac{\partial p}{\partial T}\right)_{v}}=-\left(\frac{\partial v}{\partial p}\right)_{T}$ per Swartz (il prodotto dei 3 è $-1$) . 
 \newline
 Oss: nei gas perfetti: 
 $p v=R T \rightarrow\left(\frac{\partial v}{\partial p}\right)_{T}=-\frac{R T}{p^{2}}$
@@ -953,10 +1031,59 @@ E allora:
 
 \begin{equation}
 \frac{c_{p}}{c_{v}}=+\frac{R T}{p^{2}} \cdot k \frac{p}{v}=\frac{R T}{p v} k=k \Rightarrow \frac{\boldsymbol{c}_{\boldsymbol{p}}}{\boldsymbol{c}_{v}}=\boldsymbol{k}
+	\label{eq:cp/cv-k}
 \end{equation}
 
+\subsubsection{Dipendenza di $c_v$ da $v$}
 
+Considerando la definizione di $c_v$ \eqref{eq:cv} deriviamolo rispetto $v$ a $T$ costante e invertiamo l'ordine di integrazione. Quindi ricordando l'espressione di $du$ per i sistemi chiusi \eqref{eq:sistemi_chiusi_coefficienti} calcoliamo il $\left(\partial u\over \partial v\right)_T$, sostituiamo e otteniamo: 
+\begin{equation}
+\left(\frac{\partial c_{v}}{\partial v}\right)_{T}=T\left(\frac{\partial^{2} p}{\partial T^{2}}\right)_{v}
+\end{equation}
+\myequations{Relazione tra $c_v$ e $v$}
 
+\subsubsection{Dipendenza di $c_p$ da $p$}
+
+Considerando la definizione di $c_p$ \eqref{eq:cp} deriviamolo rispetto $p$ a $T$ costante e invertiamo l'ordine di integrazione. Quindi ricordando l'espressione di $dh$ per i sistemi chiusi \eqref{eq:sistemi_aperti_coefficienti} calcoliamo il $\left(\partial h\over \partial p\right)_T$, sostituiamo e otteniamo: 
+\begin{equation}
+	\left(\frac{\partial c_{p}}{\partial p}\right)_{T}=-T\left(\frac{\partial^{2} v}{\partial T^{2}}\right)_{p}
+\end{equation}
+\myequations{Relazione tra $c_p$ e $p$}
+
+\subsection{Teorema di Guoj-Stodola}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.3\columnwidth]{guoj.png}
+	\end{center}
+\end{figure}
+
+Applicando il primo principio e considerando che $\dot{Q}=\dot{Q}_{A}+\sum_{i=1}^{m} \dot{Q}_{i}$ possiamo applicare il secondo principio tenendo conto delle irreversibilità $\frac{\dot{Q}}{T}=\Delta S-\Delta \mathrm{s}_{\mathrm{S}}$, otteniamo:
+\begin{equation}
+\dot{L}=\underbrace{\sum_{i} \dot{Q}_{l}\left(1-\frac{T_{A}}{T_{i}}\right)+\sum G_{e}\left(h_{e}-T_{A} s_{e}+e_{c e}+e_{p e}\right)-\sum G_{u}\left(h_{u}-T_{A} s_{u}+e_{c u}+e_{p u}\right)}_{\dot{L}_{\max}}-T_{A} \Delta s_{s}
+\end{equation}
+\myequations{Teorema di Guoi-Stodola}
+
+Si osservi che il lavoro ottenibile per un sistema aperto è massimo quando non ci sono irreversibilità. Questo lavoro dipende dai calori scambiati con le sorgenti, dall'entalpia e dal termine $T_As$.
+\newline
+
+Nel caso di \textbf{sistemi chiusi} si torna alla macchina motrice di Watt (e Carnot se reversibili) e spariscono i termini legati alle correnti entranti/uscenti. 
+$ \dot{L}=\sum_{i} \dot{Q}_{l}\left(1-\frac{T_{A}}{T_{i}}\right)$.	
+	In particolare, con una sola sorgente, abbiamo l'\textbf{exergia} del sistema chiuso
+	\begin{equation}
+	L_{\max }^{\cdot}=\dot{Q}_{l}\left(1-\frac{T_{A}}{T_{i}}\right)=\dot{E}_{x}
+\end{equation}
+\myequations{Exergia del sistema chiuso}
+
+	È il lavoro massimo ottenuto dal sistema chiuso che scambia calore con una sola sorgente	
+Facciamo il diagramma dell’exergia per unità di calore scambiato in modulo, in funzione della temperatura $T_1$ della sorgente, fissata la temperatura ambiente $T_a$ in cui identifichiamo il ciclo diretto ( $\frac{\left|E_{x}\right|}{\left|\dot{Q_{1}}\right|}$ aumenta verso la saturazione) e ciclo inverso ($\frac{\left|E_{x}\right|}{\left|\dot{Q_{1}}\right|}$ aumenta in maniera inversa).
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{diagrammaexergia.png}
+	\end{center}
+\caption{Diagramma dell'exergia per unità di calore}
+\end{figure}
 
 \newpage
 \section{Tesine}
