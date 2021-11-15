@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  15 NOV 2021 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  15 NOV 2021 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -518,16 +518,16 @@ File: uesint.fd
 ) [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./fisi
-ca_tecnica.toc)
+ca_tecnica.toc [2])
 \tf@toc=\write4
 \openout4 = `fisica_tecnica.toc'.
 
- [2] (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-0.def
+ [3] (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [3]
+) [4]
 Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
@@ -537,243 +537,312 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 138.
 
-[4]
-<figures//seebeck.png, id=32, 395.4775pt x 238.8925pt>
+[5]
+<figures//seebeck.png, id=35, 395.4775pt x 238.8925pt>
 File: figures//seebeck.png Graphic file (type png)
 <use figures//seebeck.png>
 Package pdftex.def Info: figures//seebeck.png  used on input line 173.
 (pdftex.def)             Requested size: 109.50793pt x 66.14996pt.
-<figures//peltier.png, id=34, 274.02374pt x 184.69pt>
+<figures//peltier.png, id=37, 274.02374pt x 184.69pt>
 File: figures//peltier.png Graphic file (type png)
 <use figures//peltier.png>
 Package pdftex.def Info: figures//peltier.png  used on input line 175.
 (pdftex.def)             Requested size: 98.14671pt x 66.14996pt.
-<figures//thompson.png, id=35, 343.2825pt x 131.49126pt>
+<figures//thompson.png, id=38, 343.2825pt x 131.49126pt>
 File: figures//thompson.png Graphic file (type png)
 <use figures//thompson.png>
 Package pdftex.def Info: figures//thompson.png  used on input line 177.
 (pdftex.def)             Requested size: 172.70415pt x 66.14996pt.
- [5 <./figures//seebeck.png> <./figures//peltier.png> <./figures//thompson.png>
+ [6 <./figures//seebeck.png> <./figures//peltier.png> <./figures//thompson.png>
 ]
-<figures//generalizprincipio.jpg, id=44, 1644.1425pt x 381.425pt>
+<figures//generalizprincipio.jpg, id=47, 1644.1425pt x 381.425pt>
 File: figures//generalizprincipio.jpg Graphic file (type jpg)
 <use figures//generalizprincipio.jpg>
 Package pdftex.def Info: figures//generalizprincipio.jpg  used on input line 23
 4.
 (pdftex.def)             Requested size: 264.61333pt x 61.38426pt.
  (./figures/sistemaperto.pdf_tex
-<figures//sistemaperto.pdf, id=45, page=1, 320.46321pt x 106.22185pt>
+<figures//sistemaperto.pdf, id=48, page=1, 320.46321pt x 106.22185pt>
 File: figures//sistemaperto.pdf Graphic file (type pdf)
 <use figures//sistemaperto.pdf, page 1>
 Package pdftex.def Info: figures//sistemaperto.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 320.46321pt x 106.22968pt.
 )
-<figures//espansore.png, id=46, 269.005pt x 311.1625pt>
+<figures//espansore.png, id=49, 269.005pt x 311.1625pt>
 File: figures//espansore.png Graphic file (type png)
 <use figures//espansore.png>
 Package pdftex.def Info: figures//espansore.png  used on input line 263.
 (pdftex.def)             Requested size: 88.2022pt x 102.02397pt.
- [6 <./figures//generalizprincipio.jpg> <./figures//sistemaperto.pdf>]
-<figures//compressore.png, id=53, 305.14pt x 270.00874pt>
+ [7 <./figures//generalizprincipio.jpg> <./figures//sistemaperto.pdf>]
+<figures//compressore.png, id=57, 305.14pt x 270.00874pt>
 File: figures//compressore.png Graphic file (type png)
 <use figures//compressore.png>
 Package pdftex.def Info: figures//compressore.png  used on input line 292.
 (pdftex.def)             Requested size: 88.2022pt x 78.04507pt.
-<figures//valvolalaminazione.png, id=54, 399.4925pt x 132.495pt>
+<figures//valvolalaminazione.png, id=58, 399.4925pt x 132.495pt>
 File: figures//valvolalaminazione.png Graphic file (type png)
 <use figures//valvolalaminazione.png>
 Package pdftex.def Info: figures//valvolalaminazione.png  used on input line 30
 6.
 (pdftex.def)             Requested size: 132.30666pt x 43.88116pt.
-<figures//tuboefflusso.png, id=55, 334.24875pt x 432.61626pt>
+<figures//tuboefflusso.png, id=59, 334.24875pt x 432.61626pt>
 File: figures//tuboefflusso.png Graphic file (type png)
 <use figures//tuboefflusso.png>
 Package pdftex.def Info: figures//tuboefflusso.png  used on input line 323.
 (pdftex.def)             Requested size: 132.30666pt x 171.24791pt.
- [7 <./figures//espansore.png> <./figures//compressore.png> <./figures//valvola
+ [8 <./figures//espansore.png> <./figures//compressore.png> <./figures//valvola
 laminazione.png>]
-<figures//sistemiapertigen.png, id=64, 529.98pt x 277.035pt>
+<figures//sistemiapertigen.png, id=67, 529.98pt x 277.035pt>
 File: figures//sistemiapertigen.png Graphic file (type png)
 <use figures//sistemiapertigen.png>
 Package pdftex.def Info: figures//sistemiapertigen.png  used on input line 335.
 
 (pdftex.def)             Requested size: 220.50887pt x 115.2675pt.
- [8 <./figures//tuboefflusso.png> <./figures//sistemiapertigen.png>] (./figures
+ [9 <./figures//tuboefflusso.png> <./figures//sistemiapertigen.png>] (./figures
 //newcommen.pdf_tex
-<figures//newcommen.pdf, id=70, page=1, 190.60976pt x 139.03694pt>
+<figures//newcommen.pdf, id=73, page=1, 190.60976pt x 139.03694pt>
 File: figures//newcommen.pdf Graphic file (type pdf)
 <use figures//newcommen.pdf, page 1>
 Package pdftex.def Info: figures//newcommen.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
-<figures//newcommen.pdf, id=71, page=2, 190.60976pt x 139.03694pt>
+<figures//newcommen.pdf, id=74, page=2, 190.60976pt x 139.03694pt>
 File: figures//newcommen.pdf Graphic file (type pdf)
 <use figures//newcommen.pdf, page 2>
 Package pdftex.def Info: figures//newcommen.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
 )
-<figures//macchinadiWatt.jpg, id=72, 260.172pt x 230.66174pt>
+<figures//macchinadiWatt.jpg, id=75, 260.172pt x 230.66174pt>
 File: figures//macchinadiWatt.jpg Graphic file (type jpg)
 <use figures//macchinadiWatt.jpg>
 Package pdftex.def Info: figures//macchinadiWatt.jpg  used on input line 387.
 (pdftex.def)             Requested size: 264.61333pt x 234.61015pt.
-<figures//sistema.jpg, id=73, 170.43675pt x 253.54726pt>
+<figures//sistema.jpg, id=76, 170.43675pt x 253.54726pt>
 File: figures//sistema.jpg Graphic file (type jpg)
 <use figures//sistema.jpg>
 Package pdftex.def Info: figures//sistema.jpg  used on input line 398.
 (pdftex.def)             Requested size: 88.2022pt x 131.2147pt.
- [9 <./figures//newcommen.pdf> <./figures//newcommen.pdf
+ [10 <./figures//newcommen.pdf> <./figures//newcommen.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//newcommen.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
 > <./figures//macchinadiWatt.jpg>]
-<figures//Plank.jpg, id=91, 162.6075pt x 147.55125pt>
+<figures//Plank.jpg, id=94, 162.6075pt x 147.55125pt>
 File: figures//Plank.jpg Graphic file (type jpg)
 <use figures//Plank.jpg>
 Package pdftex.def Info: figures//Plank.jpg  used on input line 421.
 (pdftex.def)             Requested size: 97.20299pt x 88.2022pt.
-<figures//Clausius.jpg, id=92, 204.765pt x 118.64325pt>
+<figures//Clausius.jpg, id=95, 204.765pt x 118.64325pt>
 File: figures//Clausius.jpg Graphic file (type jpg)
 <use figures//Clausius.jpg>
 Package pdftex.def Info: figures//Clausius.jpg  used on input line 423.
 (pdftex.def)             Requested size: 152.22984pt x 88.2022pt.
- [10 <./figures//sistema.jpg> <./figures//Plank.jpg> <./figures//Clausius.jpg>]
- [11]
+ [11 <./figures//sistema.jpg> <./figures//Plank.jpg> <./figures//Clausius.jpg>]
+ [12]
 Underfull \hbox (badness 10000) in paragraph at lines 535--537
 
  []
 
-<figures//ciclomotore.png, id=99, 389.455pt x 276.03125pt>
+<figures//ciclomotore.png, id=102, 389.455pt x 276.03125pt>
 File: figures//ciclomotore.png Graphic file (type png)
 <use figures//ciclomotore.png>
 Package pdftex.def Info: figures//ciclomotore.png  used on input line 557.
 (pdftex.def)             Requested size: 132.30666pt x 93.77356pt.
-<figures//carnot.png, id=100, 442.65375pt x 306.14375pt>
+<figures//carnot.png, id=103, 442.65375pt x 306.14375pt>
 File: figures//carnot.png Graphic file (type png)
 <use figures//carnot.png>
 Package pdftex.def Info: figures//carnot.png  used on input line 580.
 (pdftex.def)             Requested size: 176.4044pt x 122.0022pt.
-[12 <./figures//ciclomotore.png>]
-<figures//cicloinverso.png, id=105, 451.6875pt x 303.1325pt>
+[13 <./figures//ciclomotore.png>]
+<figures//cicloinverso.png, id=109, 451.6875pt x 303.1325pt>
 File: figures//cicloinverso.png Graphic file (type png)
 <use figures//cicloinverso.png>
 Package pdftex.def Info: figures//cicloinverso.png  used on input line 601.
 (pdftex.def)             Requested size: 132.30666pt x 88.79425pt.
-<figures//isobara_Ts.png, id=106, 448.67625pt x 342.27875pt>
+<figures//isobara_Ts.png, id=110, 448.67625pt x 342.27875pt>
 File: figures//isobara_Ts.png Graphic file (type png)
 <use figures//isobara_Ts.png>
 Package pdftex.def Info: figures//isobara_Ts.png  used on input line 637.
 (pdftex.def)             Requested size: 176.4044pt x 134.56927pt.
- [13 <./figures//carnot.png> <./figures//cicloinverso.png>]
+ [14 <./figures//carnot.png> <./figures//cicloinverso.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 653--656
 
  []
 
-<figures//isobara_hs.png, id=113, 421.575pt x 320.19624pt>
+<figures//isobara_hs.png, id=116, 421.575pt x 320.19624pt>
 File: figures//isobara_hs.png Graphic file (type png)
 <use figures//isobara_hs.png>
 Package pdftex.def Info: figures//isobara_hs.png  used on input line 673.
 (pdftex.def)             Requested size: 176.4044pt x 133.98314pt.
-[14 <./figures//isobara_Ts.png> <./figures//isobara_hs.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 733--735
+<figures//diagpv.png, id=117, 495.8525pt x 291.0875pt>
+File: figures//diagpv.png Graphic file (type png)
+<use figures//diagpv.png>
+Package pdftex.def Info: figures//diagpv.png  used on input line 691.
+(pdftex.def)             Requested size: 176.4044pt x 103.55664pt.
+[15 <./figures//isobara_Ts.png> <./figures//isobara_hs.png>]
+<figures//andrews.png, id=123, 803.0pt x 419.5675pt>
+File: figures//andrews.png Graphic file (type png)
+<use figures//andrews.png>
+Package pdftex.def Info: figures//andrews.png  used on input line 711.
+(pdftex.def)             Requested size: 352.81554pt x 184.34778pt.
+ [16 <./figures//diagpv.png> <./figures//andrews.png>]
+<figures//ptsostanze.png, id=129, 438.63875pt x 292.09125pt>
+File: figures//ptsostanze.png Graphic file (type png)
+<use figures//ptsostanze.png>
+Package pdftex.def Info: figures//ptsostanze.png  used on input line 769.
+(pdftex.def)             Requested size: 220.50887pt x 146.8386pt.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-468.def
+File: uni-468.def 2013/05/13 UCS: Unicode data U+1D400..U+1D4FF
+)
+<figures//pvT.png, id=130, 825.0825pt x 493.845pt>
+File: figures//pvT.png Graphic file (type png)
+<use figures//pvT.png>
+Package pdftex.def Info: figures//pvT.png  used on input line 783.
+(pdftex.def)             Requested size: 308.71107pt x 184.77696pt.
+ [17 <./figures//ptsostanze.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 795--799
 
  []
 
-<figures//confermasperimentale.png, id=119, 285.065pt x 321.2pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 800--802
+
+ []
+
+<figures//hs.png, id=136, 289.08pt x 274.02374pt>
+File: figures//hs.png Graphic file (type png)
+<use figures//hs.png>
+Package pdftex.def Info: figures//hs.png  used on input line 809.
+(pdftex.def)             Requested size: 220.50887pt x 209.0212pt.
+[18 <./figures//pvT.png> <./figures//hs.png>]
+<figures//Ts.png, id=143, 348.30125pt x 282.05376pt>
+File: figures//Ts.png Graphic file (type png)
+<use figures//Ts.png>
+Package pdftex.def Info: figures//Ts.png  used on input line 828.
+(pdftex.def)             Requested size: 220.50887pt x 178.56847pt.
+ [19 <./figures//Ts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 891--893
+
+ []
+
+<figures//confermasperimentale.png, id=149, 285.065pt x 321.2pt>
 File: figures//confermasperimentale.png Graphic file (type png)
 <use figures//confermasperimentale.png>
 Package pdftex.def Info: figures//confermasperimentale.png  used on input line 
-741.
+899.
 (pdftex.def)             Requested size: 132.30666pt x 149.07709pt.
-[15 <./figures//confermasperimentale.png>]
-Overfull \hbox (41.00002pt too wide) in paragraph at lines 753--755
+
+Overfull \hbox (41.00002pt too wide) in paragraph at lines 911--913
 \T1/cmr/m/n/10 vo-lu-me ($\OML/cmm/m/it/10 dv \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10
  = 0$\T1/cmr/m/n/10 ) ot-te-nia-mo che $[][] \OT1/cmr/m/n/10 = 0$\T1/cmr/m/n/10
  . Ov-ve-ro ab-bia-mo con-fer-ma-to che $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--755
+Underfull \hbox (badness 10000) in paragraph at lines 911--913
 
  []
 
-<figures//jouleT.png, id=124, 368.37625pt x 154.5775pt>
+<figures//jouleT.png, id=150, 368.37625pt x 154.5775pt>
 File: figures//jouleT.png Graphic file (type png)
 <use figures//jouleT.png>
-Package pdftex.def Info: figures//jouleT.png  used on input line 760.
+Package pdftex.def Info: figures//jouleT.png  used on input line 918.
 (pdftex.def)             Requested size: 132.30666pt x 55.51811pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--766
+Underfull \hbox (badness 10000) in paragraph at lines 922--924
 
  []
 
-<figures//jt-pt.png, id=125, 467.7475pt x 323.2075pt>
+[20 <./figures//confermasperimentale.png> <./figures//jouleT.png>]
+<figures//jt-pt.png, id=156, 467.7475pt x 323.2075pt>
 File: figures//jt-pt.png Graphic file (type png)
 <use figures//jt-pt.png>
-Package pdftex.def Info: figures//jt-pt.png  used on input line 779.
+Package pdftex.def Info: figures//jt-pt.png  used on input line 937.
 (pdftex.def)             Requested size: 176.4044pt x 121.89296pt.
-[16 <./figures//jouleT.png> <./figures//jt-pt.png>] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 921--923
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 938--941
+ [21 <./figures//jt-pt.png>] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1081
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 988--990
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1099
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1004
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1162
 
  []
 
-[19]
-<figures//guoj.png, id=142, 477.785pt x 342.27875pt>
+[24]
+<figures//guoj.png, id=172, 477.785pt x 342.27875pt>
 File: figures//guoj.png Graphic file (type png)
 <use figures//guoj.png>
-Package pdftex.def Info: figures//guoj.png  used on input line 1057.
+Package pdftex.def Info: figures//guoj.png  used on input line 1234.
 (pdftex.def)             Requested size: 132.30666pt x 94.7824pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1067--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1246
 
  []
 
-[20 <./figures//guoj.png>]
-<figures//diagrammaexergia.png, id=148, 477.785pt x 353.32pt>
+[25 <./figures//guoj.png>]
+<figures//diagrammaexergia.png, id=178, 477.785pt x 353.32pt>
 File: figures//diagrammaexergia.png Graphic file (type png)
 <use figures//diagrammaexergia.png>
-Package pdftex.def Info: figures//diagrammaexergia.png  used on input line 1083
+Package pdftex.def Info: figures//diagrammaexergia.png  used on input line 1260
 .
 (pdftex.def)             Requested size: 220.50887pt x 163.0629pt.
- [21 <./figures//diagrammaexergia.png>] [22]
-(./fisica_tecnica.lof)
+
+Underfull \hbox (badness 10000) in paragraph at lines 1276--1278
+
+ []
+
+<figures//exergiaentalpia.png, id=179, 462.72874pt x 357.335pt>
+File: figures//exergiaentalpia.png Graphic file (type png)
+<use figures//exergiaentalpia.png>
+Package pdftex.def Info: figures//exergiaentalpia.png  used on input line 1287.
+
+(pdftex.def)             Requested size: 220.50887pt x 170.28658pt.
+[26 <./figures//diagrammaexergia.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1332
+
+ []
+
+[27 <./figures//exergiaentalpia.png>] [28] [29] (./fisica_tecnica.lof)
 \tf@lof=\write5
 \openout5 = `fisica_tecnica.lof'.
 
- [23] (./fisica_tecnica.lot)
+ [30]
+(./fisica_tecnica.lot)
 \tf@lot=\write6
 \openout6 = `fisica_tecnica.lot'.
 
- [24] (./fisica_tecnica.equ)
+ [31] (./fisica_tecnica.equ)
 \tf@equ=\write7
 \openout7 = `fisica_tecnica.equ'.
 
-
-[25] (./fisica_tecnica.ind [26
+ [32] (./fisica_tecnica.ind
+[33
 
 
 ]) (./fisica_tecnica.aux) ) 
 Here is how much of TeX's memory you used:
- 7337 strings out of 478994
- 101859 string characters out of 5858184
- 444114 words of memory out of 5000000
- 24640 multiletter control sequences out of 15000+600000
- 423188 words of font info for 82 fonts, out of 8000000 for 9000
+ 7756 strings out of 478994
+ 107599 string characters out of 5858184
+ 445657 words of memory out of 5000000
+ 25046 multiletter control sequences out of 15000+600000
+ 424905 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,15n,74p,744b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/
@@ -789,22 +858,25 @@ sfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/esint-type1/e
-sint10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latx
-font/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super
-/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/s
-fbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfb
-x1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2
-488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm050
-0.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.
-pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pf
-b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on fisica_tecnica.pdf (26 pages, 1639230 bytes).
+/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/esint-type1/esin
+t10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfon
+t/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sf
+bx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx
+1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx14
+40.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1000.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on fisica_tecnica.pdf (33 pages, 3020817 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 294 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
