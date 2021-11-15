@@ -1,5 +1,5 @@
-\babel@toc {italian}{}
-\babel@toc {italian}{}
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
 \contentsline {section}{\numberline {1}Termodinamica}{4}{}%
 \contentsline {subsection}{\numberline {1.1}Introduzione}{4}{}%
 \contentsline {subsection}{\numberline {1.2}Misure}{5}{}%
