@@ -1,43 +1,61 @@
-\babel@toc {italian}{}\relax 
-\babel@toc {italian}{}\relax 
-\contentsline {section}{\numberline {1}Termodinamica}{4}{}%
-\contentsline {subsection}{\numberline {1.1}Introduzione}{4}{}%
-\contentsline {subsection}{\numberline {1.2}Misure}{5}{}%
-\contentsline {subsection}{\numberline {1.3}Frigoriferi ad effetto termoelettrico}{5}{}%
-\contentsline {subsection}{\numberline {1.4}Principio zero della termodinamica}{5}{}%
-\contentsline {subsection}{\numberline {1.5}Primo principio della termodinamica}{5}{}%
-\contentsline {subsection}{\numberline {1.6}Sistemi aperti}{6}{}%
-\contentsline {subsubsection}{\numberline {}Espansore}{6}{}%
-\contentsline {subsubsection}{\numberline {}Compressore}{7}{}%
-\contentsline {subsubsection}{\numberline {}Valvola di laminazione}{7}{}%
-\contentsline {subsubsection}{\numberline {}Tubo di efflusso}{8}{}%
-\contentsline {subsubsection}{\numberline {}Generalizzazione dei sistemi aperti}{8}{}%
-\contentsline {subsection}{\numberline {1.7}Calore}{8}{}%
-\contentsline {subsection}{\numberline {1.8}Secondo principio della termodinamica}{9}{}%
-\contentsline {subsubsection}{\numberline {}equivalenza dei principi}{10}{}%
-\contentsline {subsection}{\numberline {1.9}Equazioni del secondo principio}{10}{}%
-\contentsline {subsection}{\numberline {1.10}Entropia}{11}{}%
-\contentsline {subsubsection}{\numberline {}Energia interna in funzione dell'entropia}{11}{}%
-\contentsline {subsubsection}{\numberline {}Entalpia in funzione dell'entropia}{11}{}%
-\contentsline {subsubsection}{\numberline {}Teorema dell'aumento di Entropia}{11}{}%
-\contentsline {subsubsection}{\numberline {}Sorgenti di produzione entropica}{11}{}%
-\contentsline {subsubsection}{\numberline {}Lavoro meccanico in presenza di sorgenti entropiche (trasformazioni irreversibili)}{12}{}%
-\contentsline {subsection}{\numberline {1.11}Ciclo motore o ciclo diretto}{12}{}%
-\contentsline {subsubsection}{\numberline {}Macchina di Carnot}{12}{}%
-\contentsline {subsection}{\numberline {1.12}Ciclo inverso}{13}{}%
-\contentsline {subsubsection}{\numberline {}Ciclo frigorifero}{13}{}%
-\contentsline {subsubsection}{\numberline {}Pompa di calore}{13}{}%
-\contentsline {subsection}{\numberline {1.13}Diagrammi termodinamici}{13}{}%
-\contentsline {subsubsection}{\numberline {}Isobare nel $Ts$}{13}{}%
-\contentsline {subsubsection}{\numberline {}Isobare nel diagramma $hs$}{14}{}%
-\contentsline {subsection}{\numberline {1.14}Propriet\IeC {\`a} della sostanze}{15}{}%
-\contentsline {subsubsection}{\numberline {}Gas perfetti e coefficienti}{15}{}%
-\contentsline {subsubsection}{\numberline {}Calore specifico}{15}{}%
-\contentsline {subsubsection}{\numberline {}Equazioni di Maxwell}{16}{}%
-\contentsline {subsubsection}{\numberline {}Relazioni tra calori specifici}{18}{}%
-\contentsline {section}{\numberline {2}Tesine}{19}{}%
-\contentsline {section}{\numberline {3}Indici}{20}{}%
-\contentsline {subsection}{Elenco delle figure}{20}{}%
-\contentsline {subsection}{Elenco delle tabelle}{21}{}%
-\contentsline {subsection}{Elenco delle equazioni}{22}{}%
-\contentsline {subsection}{Indice analitico}{23}{}%
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Termodinamica}{5}{}%
+\contentsline {subsection}{\numberline {1.1}Introduzione}{5}{}%
+\contentsline {subsection}{\numberline {1.2}Misure}{6}{}%
+\contentsline {subsection}{\numberline {1.3}Frigoriferi ad effetto termoelettrico}{6}{}%
+\contentsline {subsection}{\numberline {1.4}Principio zero della termodinamica}{6}{}%
+\contentsline {subsection}{\numberline {1.5}Primo principio della termodinamica}{6}{}%
+\contentsline {subsection}{\numberline {1.6}Sistemi aperti}{7}{}%
+\contentsline {subsubsection}{\numberline {}Espansore}{7}{}%
+\contentsline {subsubsection}{\numberline {}Compressore}{8}{}%
+\contentsline {subsubsection}{\numberline {}Valvola di laminazione}{8}{}%
+\contentsline {subsubsection}{\numberline {}Tubo di efflusso}{9}{}%
+\contentsline {subsubsection}{\numberline {}Generalizzazione dei sistemi aperti}{9}{}%
+\contentsline {subsection}{\numberline {1.7}Calore}{9}{}%
+\contentsline {subsection}{\numberline {1.8}Secondo principio della termodinamica}{10}{}%
+\contentsline {subsubsection}{\numberline {}equivalenza dei principi}{11}{}%
+\contentsline {subsection}{\numberline {1.9}Equazioni del secondo principio}{11}{}%
+\contentsline {subsection}{\numberline {1.10}Entropia}{12}{}%
+\contentsline {subsubsection}{\numberline {}Energia interna in funzione dell'entropia}{12}{}%
+\contentsline {subsubsection}{\numberline {}Entalpia in funzione dell'entropia}{12}{}%
+\contentsline {subsubsection}{\numberline {}Teorema dell'aumento di Entropia}{12}{}%
+\contentsline {subsubsection}{\numberline {}Sorgenti di produzione entropica}{12}{}%
+\contentsline {subsubsection}{\numberline {}Lavoro meccanico in presenza di sorgenti entropiche (trasformazioni irreversibili)}{13}{}%
+\contentsline {subsection}{\numberline {1.11}Ciclo motore o ciclo diretto}{13}{}%
+\contentsline {subsubsection}{\numberline {}Macchina di Carnot}{13}{}%
+\contentsline {subsection}{\numberline {1.12}Ciclo inverso}{14}{}%
+\contentsline {subsubsection}{\numberline {}Ciclo frigorifero}{14}{}%
+\contentsline {subsubsection}{\numberline {}Pompa di calore}{14}{}%
+\contentsline {subsection}{\numberline {1.13}Diagrammi termodinamici}{14}{}%
+\contentsline {subsubsection}{\numberline {}Isobare nel $Ts$}{14}{}%
+\contentsline {subsubsection}{\numberline {}Isobare nel diagramma $hs$}{15}{}%
+\contentsline {subsubsection}{\numberline {}Diagramma $pv$}{16}{}%
+\contentsline {subsubsection}{\numberline {}Esperienza di Andrews}{16}{}%
+\contentsline {subsubsection}{\numberline {}Diagramma $pT$ delle sostanze}{17}{}%
+\contentsline {subsubsection}{\numberline {}Diagramma $pvT$}{17}{}%
+\contentsline {subsubsection}{\numberline {}Diagramma $hs$}{18}{}%
+\contentsline {subsubsection}{\numberline {}Diagramma $Ts$ delle sostanze}{19}{}%
+\contentsline {subsection}{\numberline {1.14}Propriet\IeC {\`a} della sostanze}{19}{}%
+\contentsline {subsubsection}{\numberline {}Gas perfetti e coefficienti}{19}{}%
+\contentsline {subsubsection}{\numberline {}Conferma sperimentale $d u=c_{v}(T) d T$ e $dh=c_{p}(T) d T$}{20}{}%
+\contentsline {subsubsection}{\numberline {}Calore specifico}{21}{}%
+\contentsline {subsubsection}{\numberline {}Equazioni di Maxwell}{22}{}%
+\contentsline {subsubsection}{\numberline {}Relazioni tra calori specifici}{24}{}%
+\contentsline {subsubsection}{\numberline {}Dipendenza di $c_v$ da $v$}{24}{}%
+\contentsline {subsubsection}{\numberline {}Dipendenza di $c_p$ da $p$}{25}{}%
+\contentsline {subsection}{\numberline {1.15}Gas reali}{25}{}%
+\contentsline {subsubsection}{\numberline {}Equazione del virale}{25}{}%
+\contentsline {subsubsection}{\numberline {}Equazioni di Van der Waals}{25}{}%
+\contentsline {subsubsection}{\numberline {}Equazione di Dieterici}{25}{}%
+\contentsline {subsubsection}{\numberline {}Equazione di Bethelot}{25}{}%
+\contentsline {subsection}{\numberline {1.16}Teorema di Guoj-Stodola}{25}{}%
+\contentsline {subsection}{\numberline {1.17}Exergia}{25}{}%
+\contentsline {subsubsection}{\numberline {}Diagramma exergia-entalpia}{27}{}%
+\contentsline {subsection}{\numberline {1.18}Trasformazioni termodinamiche}{27}{}%
+\contentsline {section}{\numberline {2}Tesine}{29}{}%
+\contentsline {section}{\numberline {3}Indici}{30}{}%
+\contentsline {subsection}{Elenco delle figure}{30}{}%
+\contentsline {subsection}{Elenco delle tabelle}{31}{}%
+\contentsline {subsection}{Elenco delle equazioni}{32}{}%
+\contentsline {subsection}{Indice analitico}{33}{}%

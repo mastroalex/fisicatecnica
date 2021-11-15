@@ -1,259 +1,326 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.24)  8 NOV 2021 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  15 NOV 2021 19:39
 entering extended mode
-**./fisica_tecnica.tex
-(fisica_tecnica.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-08-27>
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**fisica_tecnica.tex
+(./fisica_tecnica.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/ucs\utf8x.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/ucs\ucs.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/ucs.sty
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-global.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count190
-\uc@combtoks=\toks18
-\uc@combtoksb=\toks19
-\uc@temptokena=\toks20
+\uc@secondtry=\count187
+\uc@combtoks=\toks17
+\uc@combtoksb=\toks18
+\uc@temptokena=\toks19
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/07/22 3.63 The Babel package
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/07/22 3.63 Babel common definitions
-\babel@savecnt=\count191
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count188
 \U@D=\dimen139
-\l@unhyphenated=\language79
+\l@babelnohyphens=\language87
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count192
+\bbl@dirlevel=\count189
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.l
-df
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel-italian/italian.ldf
 Language: italian 2020/05/21 v.1.4.04 Italian support for the babel system
-\it@lettering=\count193
-\it@doublequoteactive=\count194
-\it@ISOcompliance=\count195
+\it@lettering=\count190
+\it@doublequoteactive=\count191
+\it@ISOcompliance=\count192
 ))
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
+\etb@tempcnta=\count193
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks20
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen140
 \Gin@req@width=\dimen141
-) (C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
-\@mathmargin=\skip49
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count194
+\mult@box=\box47
+\multicol@leftmargin=\dimen142
+\c@unbalance=\count195
+\c@collectmore=\count196
+\doublecol@number=\count197
+\multicoltolerance=\count198
+\multicolpretolerance=\count199
+\full@width=\dimen143
+\page@free=\dimen144
+\premulticols=\dimen145
+\postmulticols=\dimen146
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen147
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\c@minrows=\count266
+\c@columnbadness=\count267
+\c@finalcolumnbadness=\count268
+\last@try=\dimen148
+\multicolovershoot=\dimen149
+\multicolundershoot=\dimen150
+\mult@nat@firstbox=\box91
+\colbreak@box=\box92
+\mc@col@check@num=\count269
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip51
+
 For additional information on amsmath, use the `?' option.
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen142
+\@emptytoks=\toks21
+\ex@=\dimen151
 ))
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen143
+\pmbraise@=\dimen152
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count197
+\inf@bad=\count270
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count198
-\leftroot@=\count199
+\uproot@=\count271
+\leftroot@=\count272
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count266
-\DOTSCASE@=\count267
+\classnum@=\count273
+\DOTSCASE@=\count274
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen144
+\Mathstrutbox@=\box93
+\strutbox@=\box94
+\big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count268
-\c@MaxMatrixCols=\count269
+\macc@depth=\count275
+\c@MaxMatrixCols=\count276
 \dotsspace@=\muskip16
-\c@parentequation=\count270
-\dspbrk@lvl=\count271
-\tag@help=\toks23
-\row@=\count272
-\column@=\count273
-\maxfields@=\count274
-\andhelp@=\toks24
-\eqnshift@=\dimen145
-\alignsep@=\dimen146
-\tagshift@=\dimen147
-\tagwidth@=\dimen148
-\totwidth@=\dimen149
-\lineht@=\dimen150
-\@envbody=\toks25
-\multlinegap=\skip50
-\multlinetaggap=\skip51
-\mathdisplay@stack=\toks26
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
+\tag@help=\toks22
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
+\andhelp@=\toks23
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks24
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks27
-\thm@bodyfont=\toks28
-\thm@headfont=\toks29
-\thm@notefont=\toks30
-\thm@headpunct=\toks31
-\thm@preskip=\skip52
-\thm@postskip=\skip53
-\thm@headsep=\skip54
-\dth@everypar=\toks32
+\thm@style=\toks26
+\thm@bodyfont=\toks27
+\thm@headfont=\toks28
+\thm@notefont=\toks29
+\thm@headpunct=\toks30
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks31
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip55
-\subfigcapskip=\skip56
-\subfigcaptopadj=\dimen151
-\subfigbottomskip=\skip57
-\subfigcapmargin=\dimen152
-\subfiglabelskip=\skip58
-\c@subfigure=\count275
-\c@lofdepth=\count276
-\c@subtable=\count277
-\c@lotdepth=\count278
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip57
+\subfigcapskip=\skip58
+\subfigcaptopadj=\dimen160
+\subfigbottomskip=\skip59
+\subfigcapmargin=\dimen161
+\subfiglabelskip=\skip60
+\c@subfigure=\count282
+\c@lofdepth=\count283
+\c@subtable=\count284
+\c@lotdepth=\count285
+
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip61
+\subfig@bottom=\skip62
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg
-)
-\subfig@top=\skip59
-\subfig@bottom=\skip60
-)
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
-Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count279
-\calc@Bcount=\count280
-\calc@Adimen=\dimen153
-\calc@Bdimen=\dimen154
-\calc@Askip=\skip61
-\calc@Bskip=\skip62
+\calc@Acount=\count286
+\calc@Bcount=\count287
+\calc@Adimen=\dimen162
+\calc@Bdimen=\dimen163
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count281
-\calc@Cskip=\skip63
+\calc@Ccount=\count288
+\calc@Cskip=\skip65
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count282
-\l_MT_multwidth_dim=\dimen155
-\origjot=\skip64
-\l_MT_shortvdotswithinadjustabove_dim=\dimen156
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen157
-\l_MT_above_intertext_sep=\dimen158
-\l_MT_below_intertext_sep=\dimen159
-\l_MT_above_shortintertext_sep=\dimen160
-\l_MT_below_shortintertext_sep=\dimen161
-\xmathstrut@box=\box52
-\xmathstrut@dim=\dimen162
-) (C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/esint\esint.sty
+\g_MT_multlinerow_int=\count289
+\l_MT_multwidth_dim=\dimen164
+\origjot=\skip66
+\l_MT_shortvdotswithinadjustabove_dim=\dimen165
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen166
+\l_MT_above_intertext_sep=\dimen167
+\l_MT_below_intertext_sep=\dimen168
+\l_MT_above_shortintertext_sep=\dimen169
+\l_MT_below_shortintertext_sep=\dimen170
+\xmathstrut@box=\box95
+\xmathstrut@dim=\dimen171
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
 Package: esint 
 \symlargesymbolsA=\mathgroup6
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count283
-\float@exts=\toks33
-\float@box=\box53
-\@float@everytoks=\toks34
-\@floatcapt=\box54
+\c@float@type=\count290
+\float@exts=\toks32
+\float@box=\box96
+\@float@everytoks=\toks33
+\@floatcapt=\box97
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -266,78 +333,79 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count284
-\Gm@cntv=\count285
-\c@Gm@tempcnt=\count286
-\Gm@bindingoffset=\dimen163
-\Gm@wd@mp=\dimen164
-\Gm@odd@mp=\dimen165
-\Gm@even@mp=\dimen166
-\Gm@layoutwidth=\dimen167
-\Gm@layoutheight=\dimen168
-\Gm@layouthoffset=\dimen169
-\Gm@layoutvoffset=\dimen170
-\Gm@dimlist=\toks35
-
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+\Gm@cnth=\count291
+\Gm@cntv=\count292
+\c@Gm@tempcnt=\count293
+\Gm@bindingoffset=\dimen172
+\Gm@wd@mp=\dimen173
+\Gm@odd@mp=\dimen174
+\Gm@even@mp=\dimen175
+\Gm@layoutwidth=\dimen176
+\Gm@layoutheight=\dimen177
+\Gm@layouthoffset=\dimen178
+\Gm@layoutvoffset=\dimen179
+\Gm@dimlist=\toks34
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip65
-\cftbeforetoctitleskip=\skip66
-\cftaftertoctitleskip=\skip67
-\cftbeforepartskip=\skip68
-\cftpartnumwidth=\skip69
-\cftpartindent=\skip70
-\cftbeforesecskip=\skip71
-\cftsecindent=\skip72
-\cftsecnumwidth=\skip73
-\cftbeforesubsecskip=\skip74
-\cftsubsecindent=\skip75
-\cftsubsecnumwidth=\skip76
-\cftbeforesubsubsecskip=\skip77
-\cftsubsubsecindent=\skip78
-\cftsubsubsecnumwidth=\skip79
-\cftbeforeparaskip=\skip80
-\cftparaindent=\skip81
-\cftparanumwidth=\skip82
-\cftbeforesubparaskip=\skip83
-\cftsubparaindent=\skip84
-\cftsubparanumwidth=\skip85
-\cftbeforeloftitleskip=\skip86
-\cftafterloftitleskip=\skip87
-\cftbeforefigskip=\skip88
-\cftfigindent=\skip89
-\cftfignumwidth=\skip90
-\cftbeforelottitleskip=\skip91
-\cftafterlottitleskip=\skip92
-\cftbeforetabskip=\skip93
-\cfttabindent=\skip94
-\cfttabnumwidth=\skip95
-\cftbeforesubfigskip=\skip96
-\cftsubfigindent=\skip97
-\cftsubfignumwidth=\skip98
-\cftbeforesubtabskip=\skip99
-\cftsubtabindent=\skip100
-\cftsubtabnumwidth=\skip101
+\cftparskip=\skip67
+\cftbeforetoctitleskip=\skip68
+\cftaftertoctitleskip=\skip69
+\cftbeforepartskip=\skip70
+\cftpartnumwidth=\skip71
+\cftpartindent=\skip72
+\cftbeforesecskip=\skip73
+\cftsecindent=\skip74
+\cftsecnumwidth=\skip75
+\cftbeforesubsecskip=\skip76
+\cftsubsecindent=\skip77
+\cftsubsecnumwidth=\skip78
+\cftbeforesubsubsecskip=\skip79
+\cftsubsubsecindent=\skip80
+\cftsubsubsecnumwidth=\skip81
+\cftbeforeparaskip=\skip82
+\cftparaindent=\skip83
+\cftparanumwidth=\skip84
+\cftbeforesubparaskip=\skip85
+\cftsubparaindent=\skip86
+\cftsubparanumwidth=\skip87
+\cftbeforeloftitleskip=\skip88
+\cftafterloftitleskip=\skip89
+\cftbeforefigskip=\skip90
+\cftfigindent=\skip91
+\cftfignumwidth=\skip92
+\cftbeforelottitleskip=\skip93
+\cftafterlottitleskip=\skip94
+\cftbeforetabskip=\skip95
+\cfttabindent=\skip96
+\cfttabnumwidth=\skip97
+\cftbeforesubfigskip=\skip98
+\cftsubfigindent=\skip99
+\cftsubfignumwidth=\skip100
+\cftbeforesubtabskip=\skip101
+\cftsubtabindent=\skip102
+\cftsubtabnumwidth=\skip103
 )
-\c@myequations=\count287
-\cftbeforemyequationsskip=\skip102
-\cftmyequationsindent=\skip103
-\cftmyequationsnumwidth=\skip104
-\c@equdepth=\count288
-\cftbeforeequtitleskip=\skip105
-\cftafterequtitleskip=\skip106
+\c@myequations=\count294
+\cftbeforemyequationsskip=\skip104
+\cftmyequationsindent=\skip105
+\cftmyequationsnumwidth=\skip106
+\c@equdepth=\count295
+\cftbeforeequtitleskip=\skip107
+\cftafterequtitleskip=\skip108
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write3
@@ -345,13 +413,12 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 
 
 Writing index file fisica_tecnica.idx
-
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
-\l__pdf_internal_box=\box55
-) (fisica_tecnica.aux)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box98
+)
+(./fisica_tecnica.aux)
 \openout1 = `fisica_tecnica.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -369,36 +436,33 @@ LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/ucs\ucsencs.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 LaTeX Info: Redefining \it@ocap on input line 57.
 LaTeX Info: Redefining \it@ccap on input line 57.
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen171
-\scratchbox=\box56
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen172
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks37
-)
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+\scratchcounter=\count297
+\scratchdimen=\dimen180
+\scratchbox=\box99
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen181
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks36
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -437,36 +501,33 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
 
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+esint on input line 6
 0.
 
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-)
-[1
+) [1
 
-{C:/Users/rebec/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(fisica_tecnica.toc)
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./fisi
+ca_tecnica.toc [2])
 \tf@toc=\write4
 \openout4 = `fisica_tecnica.toc'.
 
- [2]
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-0.def
+ [3] (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-(C:\Users\rebec\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-[3]
+) [4]
 Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
@@ -476,176 +537,346 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 138.
 
-[4]
-<figures//seebeck.png, id=31, 395.4775pt x 238.8925pt>
+[5]
+<figures//seebeck.png, id=35, 395.4775pt x 238.8925pt>
 File: figures//seebeck.png Graphic file (type png)
 <use figures//seebeck.png>
 Package pdftex.def Info: figures//seebeck.png  used on input line 173.
 (pdftex.def)             Requested size: 109.50793pt x 66.14996pt.
-<figures//peltier.png, id=33, 274.02374pt x 184.69pt>
+<figures//peltier.png, id=37, 274.02374pt x 184.69pt>
 File: figures//peltier.png Graphic file (type png)
 <use figures//peltier.png>
 Package pdftex.def Info: figures//peltier.png  used on input line 175.
 (pdftex.def)             Requested size: 98.14671pt x 66.14996pt.
-<figures//thompson.png, id=34, 343.2825pt x 131.49126pt>
+<figures//thompson.png, id=38, 343.2825pt x 131.49126pt>
 File: figures//thompson.png Graphic file (type png)
 <use figures//thompson.png>
 Package pdftex.def Info: figures//thompson.png  used on input line 177.
 (pdftex.def)             Requested size: 172.70415pt x 66.14996pt.
- [5 <./figures//seebeck.png> <./figures//peltier.png> <./figures//thompson.png>
+ [6 <./figures//seebeck.png> <./figures//peltier.png> <./figures//thompson.png>
 ]
-<figures//generalizprincipio.jpg, id=43, 1644.1425pt x 381.425pt>
+<figures//generalizprincipio.jpg, id=47, 1644.1425pt x 381.425pt>
 File: figures//generalizprincipio.jpg Graphic file (type jpg)
 <use figures//generalizprincipio.jpg>
 Package pdftex.def Info: figures//generalizprincipio.jpg  used on input line 23
 4.
 (pdftex.def)             Requested size: 264.61333pt x 61.38426pt.
- (figures//sistemaperto.pdf_tex
-<figures//sistemaperto.pdf, id=44, page=1, 320.46321pt x 106.22185pt>
+ (./figures/sistemaperto.pdf_tex
+<figures//sistemaperto.pdf, id=48, page=1, 320.46321pt x 106.22185pt>
 File: figures//sistemaperto.pdf Graphic file (type pdf)
 <use figures//sistemaperto.pdf, page 1>
 Package pdftex.def Info: figures//sistemaperto.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 320.46321pt x 106.22968pt.
 )
-<figures//espansore.png, id=45, 269.005pt x 311.1625pt>
+<figures//espansore.png, id=49, 269.005pt x 311.1625pt>
 File: figures//espansore.png Graphic file (type png)
 <use figures//espansore.png>
 Package pdftex.def Info: figures//espansore.png  used on input line 263.
 (pdftex.def)             Requested size: 88.2022pt x 102.02397pt.
- [6 <./figures//generalizprincipio.jpg> <./figures//sistemaperto.pdf>]
-<figures//compressore.png, id=52, 305.14pt x 270.00874pt>
+ [7 <./figures//generalizprincipio.jpg> <./figures//sistemaperto.pdf>]
+<figures//compressore.png, id=57, 305.14pt x 270.00874pt>
 File: figures//compressore.png Graphic file (type png)
 <use figures//compressore.png>
 Package pdftex.def Info: figures//compressore.png  used on input line 292.
 (pdftex.def)             Requested size: 88.2022pt x 78.04507pt.
-<figures//valvolalaminazione.png, id=53, 399.4925pt x 132.495pt>
+<figures//valvolalaminazione.png, id=58, 399.4925pt x 132.495pt>
 File: figures//valvolalaminazione.png Graphic file (type png)
 <use figures//valvolalaminazione.png>
 Package pdftex.def Info: figures//valvolalaminazione.png  used on input line 30
 6.
 (pdftex.def)             Requested size: 132.30666pt x 43.88116pt.
-<figures//tuboefflusso.png, id=54, 334.24875pt x 432.61626pt>
+<figures//tuboefflusso.png, id=59, 334.24875pt x 432.61626pt>
 File: figures//tuboefflusso.png Graphic file (type png)
 <use figures//tuboefflusso.png>
 Package pdftex.def Info: figures//tuboefflusso.png  used on input line 323.
 (pdftex.def)             Requested size: 132.30666pt x 171.24791pt.
- [7 <./figures//espansore.png> <./figures//compressore.png> <./figures//valvola
-laminazione.png>] (figures//newcommen.pdf_tex
-<figures//newcommen.pdf, id=63, page=1, 190.60976pt x 139.03694pt>
+ [8 <./figures//espansore.png> <./figures//compressore.png> <./figures//valvola
+laminazione.png>]
+<figures//sistemiapertigen.png, id=67, 529.98pt x 277.035pt>
+File: figures//sistemiapertigen.png Graphic file (type png)
+<use figures//sistemiapertigen.png>
+Package pdftex.def Info: figures//sistemiapertigen.png  used on input line 335.
+
+(pdftex.def)             Requested size: 220.50887pt x 115.2675pt.
+ [9 <./figures//tuboefflusso.png> <./figures//sistemiapertigen.png>] (./figures
+//newcommen.pdf_tex
+<figures//newcommen.pdf, id=73, page=1, 190.60976pt x 139.03694pt>
 File: figures//newcommen.pdf Graphic file (type pdf)
 <use figures//newcommen.pdf, page 1>
 Package pdftex.def Info: figures//newcommen.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
-<figures//newcommen.pdf, id=64, page=2, 190.60976pt x 139.03694pt>
+<figures//newcommen.pdf, id=74, page=2, 190.60976pt x 139.03694pt>
 File: figures//newcommen.pdf Graphic file (type pdf)
 <use figures//newcommen.pdf, page 2>
 Package pdftex.def Info: figures//newcommen.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
 )
-<figures//macchinadiWatt.jpg, id=65, 260.172pt x 230.66174pt>
+<figures//macchinadiWatt.jpg, id=75, 260.172pt x 230.66174pt>
 File: figures//macchinadiWatt.jpg Graphic file (type jpg)
 <use figures//macchinadiWatt.jpg>
-Package pdftex.def Info: figures//macchinadiWatt.jpg  used on input line 357.
+Package pdftex.def Info: figures//macchinadiWatt.jpg  used on input line 387.
 (pdftex.def)             Requested size: 264.61333pt x 234.61015pt.
-
-[8 <./figures//tuboefflusso.png> <./figures//newcommen.pdf> <./figures//newcomm
-en.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures//newcommen.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
->]
-<figures//sistema.jpg, id=83, 170.43675pt x 253.54726pt>
+<figures//sistema.jpg, id=76, 170.43675pt x 253.54726pt>
 File: figures//sistema.jpg Graphic file (type jpg)
 <use figures//sistema.jpg>
-Package pdftex.def Info: figures//sistema.jpg  used on input line 368.
+Package pdftex.def Info: figures//sistema.jpg  used on input line 398.
 (pdftex.def)             Requested size: 88.2022pt x 131.2147pt.
-<figures//Plank.jpg, id=84, 162.6075pt x 147.55125pt>
+ [10 <./figures//newcommen.pdf> <./figures//newcommen.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//newcommen.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures//macchinadiWatt.jpg>]
+<figures//Plank.jpg, id=94, 162.6075pt x 147.55125pt>
 File: figures//Plank.jpg Graphic file (type jpg)
 <use figures//Plank.jpg>
-Package pdftex.def Info: figures//Plank.jpg  used on input line 391.
+Package pdftex.def Info: figures//Plank.jpg  used on input line 421.
 (pdftex.def)             Requested size: 97.20299pt x 88.2022pt.
-<figures//Clausius.jpg, id=85, 204.765pt x 118.64325pt>
+<figures//Clausius.jpg, id=95, 204.765pt x 118.64325pt>
 File: figures//Clausius.jpg Graphic file (type jpg)
 <use figures//Clausius.jpg>
-Package pdftex.def Info: figures//Clausius.jpg  used on input line 393.
+Package pdftex.def Info: figures//Clausius.jpg  used on input line 423.
 (pdftex.def)             Requested size: 152.22984pt x 88.2022pt.
- [9 <./figures//macchinadiWatt.jpg> <./figures//sistema.jpg>] [10 <./figures//P
-lank.jpg> <./figures//Clausius.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 505--507
+ [11 <./figures//sistema.jpg> <./figures//Plank.jpg> <./figures//Clausius.jpg>]
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 535--537
 
  []
 
-<figures//ciclomotore.png, id=92, 389.455pt x 276.03125pt>
+<figures//ciclomotore.png, id=102, 389.455pt x 276.03125pt>
 File: figures//ciclomotore.png Graphic file (type png)
 <use figures//ciclomotore.png>
-Package pdftex.def Info: figures//ciclomotore.png  used on input line 527.
+Package pdftex.def Info: figures//ciclomotore.png  used on input line 557.
 (pdftex.def)             Requested size: 132.30666pt x 93.77356pt.
-[11]
-<figures//carnot.png, id=96, 442.65375pt x 306.14375pt>
+<figures//carnot.png, id=103, 442.65375pt x 306.14375pt>
 File: figures//carnot.png Graphic file (type png)
 <use figures//carnot.png>
-Package pdftex.def Info: figures//carnot.png  used on input line 550.
+Package pdftex.def Info: figures//carnot.png  used on input line 580.
 (pdftex.def)             Requested size: 176.4044pt x 122.0022pt.
-<figures//cicloinverso.png, id=97, 451.6875pt x 303.1325pt>
+[13 <./figures//ciclomotore.png>]
+<figures//cicloinverso.png, id=109, 451.6875pt x 303.1325pt>
 File: figures//cicloinverso.png Graphic file (type png)
 <use figures//cicloinverso.png>
-Package pdftex.def Info: figures//cicloinverso.png  used on input line 571.
+Package pdftex.def Info: figures//cicloinverso.png  used on input line 601.
 (pdftex.def)             Requested size: 132.30666pt x 88.79425pt.
- [12 <./figures//ciclomotore.png> <./figures//carnot.png> <./figures//cicloinve
-rso.png>] [13] [14] (fisica_tecnica.lof)
+<figures//isobara_Ts.png, id=110, 448.67625pt x 342.27875pt>
+File: figures//isobara_Ts.png Graphic file (type png)
+<use figures//isobara_Ts.png>
+Package pdftex.def Info: figures//isobara_Ts.png  used on input line 637.
+(pdftex.def)             Requested size: 176.4044pt x 134.56927pt.
+ [14 <./figures//carnot.png> <./figures//cicloinverso.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 653--656
+
+ []
+
+<figures//isobara_hs.png, id=116, 421.575pt x 320.19624pt>
+File: figures//isobara_hs.png Graphic file (type png)
+<use figures//isobara_hs.png>
+Package pdftex.def Info: figures//isobara_hs.png  used on input line 673.
+(pdftex.def)             Requested size: 176.4044pt x 133.98314pt.
+<figures//diagpv.png, id=117, 495.8525pt x 291.0875pt>
+File: figures//diagpv.png Graphic file (type png)
+<use figures//diagpv.png>
+Package pdftex.def Info: figures//diagpv.png  used on input line 691.
+(pdftex.def)             Requested size: 176.4044pt x 103.55664pt.
+[15 <./figures//isobara_Ts.png> <./figures//isobara_hs.png>]
+<figures//andrews.png, id=123, 803.0pt x 419.5675pt>
+File: figures//andrews.png Graphic file (type png)
+<use figures//andrews.png>
+Package pdftex.def Info: figures//andrews.png  used on input line 711.
+(pdftex.def)             Requested size: 352.81554pt x 184.34778pt.
+ [16 <./figures//diagpv.png> <./figures//andrews.png>]
+<figures//ptsostanze.png, id=129, 438.63875pt x 292.09125pt>
+File: figures//ptsostanze.png Graphic file (type png)
+<use figures//ptsostanze.png>
+Package pdftex.def Info: figures//ptsostanze.png  used on input line 769.
+(pdftex.def)             Requested size: 220.50887pt x 146.8386pt.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-468.def
+File: uni-468.def 2013/05/13 UCS: Unicode data U+1D400..U+1D4FF
+)
+<figures//pvT.png, id=130, 825.0825pt x 493.845pt>
+File: figures//pvT.png Graphic file (type png)
+<use figures//pvT.png>
+Package pdftex.def Info: figures//pvT.png  used on input line 783.
+(pdftex.def)             Requested size: 308.71107pt x 184.77696pt.
+ [17 <./figures//ptsostanze.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 795--799
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 800--802
+
+ []
+
+<figures//hs.png, id=136, 289.08pt x 274.02374pt>
+File: figures//hs.png Graphic file (type png)
+<use figures//hs.png>
+Package pdftex.def Info: figures//hs.png  used on input line 809.
+(pdftex.def)             Requested size: 220.50887pt x 209.0212pt.
+[18 <./figures//pvT.png> <./figures//hs.png>]
+<figures//Ts.png, id=143, 348.30125pt x 282.05376pt>
+File: figures//Ts.png Graphic file (type png)
+<use figures//Ts.png>
+Package pdftex.def Info: figures//Ts.png  used on input line 828.
+(pdftex.def)             Requested size: 220.50887pt x 178.56847pt.
+ [19 <./figures//Ts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 891--893
+
+ []
+
+<figures//confermasperimentale.png, id=149, 285.065pt x 321.2pt>
+File: figures//confermasperimentale.png Graphic file (type png)
+<use figures//confermasperimentale.png>
+Package pdftex.def Info: figures//confermasperimentale.png  used on input line 
+899.
+(pdftex.def)             Requested size: 132.30666pt x 149.07709pt.
+
+Overfull \hbox (41.00002pt too wide) in paragraph at lines 911--913
+\T1/cmr/m/n/10 vo-lu-me ($\OML/cmm/m/it/10 dv \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10
+ = 0$\T1/cmr/m/n/10 ) ot-te-nia-mo che $[][] \OT1/cmr/m/n/10 = 0$\T1/cmr/m/n/10
+ . Ov-ve-ro ab-bia-mo con-fer-ma-to che $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--913
+
+ []
+
+<figures//jouleT.png, id=150, 368.37625pt x 154.5775pt>
+File: figures//jouleT.png Graphic file (type png)
+<use figures//jouleT.png>
+Package pdftex.def Info: figures//jouleT.png  used on input line 918.
+(pdftex.def)             Requested size: 132.30666pt x 55.51811pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 922--924
+
+ []
+
+[20 <./figures//confermasperimentale.png> <./figures//jouleT.png>]
+<figures//jt-pt.png, id=156, 467.7475pt x 323.2075pt>
+File: figures//jt-pt.png Graphic file (type png)
+<use figures//jt-pt.png>
+Package pdftex.def Info: figures//jt-pt.png  used on input line 937.
+(pdftex.def)             Requested size: 176.4044pt x 121.89296pt.
+ [21 <./figures//jt-pt.png>] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1081
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1099
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1162
+
+ []
+
+[24]
+<figures//guoj.png, id=172, 477.785pt x 342.27875pt>
+File: figures//guoj.png Graphic file (type png)
+<use figures//guoj.png>
+Package pdftex.def Info: figures//guoj.png  used on input line 1234.
+(pdftex.def)             Requested size: 132.30666pt x 94.7824pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1246
+
+ []
+
+[25 <./figures//guoj.png>]
+<figures//diagrammaexergia.png, id=178, 477.785pt x 353.32pt>
+File: figures//diagrammaexergia.png Graphic file (type png)
+<use figures//diagrammaexergia.png>
+Package pdftex.def Info: figures//diagrammaexergia.png  used on input line 1260
+.
+(pdftex.def)             Requested size: 220.50887pt x 163.0629pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1276--1278
+
+ []
+
+<figures//exergiaentalpia.png, id=179, 462.72874pt x 357.335pt>
+File: figures//exergiaentalpia.png Graphic file (type png)
+<use figures//exergiaentalpia.png>
+Package pdftex.def Info: figures//exergiaentalpia.png  used on input line 1287.
+
+(pdftex.def)             Requested size: 220.50887pt x 170.28658pt.
+[26 <./figures//diagrammaexergia.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1332
+
+ []
+
+[27 <./figures//exergiaentalpia.png>] [28] [29] (./fisica_tecnica.lof)
 \tf@lof=\write5
 \openout5 = `fisica_tecnica.lof'.
 
- [15] (fisica_tecnica.lot)
+ [30]
+(./fisica_tecnica.lot)
 \tf@lot=\write6
 \openout6 = `fisica_tecnica.lot'.
 
- [16]
-(fisica_tecnica.equ)
+ [31] (./fisica_tecnica.equ)
 \tf@equ=\write7
 \openout7 = `fisica_tecnica.equ'.
 
- [17] (fisica_tecnica.ind [18
+ [32] (./fisica_tecnica.ind
+[33
 
 
-]) (fisica_tecnica.aux) ) 
+]) (./fisica_tecnica.aux) ) 
 Here is how much of TeX's memory you used:
- 7440 strings out of 478927
- 108942 string characters out of 2852534
- 440483 words of memory out of 3000000
- 25131 multiletter control sequences out of 15000+600000
- 420431 words of font info for 73 fonts, out of 8000000 for 9000
+ 7756 strings out of 478994
+ 107599 string characters out of 5858184
+ 445657 words of memory out of 5000000
+ 25046 multiletter control sequences out of 15000+600000
+ 424905 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,15n,66p,746b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\rebec\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\rebec\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\rebec\AppData\Local\MiKTeX\font
-s/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\rebec\AppData\Local\MiKTe
-X\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\rebec\AppData\Local
-\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\esint10.pk> <C:\Users\rebec\AppData
-\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\rebec\A
-ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\r
-ebec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\U
-sers\rebec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
- <C:\Users\rebec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm10
-00.pk> <C:\Users\rebec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecrm1200.pk> <C:\Users\rebec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecrm1728.pk><C:/Users/rebec/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmex10.pfb><C:/Users/rebec/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rebec/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/rebec/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/rebec/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rebec/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/re
-bec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/U
-sers/rebec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Users/rebec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb><C:/Users/rebec/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/latxfont/line10.pfb>
-Output written on fisica_tecnica.pdf (18 pages, 1062752 bytes).
+ 68i,15n,74p,744b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/
+cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm
+-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmib10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cmextra/cmmib7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/esint-type1/esin
+t10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfon
+t/line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sf
+bx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx
+1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx14
+40.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1000.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on fisica_tecnica.pdf (33 pages, 3020817 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
