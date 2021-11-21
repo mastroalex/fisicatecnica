@@ -53,9 +53,17 @@
 \contentsline {subsection}{\numberline {1.17}Exergia}{25}{}%
 \contentsline {subsubsection}{\numberline {}Diagramma exergia-entalpia}{27}{}%
 \contentsline {subsection}{\numberline {1.18}Trasformazioni termodinamiche}{27}{}%
-\contentsline {section}{\numberline {2}Tesine}{29}{}%
-\contentsline {section}{\numberline {3}Indici}{30}{}%
-\contentsline {subsection}{Elenco delle figure}{30}{}%
-\contentsline {subsection}{Elenco delle tabelle}{31}{}%
-\contentsline {subsection}{Elenco delle equazioni}{32}{}%
-\contentsline {subsection}{Indice analitico}{33}{}%
+\contentsline {subsection}{\numberline {1.19}Miscele aria umida}{28}{}%
+\contentsline {subsection}{\numberline {1.20}Impianti frigoriferi}{28}{}%
+\contentsline {subsubsection}{\numberline {}Ciclo frigorifero a compressione di vapore}{28}{}%
+\contentsline {subsubsection}{\numberline {}Progettazione}{29}{}%
+\contentsline {subsubsection}{\numberline {}Ciclo con camera di separazione (Flash)}{29}{}%
+\contentsline {subsubsection}{\numberline {}Frigorifero ad H\bbl@it@ped {2}O con eiettore }{30}{}%
+\contentsline {subsubsection}{\numberline {}Frigorifero ad aria}{30}{}%
+\contentsline {subsubsection}{\numberline {}Impianti di aria condizionata per aerei}{31}{}%
+\contentsline {section}{\numberline {2}Tesine}{32}{}%
+\contentsline {section}{\numberline {3}Indici}{33}{}%
+\contentsline {subsection}{Elenco delle figure}{33}{}%
+\contentsline {subsection}{Elenco delle tabelle}{34}{}%
+\contentsline {subsection}{Elenco delle equazioni}{35}{}%
+\contentsline {subsection}{Indice analitico}{36}{}%

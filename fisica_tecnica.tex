@@ -1341,6 +1341,129 @@ v^{c_{p}} \cdot p^{c_{v}}=\operatorname{cost}\longrightarrow v^{\frac{c_{p}}{c_{
 
 \subsection{Impianti frigoriferi}
 
+\subsubsection{Ciclo frigorifero a compressione di vapore}
+Consideriamo ammoniaca $NH_3$.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\columnwidth]{compressionedivapore.png}
+	\end{center}
+	\caption{Ciclo frigorifero a compressione di vapore}
+\end{figure}
+
+\begin{itemize}
+\item Compressione isoentropica
+\item L'inizio di $23$ è solo raffreddamento, poi condensa 
+\item Valvola di laminazione $\rightarrow$ irreversibile 
+\end{itemize}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\columnwidth]{diagrammicompressionedivapore.png}
+	\end{center}
+	\caption{Ciclo frigorifero a compressione di vapore sui diagrammi}
+\end{figure}
+
+Possiamo vederla anche sul piano $ph$.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{compressionedivaporeph.png}
+	\end{center}
+	\caption{Ciclo frigorifero a compressione di vapore sui diagrammi}
+\end{figure}
+
+\subsubsection{Progettazione}
+
+Vogliamo la cella frigorifera a $T_1=-20^\circ$ con $T_2=T_a=20^\circ$.  Dovremo avere la cella con fluido a temperature più basse (vaporizzatore) e il condensatore a temperature più alte dell'ambiente (cede calore). Quindi avremo il ciclo in \textcolor{red}{rosso}.
+
+
+\begin{itemize}
+	\item $q_{14}=h_1-h_4$, calore sottratto durante la vaporizzazione a temperatura inferiore
+	\item $l_{12}=h_2-h_1$ lavoro speso ad ogni ciclo (compressore)
+	\item $q_{23}=h_2-h_3$ calore ceduto dal condensatore 
+	\item $\eta_{f}=\frac{h_{1}-h_{4}}{h_{2}-h_{1}}=\frac{q_{1}}{l_{12}}$ 
+\end{itemize}
+
+
+\subsubsection{Ciclo con camera di separazione (Flash)}
+
+Spezziamo in due la fase di compressione ottenendo 3 livelli di pressione, sono necessarie due valvole di laminazione e due compressori. Si aggiunge una camera di separazione che prende il vapore saturo in testa ed esce con liquido saturo (va al vaporizzatore) e con il vapore vado a miscelarlo con il vapore compresso dal primo compressore (livello intermedio di pressione). 
+
+\begin{figure}[H]
+	\begin{center}
+		\centering%
+	\subfigure[Schema impianto]{
+		\includegraphics[width=0.3\columnwidth]{flash.png}}
+	\subfigure[Diagrammi]{
+		\includegraphics[width=0.4\columnwidth]{flashciclo.png}	}
+	\end{center}
+	\caption{Ciclo frigorifero con camera di separazione }
+\end{figure}
+
+Oss. Con un solo compressore il ciclo sarebbe stato $1 \to 2\to6\to 10 $ si riduce il salto di temperatura e pressione (divergenza delle isobare a dx) nonché di entalpia e quindi il calore sottratto dal vaporizzatore è più piccolo. Allora aumenta il rendimento avendo ridotto l'effetto svantaggioso della vaporizzazione nella valvola. 
+
+
+
+\subsubsection{Frigorifero ad H\ped {2}O con eiettore }
+
+Si parla di ciclo di raffrescamento. 
+
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Schema impianto]{
+		\includegraphics[width=0.4\columnwidth]{frigoh2o.png}}
+\subfigure[Diagrammi]{
+		\includegraphics[width=0.4\columnwidth]{h2odiagrammi.png}}
+	\end{center}
+	\caption{Ciclo frigorifero ad H\ped{2}O}
+\end{figure}
+
+Il vapore in uscita dalla caldaia si espande isoentropicamente fino alla pressione inferiore (stato 7) poi si mescola con il vapore saturo 3 per dare lo stato 8 che viene compresso isoentropicamente nell'eiettore fino allo stato 4 di vapore saturo secco.
+
+Nella trasformazione $5\to6$ il fluido viene scaldato nella caldaia tramite il calore $q_c$ proveniente dall'esterno e in 6 si ottiene vapore saturo secco ala pressione superiore, $p_{\max}$. 
+
+L'eiettore non è un compressore ma è un tubo in cui facciamo entrare due fluidi a pressione diversa e per meccanismi termofluidodinamici aumenta la pressione. 
+
+Consuma meno potenza quindi il rendimento è elevato, $$\eta=\frac{\dot{Q}_{f}}{\dot{Q}_{c}}=\frac{\left(h_{3}-h_{2}\right)}{\left(h_{6}-h_{5}\right)} \frac{1 k g}{y k g}$$.
+
+
+\subsubsection{Frigorifero ad aria}
+
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Schema impianto]{
+			\includegraphics[width=0.3\columnwidth]{frigoriferoadaria.png}}
+		\subfigure[Diagramma $pv$]{
+			\includegraphics[width=0.3\columnwidth]{ariapv.png}}
+		\subfigure[Diagramma $Ts$]{
+	\includegraphics[width=0.3\columnwidth]{ariats.png}}
+	\end{center}
+	\caption{Ciclo frigorifero ad aria}
+\end{figure}
+
+
+È richiesto meno lavoro $l_c-l_e$ dove $l_e$ viene recuperato dall'espansore che va a sostituire la valvola di laminazione per sfruttare la pressione superiore dell'aria. 
+
+Su $pv$ $1\to 2$ e $3\to 4$ sono adiabatiche reversibili (isoentropiche).
+Rendimento:
+\begin{equation}
+\eta=\frac{q_{f}}{l_{c}-l_{e}}=\frac{h_{3}-h_{2}}{\left(h_{4}-h_{3}\right)-\left(h_{1}-h_{2}\right)}=\cdots=\frac{1}{\frac{T_{1}}{T_{2}}-1}=\frac{1}{r_{p}^{\alpha}-1}
+\end{equation}
+\myequations{Rendimento frigorifero ad aria}
+
+
+\subsubsection{Impianti di aria condizionata per aerei}
+
+Prendiamo l'aria compressa dal compressore del motore (2) e comprimiamo ancora ma più finemente (altro compressore) quindi raffreddamento isobaro e poi espansione fino alla temperatura desiderata (espansore molto piccolo che permette di controllare finemente la pressione e scaricarla poi nella cabina dell’aereo con pressione e temperatura pari a quella interna alla cabina).
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{frigoaerei.png}
+	\end{center}
+	\caption{Impianto frigorifero per aerei}
+\end{figure}
+
+
 
 \newpage
 \section{Tesine}
