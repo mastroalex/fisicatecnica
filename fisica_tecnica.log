@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  21 NOV 2021 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  21 NOV 2021 19:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -356,54 +356,183 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen179
 \Gm@dimlist=\toks34
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/tocloft/tocloft.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen180
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count296
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count297
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen181
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count298
+\Field@Width=\dimen182
+\Fld@charsize=\dimen183
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count299
+\c@Item=\count300
+\c@Hfootnote=\count301
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count302
+\c@bookmark@seq@number=\count303
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip67
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 29.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip67
-\cftbeforetoctitleskip=\skip68
-\cftaftertoctitleskip=\skip69
-\cftbeforepartskip=\skip70
-\cftpartnumwidth=\skip71
-\cftpartindent=\skip72
-\cftbeforesecskip=\skip73
-\cftsecindent=\skip74
-\cftsecnumwidth=\skip75
-\cftbeforesubsecskip=\skip76
-\cftsubsecindent=\skip77
-\cftsubsecnumwidth=\skip78
-\cftbeforesubsubsecskip=\skip79
-\cftsubsubsecindent=\skip80
-\cftsubsubsecnumwidth=\skip81
-\cftbeforeparaskip=\skip82
-\cftparaindent=\skip83
-\cftparanumwidth=\skip84
-\cftbeforesubparaskip=\skip85
-\cftsubparaindent=\skip86
-\cftsubparanumwidth=\skip87
-\cftbeforeloftitleskip=\skip88
-\cftafterloftitleskip=\skip89
-\cftbeforefigskip=\skip90
-\cftfigindent=\skip91
-\cftfignumwidth=\skip92
-\cftbeforelottitleskip=\skip93
-\cftafterlottitleskip=\skip94
-\cftbeforetabskip=\skip95
-\cfttabindent=\skip96
-\cfttabnumwidth=\skip97
-\cftbeforesubfigskip=\skip98
-\cftsubfigindent=\skip99
-\cftsubfignumwidth=\skip100
-\cftbeforesubtabskip=\skip101
-\cftsubtabindent=\skip102
-\cftsubtabnumwidth=\skip103
+\cftparskip=\skip68
+\cftbeforetoctitleskip=\skip69
+\cftaftertoctitleskip=\skip70
+\cftbeforepartskip=\skip71
+\cftpartnumwidth=\skip72
+\cftpartindent=\skip73
+\cftbeforesecskip=\skip74
+\cftsecindent=\skip75
+\cftsecnumwidth=\skip76
+\cftbeforesubsecskip=\skip77
+\cftsubsecindent=\skip78
+\cftsubsecnumwidth=\skip79
+\cftbeforesubsubsecskip=\skip80
+\cftsubsubsecindent=\skip81
+\cftsubsubsecnumwidth=\skip82
+\cftbeforeparaskip=\skip83
+\cftparaindent=\skip84
+\cftparanumwidth=\skip85
+\cftbeforesubparaskip=\skip86
+\cftsubparaindent=\skip87
+\cftsubparanumwidth=\skip88
+\cftbeforeloftitleskip=\skip89
+\cftafterloftitleskip=\skip90
+\cftbeforefigskip=\skip91
+\cftfigindent=\skip92
+\cftfignumwidth=\skip93
+\cftbeforelottitleskip=\skip94
+\cftafterlottitleskip=\skip95
+\cftbeforetabskip=\skip96
+\cfttabindent=\skip97
+\cfttabnumwidth=\skip98
+\cftbeforesubfigskip=\skip99
+\cftsubfigindent=\skip100
+\cftsubfignumwidth=\skip101
+\cftbeforesubtabskip=\skip102
+\cftsubtabindent=\skip103
+\cftsubtabnumwidth=\skip104
 )
-\c@myequations=\count294
-\cftbeforemyequationsskip=\skip104
-\cftmyequationsindent=\skip105
-\cftmyequationsnumwidth=\skip106
-\c@equdepth=\count295
-\cftbeforeequtitleskip=\skip107
-\cftafterequtitleskip=\skip108
+\c@myequations=\count304
+\cftbeforemyequationsskip=\skip105
+\cftmyequationsindent=\skip106
+\cftmyequationsnumwidth=\skip107
+\c@equdepth=\count305
+\cftbeforeequtitleskip=\skip108
+\cftafterequtitleskip=\skip109
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
@@ -415,45 +544,49 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 Writing index file fisica_tecnica.idx
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count296
+\l__color_backend_stack_int=\count306
 \l__pdf_internal_box=\box98
 )
 (./fisica_tecnica.aux)
 \openout1 = `fisica_tecnica.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \it@ocap on input line 57.
-LaTeX Info: Redefining \it@ccap on input line 57.
+LaTeX Info: Redefining \it@ocap on input line 63.
+LaTeX Info: Redefining \it@ccap on input line 63.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
-\scratchdimen=\dimen180
+\scratchcounter=\count307
+\scratchdimen=\dimen184
 \scratchbox=\box99
-\nofMPsegments=\count298
-\nofMParguments=\count299
+\nofMPsegments=\count308
+\nofMParguments=\count309
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count300
-\MPscratchDim=\dimen181
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen185
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -499,19 +632,40 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+Package hyperref Info: Link coloring ON on input line 63.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count313
+)
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
+ (./fisica_tecnica.out) (./fisica_tecnica.out)
+\@outlinefile=\write4
+\openout4 = `fisica_tecnica.out'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+esint on input line 6
-0.
+7.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
@@ -519,8 +673,8 @@ File: uesint.fd
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./fisi
 ca_tecnica.toc [2])
-\tf@toc=\write4
-\openout4 = `fisica_tecnica.toc'.
+\tf@toc=\write5
+\openout5 = `fisica_tecnica.toc'.
 
  [3] (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
@@ -528,423 +682,564 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [4]
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 138.
+(amsmath)                 on input line 144.
 
 [5]
-<figures//seebeck.png, id=36, 395.4775pt x 238.8925pt>
+<figures//seebeck.png, id=378, 395.4775pt x 238.8925pt>
 File: figures//seebeck.png Graphic file (type png)
 <use figures//seebeck.png>
-Package pdftex.def Info: figures//seebeck.png  used on input line 173.
+Package pdftex.def Info: figures//seebeck.png  used on input line 179.
 (pdftex.def)             Requested size: 109.50793pt x 66.14996pt.
-<figures//peltier.png, id=38, 274.02374pt x 184.69pt>
+<figures//peltier.png, id=380, 274.02374pt x 184.69pt>
 File: figures//peltier.png Graphic file (type png)
 <use figures//peltier.png>
-Package pdftex.def Info: figures//peltier.png  used on input line 175.
+Package pdftex.def Info: figures//peltier.png  used on input line 181.
 (pdftex.def)             Requested size: 98.14671pt x 66.14996pt.
-<figures//thompson.png, id=39, 343.2825pt x 131.49126pt>
+<figures//thompson.png, id=381, 343.2825pt x 131.49126pt>
 File: figures//thompson.png Graphic file (type png)
 <use figures//thompson.png>
-Package pdftex.def Info: figures//thompson.png  used on input line 177.
+Package pdftex.def Info: figures//thompson.png  used on input line 183.
 (pdftex.def)             Requested size: 172.70415pt x 66.14996pt.
  [6 <./figures//seebeck.png> <./figures//peltier.png> <./figures//thompson.png>
 ]
-<figures//generalizprincipio.jpg, id=48, 1644.1425pt x 381.425pt>
+<figures//generalizprincipio.jpg, id=396, 1644.1425pt x 381.425pt>
 File: figures//generalizprincipio.jpg Graphic file (type jpg)
 <use figures//generalizprincipio.jpg>
-Package pdftex.def Info: figures//generalizprincipio.jpg  used on input line 23
-4.
+Package pdftex.def Info: figures//generalizprincipio.jpg  used on input line 24
+0.
 (pdftex.def)             Requested size: 264.61333pt x 61.38426pt.
  (./figures/sistemaperto.pdf_tex
-<figures//sistemaperto.pdf, id=49, page=1, 320.46321pt x 106.22185pt>
+<figures//sistemaperto.pdf, id=397, page=1, 320.46321pt x 106.22185pt>
 File: figures//sistemaperto.pdf Graphic file (type pdf)
 <use figures//sistemaperto.pdf, page 1>
 Package pdftex.def Info: figures//sistemaperto.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 320.46321pt x 106.22968pt.
 )
-<figures//espansore.png, id=50, 269.005pt x 311.1625pt>
+<figures//espansore.png, id=399, 269.005pt x 311.1625pt>
 File: figures//espansore.png Graphic file (type png)
 <use figures//espansore.png>
-Package pdftex.def Info: figures//espansore.png  used on input line 263.
+Package pdftex.def Info: figures//espansore.png  used on input line 269.
 (pdftex.def)             Requested size: 88.2022pt x 102.02397pt.
  [7 <./figures//generalizprincipio.jpg> <./figures//sistemaperto.pdf>]
-<figures//compressore.png, id=58, 305.14pt x 270.00874pt>
+<figures//compressore.png, id=412, 305.14pt x 270.00874pt>
 File: figures//compressore.png Graphic file (type png)
 <use figures//compressore.png>
-Package pdftex.def Info: figures//compressore.png  used on input line 292.
+Package pdftex.def Info: figures//compressore.png  used on input line 298.
 (pdftex.def)             Requested size: 88.2022pt x 78.04507pt.
-<figures//valvolalaminazione.png, id=59, 399.4925pt x 132.495pt>
+<figures//valvolalaminazione.png, id=413, 399.4925pt x 132.495pt>
 File: figures//valvolalaminazione.png Graphic file (type png)
 <use figures//valvolalaminazione.png>
-Package pdftex.def Info: figures//valvolalaminazione.png  used on input line 30
-6.
+Package pdftex.def Info: figures//valvolalaminazione.png  used on input line 31
+2.
 (pdftex.def)             Requested size: 132.30666pt x 43.88116pt.
-<figures//tuboefflusso.png, id=60, 334.24875pt x 432.61626pt>
+<figures//tuboefflusso.png, id=414, 334.24875pt x 432.61626pt>
 File: figures//tuboefflusso.png Graphic file (type png)
 <use figures//tuboefflusso.png>
-Package pdftex.def Info: figures//tuboefflusso.png  used on input line 323.
+Package pdftex.def Info: figures//tuboefflusso.png  used on input line 329.
 (pdftex.def)             Requested size: 132.30666pt x 171.24791pt.
  [8 <./figures//espansore.png> <./figures//compressore.png> <./figures//valvola
 laminazione.png>]
-<figures//sistemiapertigen.png, id=68, 529.98pt x 277.035pt>
+<figures//sistemiapertigen.png, id=426, 529.98pt x 277.035pt>
 File: figures//sistemiapertigen.png Graphic file (type png)
 <use figures//sistemiapertigen.png>
-Package pdftex.def Info: figures//sistemiapertigen.png  used on input line 335.
+Package pdftex.def Info: figures//sistemiapertigen.png  used on input line 341.
 
 (pdftex.def)             Requested size: 220.50887pt x 115.2675pt.
  [9 <./figures//tuboefflusso.png> <./figures//sistemiapertigen.png>] (./figures
 //newcommen.pdf_tex
-<figures//newcommen.pdf, id=74, page=1, 190.60976pt x 139.03694pt>
+<figures//newcommen.pdf, id=435, page=1, 190.60976pt x 139.03694pt>
 File: figures//newcommen.pdf Graphic file (type pdf)
 <use figures//newcommen.pdf, page 1>
 Package pdftex.def Info: figures//newcommen.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
-<figures//newcommen.pdf, id=75, page=2, 190.60976pt x 139.03694pt>
+<figures//newcommen.pdf, id=436, page=2, 190.60976pt x 139.03694pt>
 File: figures//newcommen.pdf Graphic file (type pdf)
 <use figures//newcommen.pdf, page 2>
 Package pdftex.def Info: figures//newcommen.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
 )
-<figures//macchinadiWatt.jpg, id=76, 260.172pt x 230.66174pt>
+<figures//macchinadiWatt.jpg, id=437, 260.172pt x 230.66174pt>
 File: figures//macchinadiWatt.jpg Graphic file (type jpg)
 <use figures//macchinadiWatt.jpg>
-Package pdftex.def Info: figures//macchinadiWatt.jpg  used on input line 387.
+Package pdftex.def Info: figures//macchinadiWatt.jpg  used on input line 393.
 (pdftex.def)             Requested size: 264.61333pt x 234.61015pt.
-<figures//sistema.jpg, id=77, 170.43675pt x 253.54726pt>
+<figures//sistema.jpg, id=438, 170.43675pt x 253.54726pt>
 File: figures//sistema.jpg Graphic file (type jpg)
 <use figures//sistema.jpg>
-Package pdftex.def Info: figures//sistema.jpg  used on input line 398.
+Package pdftex.def Info: figures//sistema.jpg  used on input line 404.
 (pdftex.def)             Requested size: 88.2022pt x 131.2147pt.
  [10 <./figures//newcommen.pdf> <./figures//newcommen.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//newcommen.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
 > <./figures//macchinadiWatt.jpg>]
-<figures//Plank.jpg, id=95, 162.6075pt x 147.55125pt>
+<figures//Plank.jpg, id=459, 162.6075pt x 147.55125pt>
 File: figures//Plank.jpg Graphic file (type jpg)
 <use figures//Plank.jpg>
-Package pdftex.def Info: figures//Plank.jpg  used on input line 421.
+Package pdftex.def Info: figures//Plank.jpg  used on input line 427.
 (pdftex.def)             Requested size: 97.20299pt x 88.2022pt.
-<figures//Clausius.jpg, id=96, 204.765pt x 118.64325pt>
+<figures//Clausius.jpg, id=460, 204.765pt x 118.64325pt>
 File: figures//Clausius.jpg Graphic file (type jpg)
 <use figures//Clausius.jpg>
-Package pdftex.def Info: figures//Clausius.jpg  used on input line 423.
+Package pdftex.def Info: figures//Clausius.jpg  used on input line 429.
 (pdftex.def)             Requested size: 152.22984pt x 88.2022pt.
  [11 <./figures//sistema.jpg> <./figures//Plank.jpg> <./figures//Clausius.jpg>]
  [12]
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
+Underfull \hbox (badness 10000) in paragraph at lines 541--543
 
  []
 
-<figures//ciclomotore.png, id=103, 389.455pt x 276.03125pt>
+<figures//ciclomotore.png, id=481, 389.455pt x 276.03125pt>
 File: figures//ciclomotore.png Graphic file (type png)
 <use figures//ciclomotore.png>
-Package pdftex.def Info: figures//ciclomotore.png  used on input line 557.
+Package pdftex.def Info: figures//ciclomotore.png  used on input line 563.
 (pdftex.def)             Requested size: 132.30666pt x 93.77356pt.
-<figures//carnot.png, id=104, 442.65375pt x 306.14375pt>
+<figures//carnot.png, id=482, 442.65375pt x 306.14375pt>
 File: figures//carnot.png Graphic file (type png)
 <use figures//carnot.png>
-Package pdftex.def Info: figures//carnot.png  used on input line 580.
+Package pdftex.def Info: figures//carnot.png  used on input line 586.
 (pdftex.def)             Requested size: 176.4044pt x 122.0022pt.
 [13 <./figures//ciclomotore.png>]
-<figures//cicloinverso.png, id=110, 451.6875pt x 303.1325pt>
+<figures//cicloinverso.png, id=493, 451.6875pt x 303.1325pt>
 File: figures//cicloinverso.png Graphic file (type png)
 <use figures//cicloinverso.png>
-Package pdftex.def Info: figures//cicloinverso.png  used on input line 601.
+Package pdftex.def Info: figures//cicloinverso.png  used on input line 607.
 (pdftex.def)             Requested size: 132.30666pt x 88.79425pt.
-<figures//isobara_Ts.png, id=111, 448.67625pt x 342.27875pt>
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 627.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 627.
+
+<figures//isobara_Ts.png, id=495, 448.67625pt x 342.27875pt>
 File: figures//isobara_Ts.png Graphic file (type png)
 <use figures//isobara_Ts.png>
-Package pdftex.def Info: figures//isobara_Ts.png  used on input line 637.
+Package pdftex.def Info: figures//isobara_Ts.png  used on input line 643.
 (pdftex.def)             Requested size: 176.4044pt x 134.56927pt.
- [14 <./figures//carnot.png> <./figures//cicloinverso.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 653--656
+[14 <./figures//carnot.png> <./figures//cicloinverso.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 659--662
 
  []
 
-<figures//isobara_hs.png, id=117, 421.575pt x 320.19624pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 670.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 670.
+
+<figures//isobara_hs.png, id=509, 421.575pt x 320.19624pt>
 File: figures//isobara_hs.png Graphic file (type png)
 <use figures//isobara_hs.png>
-Package pdftex.def Info: figures//isobara_hs.png  used on input line 673.
+Package pdftex.def Info: figures//isobara_hs.png  used on input line 679.
 (pdftex.def)             Requested size: 176.4044pt x 133.98314pt.
-<figures//diagpv.png, id=118, 495.8525pt x 291.0875pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 691.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 691.
+
+<figures//diagpv.png, id=510, 495.8525pt x 291.0875pt>
 File: figures//diagpv.png Graphic file (type png)
 <use figures//diagpv.png>
-Package pdftex.def Info: figures//diagpv.png  used on input line 691.
+Package pdftex.def Info: figures//diagpv.png  used on input line 697.
 (pdftex.def)             Requested size: 176.4044pt x 103.55664pt.
 [15 <./figures//isobara_Ts.png> <./figures//isobara_hs.png>]
-<figures//andrews.png, id=124, 803.0pt x 419.5675pt>
+<figures//andrews.png, id=522, 803.0pt x 419.5675pt>
 File: figures//andrews.png Graphic file (type png)
 <use figures//andrews.png>
-Package pdftex.def Info: figures//andrews.png  used on input line 711.
+Package pdftex.def Info: figures//andrews.png  used on input line 717.
 (pdftex.def)             Requested size: 352.81554pt x 184.34778pt.
  [16 <./figures//diagpv.png> <./figures//andrews.png>]
-<figures//ptsostanze.png, id=130, 438.63875pt x 292.09125pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 771.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 771.
+
+<figures//ptsostanze.png, id=531, 438.63875pt x 292.09125pt>
 File: figures//ptsostanze.png Graphic file (type png)
 <use figures//ptsostanze.png>
-Package pdftex.def Info: figures//ptsostanze.png  used on input line 769.
+Package pdftex.def Info: figures//ptsostanze.png  used on input line 775.
 (pdftex.def)             Requested size: 220.50887pt x 146.8386pt.
-
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ucs/data/uni-468.def
 File: uni-468.def 2013/05/13 UCS: Unicode data U+1D400..U+1D4FF
 )
-<figures//pvT.png, id=131, 825.0825pt x 493.845pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 783.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 783.
+
+<figures//pvT.png, id=532, 825.0825pt x 493.845pt>
 File: figures//pvT.png Graphic file (type png)
 <use figures//pvT.png>
-Package pdftex.def Info: figures//pvT.png  used on input line 783.
+Package pdftex.def Info: figures//pvT.png  used on input line 789.
 (pdftex.def)             Requested size: 308.71107pt x 184.77696pt.
- [17 <./figures//ptsostanze.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 795--799
+[17 <./figures//ptsostanze.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 801--805
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 800--802
+Underfull \hbox (badness 10000) in paragraph at lines 806--808
 
  []
 
-<figures//hs.png, id=137, 289.08pt x 274.02374pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 809.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 809.
+
+<figures//hs.png, id=541, 289.08pt x 274.02374pt>
 File: figures//hs.png Graphic file (type png)
 <use figures//hs.png>
-Package pdftex.def Info: figures//hs.png  used on input line 809.
+Package pdftex.def Info: figures//hs.png  used on input line 815.
 (pdftex.def)             Requested size: 220.50887pt x 209.0212pt.
 [18 <./figures//pvT.png> <./figures//hs.png>]
-<figures//Ts.png, id=144, 348.30125pt x 282.05376pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 830.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 830.
+
+<figures//Ts.png, id=552, 348.30125pt x 282.05376pt>
 File: figures//Ts.png Graphic file (type png)
 <use figures//Ts.png>
-Package pdftex.def Info: figures//Ts.png  used on input line 828.
+Package pdftex.def Info: figures//Ts.png  used on input line 834.
 (pdftex.def)             Requested size: 220.50887pt x 178.56847pt.
- [19 <./figures//Ts.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 891--893
+[19 <./figures//Ts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 897--899
 
  []
 
-<figures//confermasperimentale.png, id=150, 285.065pt x 321.2pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 899.
+
+<figures//confermasperimentale.png, id=567, 285.065pt x 321.2pt>
 File: figures//confermasperimentale.png Graphic file (type png)
 <use figures//confermasperimentale.png>
 Package pdftex.def Info: figures//confermasperimentale.png  used on input line 
-899.
+905.
 (pdftex.def)             Requested size: 132.30666pt x 149.07709pt.
 
-Overfull \hbox (41.00002pt too wide) in paragraph at lines 911--913
+Overfull \hbox (41.00002pt too wide) in paragraph at lines 917--919
 \T1/cmr/m/n/10 vo-lu-me ($\OML/cmm/m/it/10 dv \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10
  = 0$\T1/cmr/m/n/10 ) ot-te-nia-mo che $[][] \OT1/cmr/m/n/10 = 0$\T1/cmr/m/n/10
  . Ov-ve-ro ab-bia-mo con-fer-ma-to che $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--913
+Underfull \hbox (badness 10000) in paragraph at lines 917--919
 
  []
 
-<figures//jouleT.png, id=151, 368.37625pt x 154.5775pt>
+<figures//jouleT.png, id=568, 368.37625pt x 154.5775pt>
 File: figures//jouleT.png Graphic file (type png)
 <use figures//jouleT.png>
-Package pdftex.def Info: figures//jouleT.png  used on input line 918.
+Package pdftex.def Info: figures//jouleT.png  used on input line 924.
 (pdftex.def)             Requested size: 132.30666pt x 55.51811pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--924
+Underfull \hbox (badness 10000) in paragraph at lines 928--930
 
  []
 
 [20 <./figures//confermasperimentale.png> <./figures//jouleT.png>]
-<figures//jt-pt.png, id=157, 467.7475pt x 323.2075pt>
+<figures//jt-pt.png, id=582, 467.7475pt x 323.2075pt>
 File: figures//jt-pt.png Graphic file (type png)
 <use figures//jt-pt.png>
-Package pdftex.def Info: figures//jt-pt.png  used on input line 937.
+Package pdftex.def Info: figures//jt-pt.png  used on input line 943.
 (pdftex.def)             Requested size: 176.4044pt x 121.89296pt.
  [21 <./figures//jt-pt.png>] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 1079--1081
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1087
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1096--1099
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1105
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1146--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1159--1162
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1168
 
  []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1201.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1201.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1201.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1201.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1201.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1209.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1209.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1209.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1209.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1209.
 
 [24]
-<figures//guoj.png, id=173, 477.785pt x 342.27875pt>
+<figures//guoj.png, id=642, 477.785pt x 342.27875pt>
 File: figures//guoj.png Graphic file (type png)
 <use figures//guoj.png>
-Package pdftex.def Info: figures//guoj.png  used on input line 1234.
+Package pdftex.def Info: figures//guoj.png  used on input line 1240.
 (pdftex.def)             Requested size: 132.30666pt x 94.7824pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1246
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1252
 
  []
 
 [25 <./figures//guoj.png>]
-<figures//diagrammaexergia.png, id=179, 477.785pt x 353.32pt>
+<figures//diagrammaexergia.png, id=652, 477.785pt x 353.32pt>
 File: figures//diagrammaexergia.png Graphic file (type png)
 <use figures//diagrammaexergia.png>
-Package pdftex.def Info: figures//diagrammaexergia.png  used on input line 1260
+Package pdftex.def Info: figures//diagrammaexergia.png  used on input line 1266
 .
 (pdftex.def)             Requested size: 220.50887pt x 163.0629pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1276--1278
+Underfull \hbox (badness 10000) in paragraph at lines 1282--1284
 
  []
 
-<figures//exergiaentalpia.png, id=180, 462.72874pt x 357.335pt>
+<figures//exergiaentalpia.png, id=653, 462.72874pt x 357.335pt>
 File: figures//exergiaentalpia.png Graphic file (type png)
 <use figures//exergiaentalpia.png>
-Package pdftex.def Info: figures//exergiaentalpia.png  used on input line 1287.
+Package pdftex.def Info: figures//exergiaentalpia.png  used on input line 1293.
 
 (pdftex.def)             Requested size: 220.50887pt x 170.28658pt.
 [26 <./figures//diagrammaexergia.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1320
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1330--1332
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1338
 
  []
 
 [27 <./figures//exergiaentalpia.png>]
-<figures//compressionedivapore.png, id=190, 1199.48125pt x 539.01375pt>
+<figures//compressionedivapore.png, id=676, 1199.48125pt x 539.01375pt>
 File: figures//compressionedivapore.png Graphic file (type png)
 <use figures//compressionedivapore.png>
 Package pdftex.def Info: figures//compressionedivapore.png  used on input line 
-1348.
+1354.
 (pdftex.def)             Requested size: 352.81554pt x 158.53886pt.
-<figures//diagrammicompressionedivapore.png, id=191, 993.7125pt x 391.4625pt>
+<figures//diagrammicompressionedivapore.png, id=677, 993.7125pt x 391.4625pt>
 File: figures//diagrammicompressionedivapore.png Graphic file (type png)
 <use figures//diagrammicompressionedivapore.png>
 Package pdftex.def Info: figures//diagrammicompressionedivapore.png  used on in
-put line 1361.
+put line 1367.
 (pdftex.def)             Requested size: 352.81554pt x 138.99106pt.
-<figures//compressionedivaporeph.png, id=192, 549.05125pt x 360.34625pt>
+<figures//compressionedivaporeph.png, id=678, 549.05125pt x 360.34625pt>
 File: figures//compressionedivaporeph.png Graphic file (type png)
 <use figures//compressionedivaporeph.png>
 Package pdftex.def Info: figures//compressionedivaporeph.png  used on input lin
-e 1370.
+e 1376.
 (pdftex.def)             Requested size: 220.50887pt x 144.71878pt.
  [28 <./figures//compressionedivapore.png> <./figures//diagrammicompressionediv
 apore.png>]
-<figures//flash.png, id=198, 356.33125pt x 525.965pt>
+<figures//flash.png, id=688, 356.33125pt x 525.965pt>
 File: figures//flash.png Graphic file (type png)
 <use figures//flash.png>
-Package pdftex.def Info: figures//flash.png  used on input line 1396.
+Package pdftex.def Info: figures//flash.png  used on input line 1402.
 (pdftex.def)             Requested size: 132.30666pt x 195.28616pt.
-<figures//flashciclo.png, id=199, 407.5225pt x 350.30875pt>
+<figures//flashciclo.png, id=689, 407.5225pt x 350.30875pt>
 File: figures//flashciclo.png Graphic file (type png)
 <use figures//flashciclo.png>
-Package pdftex.def Info: figures//flashciclo.png  used on input line 1398.
+Package pdftex.def Info: figures//flashciclo.png  used on input line 1404.
 (pdftex.def)             Requested size: 176.4044pt x 151.64008pt.
-<figures//frigoh2o.png, id=200, 709.65125pt x 541.02126pt>
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1413.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1413.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1413.
+
+<figures//frigoh2o.png, id=690, 709.65125pt x 541.02126pt>
 File: figures//frigoh2o.png Graphic file (type png)
 <use figures//frigoh2o.png>
-Package pdftex.def Info: figures//frigoh2o.png  used on input line 1414.
+Package pdftex.def Info: figures//frigoh2o.png  used on input line 1420.
 (pdftex.def)             Requested size: 176.4044pt x 134.48723pt.
-<figures//h2odiagrammi.png, id=201, 481.8pt x 399.4925pt>
+<figures//h2odiagrammi.png, id=691, 481.8pt x 399.4925pt>
 File: figures//h2odiagrammi.png Graphic file (type png)
 <use figures//h2odiagrammi.png>
-Package pdftex.def Info: figures//h2odiagrammi.png  used on input line 1416.
+Package pdftex.def Info: figures//h2odiagrammi.png  used on input line 1422.
 (pdftex.def)             Requested size: 176.4044pt x 146.26767pt.
- [29 <./figures//compressionedivaporeph.png> <./figures//flash.png> <./figures/
-/flashciclo.png>]
-<figures//frigoriferoadaria.png, id=208, 530.98375pt x 532.99126pt>
+[29 <./figures//compressionedivaporeph.png> <./figures//flash.png> <./figures//
+flashciclo.png>]
+<figures//frigoriferoadaria.png, id=703, 530.98375pt x 532.99126pt>
 File: figures//frigoriferoadaria.png Graphic file (type png)
 <use figures//frigoriferoadaria.png>
-Package pdftex.def Info: figures//frigoriferoadaria.png  used on input line 143
-5.
+Package pdftex.def Info: figures//frigoriferoadaria.png  used on input line 144
+1.
 (pdftex.def)             Requested size: 132.30666pt x 132.80832pt.
-<figures//ariapv.png, id=209, 479.7925pt x 338.26375pt>
+<figures//ariapv.png, id=704, 479.7925pt x 338.26375pt>
 File: figures//ariapv.png Graphic file (type png)
 <use figures//ariapv.png>
-Package pdftex.def Info: figures//ariapv.png  used on input line 1437.
+Package pdftex.def Info: figures//ariapv.png  used on input line 1443.
 (pdftex.def)             Requested size: 132.30666pt x 93.2783pt.
-<figures//ariats.png, id=210, 482.80376pt x 337.26pt>
+<figures//ariats.png, id=705, 482.80376pt x 337.26pt>
 File: figures//ariats.png Graphic file (type png)
 <use figures//ariats.png>
-Package pdftex.def Info: figures//ariats.png  used on input line 1439.
+Package pdftex.def Info: figures//ariats.png  used on input line 1445.
 (pdftex.def)             Requested size: 132.30666pt x 92.42pt.
-<figures//frigoaerei.png, id=211, 522.95375pt x 619.31375pt>
+ [30 <./figures//frigoh2o.png> <./figures//h2odiagrammi.png> <./figures//frigor
+iferoadaria.png> <./figures//ariapv.png> <./figures//ariats.png>]
+<figures//frigoaerei.png, id=725, 522.95375pt x 619.31375pt>
 File: figures//frigoaerei.png Graphic file (type png)
 <use figures//frigoaerei.png>
-Package pdftex.def Info: figures//frigoaerei.png  used on input line 1458.
-(pdftex.def)             Requested size: 132.30666pt x 156.6897pt.
- [30 <./figures//frigoh2o.png> <./figures//h2odiagrammi.png> <./figures//frigor
-iferoadaria.png> <./figures//ariapv.png> <./figures//ariats.png>] [31 <./figure
-s//frigoaerei.png>] [32] (./fisica_tecnica.lof)
-\tf@lof=\write5
-\openout5 = `fisica_tecnica.lof'.
-
- [33] (./fisica_tecnica.lot)
-\tf@lot=\write6
-\openout6 = `fisica_tecnica.lot'.
-
- [34]
-(./fisica_tecnica.equ)
-\tf@equ=\write7
-\openout7 = `fisica_tecnica.equ'.
-
- [35] (./fisica_tecnica.ind [36
+Package pdftex.def Info: figures//frigoaerei.png  used on input line 1467.
+(pdftex.def)             Requested size: 176.4044pt x 208.91014pt.
+ [31 <./figures//frigoaerei.png>] [32] (./fisica_tecnica.lof)
+\tf@lof=\write6
+\openout6 = `fisica_tecnica.lof'.
 
 
-]) (./fisica_tecnica.aux) ) 
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1485.
+
+[33] (./fisica_tecnica.lot)
+\tf@lot=\write7
+\openout7 = `fisica_tecnica.lot'.
+
+ [34] (./fisica_tecnica.equ)
+\tf@equ=\write8
+\openout8 = `fisica_tecnica.equ'.
+
+ [35]
+(./fisica_tecnica.ind [36
+
+
+]) (./fisica_tecnica.aux)
+Package rerunfilecheck Info: File `fisica_tecnica.out' has not changed.
+(rerunfilecheck)             Checksum: 5F6D0E481E31C3691FB1600ED22C64EF;12459.
+ ) 
 Here is how much of TeX's memory you used:
- 7827 strings out of 478994
- 109491 string characters out of 5858184
- 445657 words of memory out of 5000000
- 25104 multiletter control sequences out of 15000+600000
+ 14475 strings out of 478994
+ 208702 string characters out of 5858184
+ 552709 words of memory out of 5000000
+ 31433 multiletter control sequences out of 15000+600000
  426387 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,15n,74p,744b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/
-cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm
--super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmib10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cmextra/cmmib7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/esint-type1/esint1
-0.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/
-line10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx
-0700.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx10
-00.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200
-.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
-fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on fisica_tecnica.pdf (36 pages, 4504984 bytes).
+ 71i,15n,74p,744b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfti1000.pfb>
+Output written on fisica_tecnica.pdf (36 pages, 4521547 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 959 PDF objects out of 1000 (max. 8388607)
+ 798 compressed objects within 8 object streams
+ 213 named destinations out of 1000 (max. 500000)
+ 757 words of extra memory for PDF output out of 10000 (max. 10000000)
 
