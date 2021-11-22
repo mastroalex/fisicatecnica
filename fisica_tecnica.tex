@@ -1469,6 +1469,109 @@ Prendiamo l'aria compressa dal compressore del motore (2) e comprimiamo ancora m
 	\caption{Impianto frigorifero per aerei}
 \end{figure}
 
+\subsection{Impianti a liquefazione dei gas}
+\subsubsection{Pictet}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{Pictet.jpg}
+	\end{center}
+	\caption{Cicli frigoriferi a compressione di vapore in serie}
+\end{figure}
+con questi quattro impianti in serie si riuscì ad ottenere l'aria liquida; 
+
+\subsubsection{Linde}
+L'impianto di liquefazione di Linde viene utilizzato per la liquefazione dell'aria;
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Schema impianto]{
+			\includegraphics[width=0.3\columnwidth]{Linde.jpg}}
+		\subfigure[Diagramma $Ts$]{
+			\includegraphics[width=0.3\columnwidth]{LindeTs.jpg}}
+			\end{center}
+	\caption{Impianto Liquefazione dell'aria}
+\end{figure}
+
+il punto 1 non è alla stessa temperatura del punto critico C, perchè $T_C=-140°C$ mentre il punto 1 lo consideriamo a temperatura ambiente $T_1=20°C$.
+Nel transitorio (in \textcolor{red}{rosso}), cioè durante il primo giro, non c'è raffreddamento tra 3 e 4, quindi questi coincidono e l'espansione è fuori la curva. nei cicli successivi 4 si sposta sempre più in basso fino a che l'espansione in 5 entri dentro la curva.
+Il \textbf{regime stazionario } è rappresentato dalla curva in \textcolor{green}{verde}.
+
+\subsubsection{Claude}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{Claude.jpg}
+	\end{center}
+	\caption{ciclo Claude}
+\end{figure}
+Si tratta di una modifica del ciclo Linde.
+La modifica consiste nel sostituire la valvola di laminazione con un espansore, quindi essendo la curva di raffreddamento più verticale, entra prima nelle curve limiti e il raffreddamento risulta più efficiente.
+
+\subsubsection{Impinto misto}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{Impiantomisto.jpg}
+	\end{center}
+	\caption{Impianto di liquefazione misto Linde-Claude}
+\end{figure}
+
+\subsection{Impianti inverso ad assorbimento}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{impiantoinversoadassorbimento.jpg}
+	\end{center}
+	\caption{Impianto inverso ad assorbimento}
+\end{figure}
+
+La parte di sinistra dell'impianto è identica al ciclo frigorifero a compressione di vapore. La parte destra dell'impianto invece, sostituisce il compressore.
+
+Nel lato sinistro dell'impianto si trova l'ammoniaca vapore che ha una grande capacità di essere assorbita dall'acqua. 
+La valvola di laminazione nella parte destra dell'impianto è importante altrimenti il circuito non funziona, perchè sopra è presente una pressione alta e sotto una pressione più bassa.
+
+la pompa comprime il liquido, va nel desorbitore dove viene scaldato e poi viene separato e l'acqua povera di ammoniaca passa nello scambiatore controcorrente.
+
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Schema impianto]{
+			\includegraphics[width=0.5\columnwidth]{impiantoinverso.jpg}}
+		\subfigure[Diagramma $Ts$]{
+			\includegraphics[width=0.4\columnwidth]{impiantoinversoTs.jpg}}
+	\end{center}
+	\caption{Impianto inverso}
+\end{figure}
+
+Nel $Ts$ viene riportata solo la parte di sinistra in cui circola solo ammoniaca. la trasformazione 3-4 \textbf{NON} si può disegnare nel diagramma dell'$NH_3$.
+
+\textbf{Rendimento limite del ciclo frigorifero ad assorbimento}:
+\begin{equation}
+	\eta_{fa}=\frac{T_g - T_a}{T_g} \cdot \frac{T_f}{T_a -T_f}
+\end{equation}
+\myequations{Rendimento limite del ciclo frigorifero ad assorbimento }
+
+\textbf{Rendimento limite della pompa di calore ad assorbimento}:
+\begin{equation}
+	\eta_{pca}= 1+ \frac{T_g - T_a}{T_g} \cdot \frac{T_f}{T_a -T_f}
+\end{equation}
+\myequations{Rendimento limite della pompa di calore ad assorbimento}
+
+\subsubsection{Electrolux}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{Electrolux.jpg}
+	\end{center}
+	\caption{Frigorifero Electrolux}
+\end{figure}
+La camera di separazione in basso raccoglie l'acqua liquida e in alto si prende l'ammoniaca.
+
+sono presenti tre fluidi che danno origine a tre circuiti:
+\begin{itemize}
+	\item Circuito dell'acqua: tra generatore, separatore e assorbitore
+	\item Circuito dell'idrogeno: tra assorbitore ed evaporatore
+	\item Circuito dell'ammoniaca: è presente ovunque, il suo movimento è dovuto alla differenza della sua pressione di vapore.
+\end{itemize}
+
+Dopo il condensatore l'$NH_3$ vapore scende nell'assorbitore spinto dall'idrogeno; 
+
+
 
 
 \newpage

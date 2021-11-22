@@ -1,5 +1,5 @@
-\babel@toc {italian}{}
-\babel@toc {italian}{}
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
 \contentsline {section}{\numberline {1}Termodinamica}{5}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Introduzione}{5}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Misure}{6}{subsection.1.2}%
@@ -61,9 +61,16 @@
 \contentsline {subsubsection}{\numberline {}Frigorifero ad H\bbl@it@ped {2}O con eiettore }{30}{subsubsection.1.20.4}%
 \contentsline {subsubsection}{\numberline {}Frigorifero ad aria}{30}{subsubsection.1.20.5}%
 \contentsline {subsubsection}{\numberline {}Impianti di aria condizionata per aerei}{31}{subsubsection.1.20.6}%
-\contentsline {section}{\numberline {2}Tesine}{32}{section.2}%
-\contentsline {section}{\numberline {3}Indici}{33}{section.3}%
-\contentsline {subsection}{Elenco delle figure}{33}{section*.1}%
-\contentsline {subsection}{Elenco delle tabelle}{34}{section*.1}%
-\contentsline {subsection}{Elenco delle equazioni}{35}{section*.1}%
-\contentsline {subsection}{Indice analitico}{36}{section*.1}%
+\contentsline {subsection}{\numberline {1.21}Impianti a liquefazione dei gas}{32}{subsection.1.21}%
+\contentsline {subsubsection}{\numberline {}Pictet}{32}{subsubsection.1.21.1}%
+\contentsline {subsubsection}{\numberline {}Linde}{32}{subsubsection.1.21.2}%
+\contentsline {subsubsection}{\numberline {}Claude}{33}{subsubsection.1.21.3}%
+\contentsline {subsubsection}{\numberline {}Impinto misto}{33}{subsubsection.1.21.4}%
+\contentsline {subsection}{\numberline {1.22}Impianti inverso ad assorbimento}{34}{subsection.1.22}%
+\contentsline {subsubsection}{\numberline {}Electrolux}{35}{subsubsection.1.22.1}%
+\contentsline {section}{\numberline {2}Tesine}{36}{section.2}%
+\contentsline {section}{\numberline {3}Indici}{37}{section.3}%
+\contentsline {subsection}{Elenco delle figure}{37}{section*.1}%
+\contentsline {subsection}{Elenco delle tabelle}{38}{section*.1}%
+\contentsline {subsection}{Elenco delle equazioni}{39}{section*.1}%
+\contentsline {subsection}{Indice analitico}{40}{section*.1}%
