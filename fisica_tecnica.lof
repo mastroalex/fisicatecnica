@@ -1,5 +1,5 @@
-\babel@toc {italian}{}\relax 
-\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}
+\babel@toc {italian}{}
 \contentsline {figure}{\numberline {1}{\ignorespaces Frigoriferi a effetto termoelettrico}}{6}{figure.1}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Seebeck}}}{7}{equation.1.4}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Peltier}}}{7}{equation.1.4}%
@@ -36,3 +36,6 @@
 \contentsline {figure}{\numberline {31}{\ignorespaces Impianto inverso ad assorbimento}}{34}{figure.31}%
 \contentsline {figure}{\numberline {32}{\ignorespaces Impianto inverso}}{34}{figure.32}%
 \contentsline {figure}{\numberline {33}{\ignorespaces Frigorifero Electrolux}}{35}{figure.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Linee di corrente}}{36}{figure.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Traiettorie}}{37}{figure.35}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Linee di fumo, $ y=\xi _{y} \cdot \qopname \relax o{exp}\left [\frac {x-\xi _{x}}{x}(1+\tau )\right ]$}}{37}{figure.36}%

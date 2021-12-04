@@ -74,7 +74,7 @@ Novità rispetto al programma:
 \begin{itemize}
 	\item Al posto degli esercizi sulla trasmissione del calore verranno raccontate alcune esperienze.
 	\item 	\textbf{Orale}: tre domande di teoria (termodinamica, termofluidodinamica, termocinetica o trasporto di massa) 
-	\item \textbf{Scritto}: due esercitazioni, una sulle miscele aria-vapore (studio del benessere ambientale, saper regolare ambienti in ambienti clinici), cicli frigoriferi, terza domanda semi teorica (raccontare una delle esercitazioni citate sopra). 
+	\item \textbf{Scritto}: due esercitazioni, una sulle \textcolor{red}{miscele aria-vapore }(studio del benessere ambientale, saper regolare ambienti in ambienti clinici), \textcolor{red}{cicli frigoriferi}, terza domanda semi teorica (raccontare una delle esercitazioni citate sopra). 
 	\item Esercitazioni sulla criochirurgia, sulla termoregolazione del corpo umano, sul trasporto di massa in aorta aneurismatica, sul trasporto di massa nel circolo di Willis e sull’acustica ovvero rumore provocato dalle valvole stenotiche. 
 	\item Non ci sono esercizi sulla trasmissione del calore e termofluidodinamica.
 	\item Testo: Problematiche di fisica tecnica in ingegneria medica (9 capitoli, da Texmat). Risultati di lavori fatti da colleghi o in tesi di dottorato o nella tesi magistrale ecc.
@@ -1570,9 +1570,74 @@ sono presenti tre fluidi che danno origine a tre circuiti:
 \end{itemize}
 
 Dopo il condensatore l'$NH_3$ vapore scende nell'assorbitore spinto dall'idrogeno; 
+\newpage
+\section{Termofluidodinamica}
 
+\subsection{Linee di flusso}
 
+\begin{itemize}
+	\item Linea di percorso, insieme dei punti dello spazio occupato dal baricentro della particella
+	\item Linea di corrente, curva che ha come tangente in ogni suo punto il vettore velocità(ci focalizziamo sulla direzione della particella). 
+	\item Linee di fumo, linea che collega i punti passati per un punto fisso nello spazio nei tempi precedenti (si calcolano dalle traiettorie invertendo il senso del tempo)
+\end{itemize}
 
+N.B A regime stazionario le tre linee di flusso coincidono.
+
+\subsubsection{Linee di corrente}
+Supponiamo un moto bidimensionale sul piano $xy$. Per arrivare ad una relazione tra x ed y si esegue:
+\begin{itemize}
+\item sostituzione, $v=y$ e $u={x\over 1+t}$
+\item separazione di variabili
+\item integrazione 
+\end{itemize}
+
+Abbiamo:
+\begin{equation}
+\left(\frac{x}{x_{0}}\right)^{1+t}=\left(\frac{y}{y_{0}}\right)
+\end{equation}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.9\columnwidth]{linee_corrente.png}
+	\end{center}
+	\caption{Linee di corrente}
+\end{figure}
+
+\subsubsection{Traiettorie}
+
+Leghiamo $x$ ed $y$ al tempo $t$ con passaggi analoghi al precedente. Otteniamo:
+\begin{equation}
+\left\{\begin{array}{l}
+	\frac{y}{y_{0}}=e^{\left(t-\vartheta_{0}\right)} \\
+	\frac{x}{x_{0}}=\frac{1+t}{1+\vartheta_{0}}
+\end{array}\right.
+\end{equation}
+
+Possiamo eliminare il tempo tra le due e legare $x$ ed $y$, cioè dalla seconda ricaviamo il tempo e lo sostituiamo nella prima:
+\begin{equation}
+\frac{y}{y_{0}}=\exp \left[\left(\frac{x}{x_{0}}-1\right)\left(1+\vartheta_{0}\right)\right] \xrightarrow{\theta_0=0,x_0=1=y_0} y=\exp (x-1)=e^{x-1}
+\end{equation}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{traiettorie.png}
+	\end{center}
+	\caption{Traiettorie}
+\end{figure}
+
+\subsubsection{Linee di fumo}
+
+Si va indietro nel tempo fino all'istante iniziale da dove viene generata la linea.
+Sostituiamo $x_0=\xi_x$, $y_0=\xi_y$  e $\theta_0=\tau$ nelle traiettorie. $\tau$ è l'istante precedente a $t$. Otteniamo:
+\begin{equation}
+y=\xi_{y} \exp \left[\frac{x-\xi_{x}}{x}(t+1)\right] \text{oppure} y=\xi_{y} \cdot \exp \left[\frac{x-\xi_{x}}{x}(1+\tau)\right]
+\end{equation}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{lineedifumo.png}
+	\end{center}
+	\caption{Linee di fumo, $ y=\xi_{y} \cdot \exp \left[\frac{x-\xi_{x}}{x}(1+\tau)\right]$}
+\end{figure}
 
 \newpage
 \section{Tesine}

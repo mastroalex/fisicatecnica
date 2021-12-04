@@ -1,5 +1,5 @@
-\babel@toc {italian}{}\relax 
-\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}
+\babel@toc {italian}{}
 \contentsline {section}{\numberline {1}Termodinamica}{5}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Introduzione}{5}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Misure}{6}{subsection.1.2}%
@@ -68,9 +68,14 @@
 \contentsline {subsubsection}{\numberline {}Impinto misto}{33}{subsubsection.1.21.4}%
 \contentsline {subsection}{\numberline {1.22}Impianti inverso ad assorbimento}{34}{subsection.1.22}%
 \contentsline {subsubsection}{\numberline {}Electrolux}{35}{subsubsection.1.22.1}%
-\contentsline {section}{\numberline {2}Tesine}{36}{section.2}%
-\contentsline {section}{\numberline {3}Indici}{37}{section.3}%
-\contentsline {subsection}{Elenco delle figure}{37}{section*.1}%
-\contentsline {subsection}{Elenco delle tabelle}{38}{section*.1}%
-\contentsline {subsection}{Elenco delle equazioni}{39}{section*.1}%
-\contentsline {subsection}{Indice analitico}{40}{section*.1}%
+\contentsline {section}{\numberline {2}Termofluidodinamica}{36}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Linee di flusso}{36}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {}Linee di corrente}{36}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {}Traiettorie}{36}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {}Linee di fumo}{37}{subsubsection.2.1.3}%
+\contentsline {section}{\numberline {3}Tesine}{38}{section.3}%
+\contentsline {section}{\numberline {4}Indici}{39}{section.4}%
+\contentsline {subsection}{Elenco delle figure}{39}{section*.1}%
+\contentsline {subsection}{Elenco delle tabelle}{40}{section*.1}%
+\contentsline {subsection}{Elenco delle equazioni}{41}{section*.1}%
+\contentsline {subsection}{Indice analitico}{42}{section*.1}%
