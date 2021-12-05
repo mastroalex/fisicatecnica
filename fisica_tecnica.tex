@@ -1639,6 +1639,146 @@ y=\xi_{y} \exp \left[\frac{x-\xi_{x}}{x}(t+1)\right] \text{oppure} y=\xi_{y} \cd
 	\caption{Linee di fumo, $ y=\xi_{y} \cdot \exp \left[\frac{x-\xi_{x}}{x}(1+\tau)\right]$}
 \end{figure}
 
+\subsection{Principio di conservazione della massa di Leonardo da Vinci}
+il principio o legge di conservazione della massa afferma che la massa rimane costante se le velocità in gioco sono molto inferiori alla velocità della luce.
+Consideriamo un fluido che scorre in un condotto a sezione variabile:
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{condottoasezionevariabile.jpg}
+	\end{center}
+	\caption{Principio di conservazione della massa}
+\end{figure}
+La portata è data da: $G=\frac{w S}{v}=w S \rho$
+se il regime è stazionario la portata è costante e possiamo scrivere:
+\begin{equation}
+	w_{1} S_{1} \rho_{1}=w_{2} S_{2} \rho_{2}
+\end{equation}
+con $w$ indichiamo la velocità media; 
+
+Si possono distinguere due  tipi di moto:
+\begin{itemize}
+	\item Moto incompribilie: $\rho_{1}=\rho_{2} \rightarrow w_{1} S_{1}=w_{2} S_{2} \Rightarrow \text { se } S \uparrow w \downarrow;  \text { se } S \downarrow w \uparrow$
+	\item Moto comprimibile: $\rho_1 \ne \rho_2$
+	
+	Se $S_1=S_2$
+	\begin{itemize}
+		\item se il fluido si dilata $v_{2}>v_{1}  \rightarrow  w_{2}>w_{1}$
+		\item se il fluido si comprime $v_{2}<v_{1}  \rightarrow  w_{2}<w_{1}$ $\longrightarrow$ \textbf{Compressione dinamica}
+	\end{itemize}
+
+Se $w_{1}=w_{2} \rightarrow S_{1} \rho_{1}=S_{2} \rho_{2} \Rightarrow \frac{s_{1}}{s_{2}}=\frac{\rho_{2}}{\rho_{1}}=\frac{v_{1}}{v_{2}}$
+
+$\Rightarrow S_{2}<S_{1} \longrightarrow v_{2}<v_{1} $
+
+Facendo il differenziale della portata e dividendo per la portata stessa, si ottiene:
+\begin{equation}
+	0=\frac{d w}{w}+\frac{d S}{S}+\frac{d \rho}{\rho}
+\end{equation}
+\myequations{Differenziale della portata}
+
+\subsection{Equazione di Bernoulli generalizzata}
+Si ricava dall'equazione di conservazione dell'energia per sistema aperti;
+
+Da \eqref{1principiodiff} sostituendo le equazioni costitutive di $dh$ e $dq$ si ottiene:
+\begin{equation}
+	T d s_{s}+d l_{f}+v d p+\frac{d w^{2}}{2}+g d z=0
+\end{equation}
+\myequations{Equazione di Bernoulli generalizzata}
+
+Significato fisico dei termini dell'equazione :
+\begin{itemize}
+	\item $de_p$ carico potenziale o effettivo
+	\item $de_c$ carico cinetico
+	\item $vdp=\frac{dp}{\rho}$ carico piezometrico
+	\item $dl_f=gdz_f$ carico del lavoro scambiato
+	\item $dz_a$ carico di attrito ($gdz_a=Tds_s$)
+\end{itemize}
+
+Sostituendo e dividendo per $g$ si ottiene l'equazione differenziale di Bernoulli generalizzata:
+\begin{equation}
+	d z_{a}+d z_{f}+\frac{d p}{\gamma}+\frac{d w^{2}}{2 g}+d z=0
+\end{equation}
+\myequations{Equazione differenziale di Bernoulli generalizzata}
+
+In termini finiti, si integra tra la sezione $1$ e $2$ e si ottiene:
+\begin{equation}
+	z_{a}+z_{f}+\frac{P_{2}}{\gamma}+\frac{w_{2}^{2}}{2 g}+z_{2}=\frac{p_{1}}{\gamma}+\frac{w_{1}^{2}}{2 g}+z_{1}
+\end{equation}
+\myequations{Equazione di Bernoulli generalizzata in termini finiti} 
+
+I tre carichi (effettivo, cinetico e piezometrico) si conservano. Se sono presenti organi meccanici e attriti si aggiungono $z_f$ e $z_a$. S e sono nulli si ritorna all'equazione di Bernoulli semplificata.
+
+\subsubsection{Definizione operativa dell'attrito $z_a$}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{condottodefoperativaz_a.jpg}
+	\end{center}
+	\caption{Definizione operativa dell'attrito}
+\end{figure}
+
+\begin{itemize}
+	\item il condotto è orizzontale $z_1=z_2$
+	\item non ci sono organi motori $z_f=0$
+	\item $w_1=w_2$
+\end{itemize}
+
+l'equazione di Bernoulli generalizzata diventa:
+\begin{equation}
+	z_{a}=\frac{p_{1}-p_{2}}{\gamma}
+\end{equation}
+
+\subsection{Equazione di Eulero}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.3\columnwidth]{equazioneEulero.jpg}
+	\end{center}
+	\caption{Equazione di Eulero}
+\end{figure}
+
+Passiamo dal moto stazionario a quello \textbf{NON} stazionario.
+Le forze che agiscono sono:
+\begin{itemize}
+	\item Forza sulla faccia superiore $pdA$
+	\item Forza sulla faccia inferiore $\left(p+\frac{\partial p}{\partial s} d s\right) d A$
+	\item Forza di gravità 
+\end{itemize}
+
+Applichiamo il secondo principio della dinamica, in cui la somma delle forze esterne è pari alla derivata temporale della quantità di moto:
+\begin{equation}
+	d m \frac{d w}{d t}+w \frac{d w}{d t}=p d A-\left(p+\frac{\partial p}{\partial s} d s\right) d A+g d m \cos \varphi
+\end{equation}
+
+Sostituendo l'espressione di $dm=\rho ds dA$ e semplificando il $ds$ si ottiene:
+\begin{equation}
+\frac{d w}{d t}=-\frac{1}{\rho} \frac{\partial p}{\partial s}+g \cos \varphi
+\label{eq:secondoprincipiodelladinamica}
+\end{equation}
+\myequations{Secondo principio della dinamica} 
+
+Suppondendo $w=w(s,t)$ deriviamo rispetto al tempo e imponiamo l'uguaglianza con \eqref{eq:secondoprincipiodelladinamica}
+
+Sapendo che $d z=-d s \cos \varphi $ e moltiplicando per $ds$ otteniamo l'equazione di Eulero:
+\begin{equation}
+	\frac{\partial w}{\partial t} d s+w d w+\frac{d p}{\rho}+g d z=0
+\end{equation}
+\myequations{Equazione di Eulero in forma differenziale}
+
+Integrando otteniamo:
+ \begin{equation}
+ 	\int_{1}^{2} \frac{\partial w}{\partial t} d s+\frac{w_{2}^{2}}{2}+\frac{p_{2}}{\rho}+g z_{2}=\frac{w_{1}^{2}}{2}+\frac{p_{1}}{\rho}+g z_{1}
+ \end{equation}
+ \myequations{Equazione di Eulero in forma integrale}
+ 
+ Avendo fissato le due sezioni corrisponde ad aver fissato un contorno termodinamico. Non compare l'attrito perché è ricavata dal secondo principio della termodinamica; compare il tempo ma a regime stazionario è l'equazione di Bernoulli classica.
+ 
+
+
+
+
+
+
+
+\end{itemize}
 \newpage
 \section{Tesine}
 

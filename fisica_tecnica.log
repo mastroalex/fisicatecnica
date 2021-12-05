@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.24)  5 DEC 2021 08:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.24)  5 DEC 2021 12:10
 entering extended mode
 **./fisica_tecnica.tex
 (fisica_tecnica.tex
@@ -708,62 +708,62 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                 on input line 144.
 
 [5]
-<figures//seebeck.png, id=435, 395.4775pt x 238.8925pt>
+<figures//seebeck.png, id=455, 395.4775pt x 238.8925pt>
 File: figures//seebeck.png Graphic file (type png)
 <use figures//seebeck.png>
 Package pdftex.def Info: figures//seebeck.png  used on input line 179.
 (pdftex.def)             Requested size: 109.50793pt x 66.14996pt.
-<figures//peltier.png, id=437, 274.02374pt x 184.69pt>
+<figures//peltier.png, id=457, 274.02374pt x 184.69pt>
 File: figures//peltier.png Graphic file (type png)
 <use figures//peltier.png>
 Package pdftex.def Info: figures//peltier.png  used on input line 181.
 (pdftex.def)             Requested size: 98.14671pt x 66.14996pt.
-<figures//thompson.png, id=438, 343.2825pt x 131.49126pt>
+<figures//thompson.png, id=458, 343.2825pt x 131.49126pt>
 File: figures//thompson.png Graphic file (type png)
 <use figures//thompson.png>
 Package pdftex.def Info: figures//thompson.png  used on input line 183.
 (pdftex.def)             Requested size: 172.70415pt x 66.14996pt.
  [6 <./figures//seebeck.png> <./figures//peltier.png> <./figures//thompson.png>
 ]
-<figures//generalizprincipio.jpg, id=453, 1644.1425pt x 381.425pt>
+<figures//generalizprincipio.jpg, id=473, 1644.1425pt x 381.425pt>
 File: figures//generalizprincipio.jpg Graphic file (type jpg)
 <use figures//generalizprincipio.jpg>
 Package pdftex.def Info: figures//generalizprincipio.jpg  used on input line 24
 0.
 (pdftex.def)             Requested size: 264.61333pt x 61.38426pt.
  (figures/sistemaperto.pdf_tex
-<figures//sistemaperto.pdf, id=454, page=1, 320.46321pt x 106.22185pt>
+<figures//sistemaperto.pdf, id=474, page=1, 320.46321pt x 106.22185pt>
 File: figures//sistemaperto.pdf Graphic file (type pdf)
 <use figures//sistemaperto.pdf, page 1>
 Package pdftex.def Info: figures//sistemaperto.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 320.46321pt x 106.22968pt.
 )
-<figures//espansore.png, id=456, 269.005pt x 311.1625pt>
+<figures//espansore.png, id=476, 269.005pt x 311.1625pt>
 File: figures//espansore.png Graphic file (type png)
 <use figures//espansore.png>
 Package pdftex.def Info: figures//espansore.png  used on input line 269.
 (pdftex.def)             Requested size: 88.2022pt x 102.02397pt.
  [7 <./figures//generalizprincipio.jpg> <./figures//sistemaperto.pdf>]
-<figures//compressore.png, id=469, 305.14pt x 270.00874pt>
+<figures//compressore.png, id=489, 305.14pt x 270.00874pt>
 File: figures//compressore.png Graphic file (type png)
 <use figures//compressore.png>
 Package pdftex.def Info: figures//compressore.png  used on input line 298.
 (pdftex.def)             Requested size: 88.2022pt x 78.04507pt.
-<figures//valvolalaminazione.png, id=470, 399.4925pt x 132.495pt>
+<figures//valvolalaminazione.png, id=490, 399.4925pt x 132.495pt>
 File: figures//valvolalaminazione.png Graphic file (type png)
 <use figures//valvolalaminazione.png>
 Package pdftex.def Info: figures//valvolalaminazione.png  used on input line 31
 2.
 (pdftex.def)             Requested size: 132.30666pt x 43.88116pt.
-<figures//tuboefflusso.png, id=471, 334.24875pt x 432.61626pt>
+<figures//tuboefflusso.png, id=491, 334.24875pt x 432.61626pt>
 File: figures//tuboefflusso.png Graphic file (type png)
 <use figures//tuboefflusso.png>
 Package pdftex.def Info: figures//tuboefflusso.png  used on input line 329.
 (pdftex.def)             Requested size: 132.30666pt x 171.24791pt.
  [8 <./figures//espansore.png> <./figures//compressore.png> <./figures//valvola
 laminazione.png>]
-<figures//sistemiapertigen.png, id=483, 529.98pt x 277.035pt>
+<figures//sistemiapertigen.png, id=503, 529.98pt x 277.035pt>
 File: figures//sistemiapertigen.png Graphic file (type png)
 <use figures//sistemiapertigen.png>
 Package pdftex.def Info: figures//sistemiapertigen.png  used on input line 341.
@@ -771,23 +771,23 @@ Package pdftex.def Info: figures//sistemiapertigen.png  used on input line 341.
 (pdftex.def)             Requested size: 220.50887pt x 115.2675pt.
  [9 <./figures//tuboefflusso.png> <./figures//sistemiapertigen.png>] (figures//
 newcommen.pdf_tex
-<figures//newcommen.pdf, id=492, page=1, 190.60976pt x 139.03694pt>
+<figures//newcommen.pdf, id=512, page=1, 190.60976pt x 139.03694pt>
 File: figures//newcommen.pdf Graphic file (type pdf)
 <use figures//newcommen.pdf, page 1>
 Package pdftex.def Info: figures//newcommen.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
-<figures//newcommen.pdf, id=493, page=2, 190.60976pt x 139.03694pt>
+<figures//newcommen.pdf, id=513, page=2, 190.60976pt x 139.03694pt>
 File: figures//newcommen.pdf Graphic file (type pdf)
 <use figures//newcommen.pdf, page 2>
 Package pdftex.def Info: figures//newcommen.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 190.60976pt x 139.04718pt.
 )
-<figures//macchinadiWatt.jpg, id=494, 260.172pt x 230.66174pt>
+<figures//macchinadiWatt.jpg, id=514, 260.172pt x 230.66174pt>
 File: figures//macchinadiWatt.jpg Graphic file (type jpg)
 <use figures//macchinadiWatt.jpg>
 Package pdftex.def Info: figures//macchinadiWatt.jpg  used on input line 393.
 (pdftex.def)             Requested size: 264.61333pt x 234.61015pt.
-<figures//sistema.jpg, id=495, 170.43675pt x 253.54726pt>
+<figures//sistema.jpg, id=515, 170.43675pt x 253.54726pt>
 File: figures//sistema.jpg Graphic file (type jpg)
 <use figures//sistema.jpg>
 Package pdftex.def Info: figures//sistema.jpg  used on input line 404.
@@ -797,12 +797,12 @@ Package pdftex.def Info: figures//sistema.jpg  used on input line 404.
 pdfTeX warning: pdflatex.exe (file ./figures//newcommen.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
 > <./figures//macchinadiWatt.jpg>]
-<figures//Plank.jpg, id=516, 162.6075pt x 147.55125pt>
+<figures//Plank.jpg, id=536, 162.6075pt x 147.55125pt>
 File: figures//Plank.jpg Graphic file (type jpg)
 <use figures//Plank.jpg>
 Package pdftex.def Info: figures//Plank.jpg  used on input line 427.
 (pdftex.def)             Requested size: 97.20299pt x 88.2022pt.
-<figures//Clausius.jpg, id=517, 204.765pt x 118.64325pt>
+<figures//Clausius.jpg, id=537, 204.765pt x 118.64325pt>
 File: figures//Clausius.jpg Graphic file (type jpg)
 <use figures//Clausius.jpg>
 Package pdftex.def Info: figures//Clausius.jpg  used on input line 429.
@@ -813,18 +813,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 541--543
 
  []
 
-<figures//ciclomotore.png, id=538, 389.455pt x 276.03125pt>
+<figures//ciclomotore.png, id=558, 389.455pt x 276.03125pt>
 File: figures//ciclomotore.png Graphic file (type png)
 <use figures//ciclomotore.png>
 Package pdftex.def Info: figures//ciclomotore.png  used on input line 563.
 (pdftex.def)             Requested size: 132.30666pt x 93.77356pt.
-<figures//carnot.png, id=539, 442.65375pt x 306.14375pt>
+<figures//carnot.png, id=559, 442.65375pt x 306.14375pt>
 File: figures//carnot.png Graphic file (type png)
 <use figures//carnot.png>
 Package pdftex.def Info: figures//carnot.png  used on input line 586.
 (pdftex.def)             Requested size: 176.4044pt x 122.0022pt.
 [13 <./figures//ciclomotore.png>]
-<figures//cicloinverso.png, id=549, 451.6875pt x 303.1325pt>
+<figures//cicloinverso.png, id=569, 451.6875pt x 303.1325pt>
 File: figures//cicloinverso.png Graphic file (type png)
 <use figures//cicloinverso.png>
 Package pdftex.def Info: figures//cicloinverso.png  used on input line 607.
@@ -838,7 +838,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 627.
 
-<figures//isobara_Ts.png, id=551, 448.67625pt x 342.27875pt>
+<figures//isobara_Ts.png, id=571, 448.67625pt x 342.27875pt>
 File: figures//isobara_Ts.png Graphic file (type png)
 <use figures//isobara_Ts.png>
 Package pdftex.def Info: figures//isobara_Ts.png  used on input line 643.
@@ -856,7 +856,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 670.
 
-<figures//isobara_hs.png, id=565, 421.575pt x 320.19624pt>
+<figures//isobara_hs.png, id=585, 421.575pt x 320.19624pt>
 File: figures//isobara_hs.png Graphic file (type png)
 <use figures//isobara_hs.png>
 Package pdftex.def Info: figures//isobara_hs.png  used on input line 679.
@@ -869,13 +869,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 691.
 
-<figures//diagpv.png, id=566, 495.8525pt x 291.0875pt>
+<figures//diagpv.png, id=586, 495.8525pt x 291.0875pt>
 File: figures//diagpv.png Graphic file (type png)
 <use figures//diagpv.png>
 Package pdftex.def Info: figures//diagpv.png  used on input line 697.
 (pdftex.def)             Requested size: 176.4044pt x 103.55664pt.
 [15 <./figures//isobara_Ts.png> <./figures//isobara_hs.png>]
-<figures//andrews.png, id=578, 803.0pt x 419.5675pt>
+<figures//andrews.png, id=598, 803.0pt x 419.5675pt>
 File: figures//andrews.png Graphic file (type png)
 <use figures//andrews.png>
 Package pdftex.def Info: figures//andrews.png  used on input line 717.
@@ -889,7 +889,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 771.
 
-<figures//ptsostanze.png, id=587, 438.63875pt x 292.09125pt>
+<figures//ptsostanze.png, id=607, 438.63875pt x 292.09125pt>
 File: figures//ptsostanze.png Graphic file (type png)
 <use figures//ptsostanze.png>
 Package pdftex.def Info: figures//ptsostanze.png  used on input line 775.
@@ -905,7 +905,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 783.
 
-<figures//pvT.png, id=588, 825.0825pt x 493.845pt>
+<figures//pvT.png, id=608, 825.0825pt x 493.845pt>
 File: figures//pvT.png Graphic file (type png)
 <use figures//pvT.png>
 Package pdftex.def Info: figures//pvT.png  used on input line 789.
@@ -928,7 +928,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 809.
 
-<figures//hs.png, id=597, 289.08pt x 274.02374pt>
+<figures//hs.png, id=617, 289.08pt x 274.02374pt>
 File: figures//hs.png Graphic file (type png)
 <use figures//hs.png>
 Package pdftex.def Info: figures//hs.png  used on input line 815.
@@ -942,7 +942,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 830.
 
-<figures//Ts.png, id=608, 348.30125pt x 282.05376pt>
+<figures//Ts.png, id=628, 348.30125pt x 282.05376pt>
 File: figures//Ts.png Graphic file (type png)
 <use figures//Ts.png>
 Package pdftex.def Info: figures//Ts.png  used on input line 834.
@@ -976,7 +976,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 899.
 
-<figures//confermasperimentale.png, id=623, 285.065pt x 321.2pt>
+<figures//confermasperimentale.png, id=643, 285.065pt x 321.2pt>
 File: figures//confermasperimentale.png Graphic file (type png)
 <use figures//confermasperimentale.png>
 Package pdftex.def Info: figures//confermasperimentale.png  used on input line 
@@ -994,7 +994,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 917--919
 
  []
 
-<figures//jouleT.png, id=624, 368.37625pt x 154.5775pt>
+<figures//jouleT.png, id=644, 368.37625pt x 154.5775pt>
 File: figures//jouleT.png Graphic file (type png)
 <use figures//jouleT.png>
 Package pdftex.def Info: figures//jouleT.png  used on input line 924.
@@ -1005,7 +1005,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 928--930
  []
 
 [20 <./figures//confermasperimentale.png> <./figures//jouleT.png>]
-<figures//jt-pt.png, id=638, 467.7475pt x 323.2075pt>
+<figures//jt-pt.png, id=658, 467.7475pt x 323.2075pt>
 File: figures//jt-pt.png Graphic file (type png)
 <use figures//jt-pt.png>
 Package pdftex.def Info: figures//jt-pt.png  used on input line 943.
@@ -1071,7 +1071,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1209.
 
 [24]
-<figures//guoj.png, id=697, 477.785pt x 342.27875pt>
+<figures//guoj.png, id=717, 477.785pt x 342.27875pt>
 File: figures//guoj.png Graphic file (type png)
 <use figures//guoj.png>
 Package pdftex.def Info: figures//guoj.png  used on input line 1240.
@@ -1082,7 +1082,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1250--1252
  []
 
 [25 <./figures//guoj.png>]
-<figures//diagrammaexergia.png, id=707, 477.785pt x 353.32pt>
+<figures//diagrammaexergia.png, id=727, 477.785pt x 353.32pt>
 File: figures//diagrammaexergia.png Graphic file (type png)
 <use figures//diagrammaexergia.png>
 Package pdftex.def Info: figures//diagrammaexergia.png  used on input line 1266
@@ -1093,7 +1093,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1282--1284
 
  []
 
-<figures//exergiaentalpia.png, id=708, 462.72874pt x 357.335pt>
+<figures//exergiaentalpia.png, id=728, 462.72874pt x 357.335pt>
 File: figures//exergiaentalpia.png Graphic file (type png)
 <use figures//exergiaentalpia.png>
 Package pdftex.def Info: figures//exergiaentalpia.png  used on input line 1293.
@@ -1110,19 +1110,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1336--1338
  []
 
 [27 <./figures//exergiaentalpia.png>]
-<figures//compressionedivapore.png, id=731, 1199.48125pt x 539.01375pt>
+<figures//compressionedivapore.png, id=751, 1199.48125pt x 539.01375pt>
 File: figures//compressionedivapore.png Graphic file (type png)
 <use figures//compressionedivapore.png>
 Package pdftex.def Info: figures//compressionedivapore.png  used on input line 
 1354.
 (pdftex.def)             Requested size: 352.81554pt x 158.53886pt.
-<figures//diagrammicompressionedivapore.png, id=732, 993.7125pt x 391.4625pt>
+<figures//diagrammicompressionedivapore.png, id=752, 993.7125pt x 391.4625pt>
 File: figures//diagrammicompressionedivapore.png Graphic file (type png)
 <use figures//diagrammicompressionedivapore.png>
 Package pdftex.def Info: figures//diagrammicompressionedivapore.png  used on in
 put line 1367.
 (pdftex.def)             Requested size: 352.81554pt x 138.99106pt.
-<figures//compressionedivaporeph.png, id=733, 549.05125pt x 360.34625pt>
+<figures//compressionedivaporeph.png, id=753, 549.05125pt x 360.34625pt>
 File: figures//compressionedivaporeph.png Graphic file (type png)
 <use figures//compressionedivaporeph.png>
 Package pdftex.def Info: figures//compressionedivaporeph.png  used on input lin
@@ -1130,12 +1130,12 @@ e 1376.
 (pdftex.def)             Requested size: 220.50887pt x 144.71878pt.
  [28 <./figures//compressionedivapore.png> <./figures//diagrammicompressionediv
 apore.png>]
-<figures//flash.png, id=743, 356.33125pt x 525.965pt>
+<figures//flash.png, id=763, 356.33125pt x 525.965pt>
 File: figures//flash.png Graphic file (type png)
 <use figures//flash.png>
 Package pdftex.def Info: figures//flash.png  used on input line 1402.
 (pdftex.def)             Requested size: 132.30666pt x 195.28616pt.
-<figures//flashciclo.png, id=744, 407.5225pt x 350.30875pt>
+<figures//flashciclo.png, id=764, 407.5225pt x 350.30875pt>
 File: figures//flashciclo.png Graphic file (type png)
 <use figures//flashciclo.png>
 Package pdftex.def Info: figures//flashciclo.png  used on input line 1404.
@@ -1153,53 +1153,53 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1413.
 
-<figures//frigoh2o.png, id=745, 709.65125pt x 541.02126pt>
+<figures//frigoh2o.png, id=765, 709.65125pt x 541.02126pt>
 File: figures//frigoh2o.png Graphic file (type png)
 <use figures//frigoh2o.png>
 Package pdftex.def Info: figures//frigoh2o.png  used on input line 1420.
 (pdftex.def)             Requested size: 176.4044pt x 134.48723pt.
-<figures//h2odiagrammi.png, id=746, 481.8pt x 399.4925pt>
+<figures//h2odiagrammi.png, id=766, 481.8pt x 399.4925pt>
 File: figures//h2odiagrammi.png Graphic file (type png)
 <use figures//h2odiagrammi.png>
 Package pdftex.def Info: figures//h2odiagrammi.png  used on input line 1422.
 (pdftex.def)             Requested size: 176.4044pt x 146.26767pt.
 [29 <./figures//compressionedivaporeph.png> <./figures//flash.png> <./figures//
 flashciclo.png>]
-<figures//frigoriferoadaria.png, id=758, 530.98375pt x 532.99126pt>
+<figures//frigoriferoadaria.png, id=778, 530.98375pt x 532.99126pt>
 File: figures//frigoriferoadaria.png Graphic file (type png)
 <use figures//frigoriferoadaria.png>
 Package pdftex.def Info: figures//frigoriferoadaria.png  used on input line 144
 1.
 (pdftex.def)             Requested size: 132.30666pt x 132.80832pt.
-<figures//ariapv.png, id=759, 479.7925pt x 338.26375pt>
+<figures//ariapv.png, id=779, 479.7925pt x 338.26375pt>
 File: figures//ariapv.png Graphic file (type png)
 <use figures//ariapv.png>
 Package pdftex.def Info: figures//ariapv.png  used on input line 1443.
 (pdftex.def)             Requested size: 132.30666pt x 93.2783pt.
-<figures//ariats.png, id=760, 482.80376pt x 337.26pt>
+<figures//ariats.png, id=780, 482.80376pt x 337.26pt>
 File: figures//ariats.png Graphic file (type png)
 <use figures//ariats.png>
 Package pdftex.def Info: figures//ariats.png  used on input line 1445.
 (pdftex.def)             Requested size: 132.30666pt x 92.42pt.
  [30 <./figures//frigoh2o.png> <./figures//h2odiagrammi.png> <./figures//frigor
 iferoadaria.png> <./figures//ariapv.png> <./figures//ariats.png>]
-<figures//frigoaerei.png, id=780, 522.95375pt x 619.31375pt>
+<figures//frigoaerei.png, id=800, 522.95375pt x 619.31375pt>
 File: figures//frigoaerei.png Graphic file (type png)
 <use figures//frigoaerei.png>
 Package pdftex.def Info: figures//frigoaerei.png  used on input line 1467.
 (pdftex.def)             Requested size: 176.4044pt x 208.91014pt.
-<figures//Pictet.jpg, id=781, 172.2435pt x 435.42674pt>
+<figures//Pictet.jpg, id=801, 172.2435pt x 435.42674pt>
 File: figures//Pictet.jpg Graphic file (type jpg)
 <use figures//Pictet.jpg>
 Package pdftex.def Info: figures//Pictet.jpg  used on input line 1476.
 (pdftex.def)             Requested size: 176.4044pt x 445.96317pt.
  [31 <./figures//frigoaerei.png>]
-<figures//Linde.jpg, id=789, 289.08pt x 348.17578pt>
+<figures//Linde.jpg, id=809, 289.08pt x 348.17578pt>
 File: figures//Linde.jpg Graphic file (type jpg)
 <use figures//Linde.jpg>
 Package pdftex.def Info: figures//Linde.jpg  used on input line 1487.
 (pdftex.def)             Requested size: 132.30666pt x 159.34995pt.
-<figures//LindeTs.jpg, id=790, 259.3439pt x 214.17516pt>
+<figures//LindeTs.jpg, id=810, 259.3439pt x 214.17516pt>
 File: figures//LindeTs.jpg Graphic file (type jpg)
 <use figures//LindeTs.jpg>
 Package pdftex.def Info: figures//LindeTs.jpg  used on input line 1489.
@@ -1219,17 +1219,17 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 1494.
 LaTeX Warning: Command \textdegree invalid in math mode on input line 1494.
 
 Missing character: There is no ° in font cmr10!
-<figures//Claude.jpg, id=796, 316.55766pt x 208.15265pt>
+<figures//Claude.jpg, id=816, 316.55766pt x 208.15265pt>
 File: figures//Claude.jpg Graphic file (type jpg)
 <use figures//Claude.jpg>
 Package pdftex.def Info: figures//Claude.jpg  used on input line 1502.
 (pdftex.def)             Requested size: 176.4044pt x 115.99614pt.
-<figures//Impiantomisto.jpg, id=797, 608.2725pt x 381.67593pt>
+<figures//Impiantomisto.jpg, id=817, 608.2725pt x 381.67593pt>
 File: figures//Impiantomisto.jpg Graphic file (type jpg)
 <use figures//Impiantomisto.jpg>
 Package pdftex.def Info: figures//Impiantomisto.jpg  used on input line 1512.
 (pdftex.def)             Requested size: 176.4044pt x 110.68901pt.
-<figures//impiantoinversoadassorbimento.jpg, id=798, 284.56313pt x 216.05719pt>
+<figures//impiantoinversoadassorbimento.jpg, id=818, 284.56313pt x 216.05719pt>
 
 File: figures//impiantoinversoadassorbimento.jpg Graphic file (type jpg)
 <use figures//impiantoinversoadassorbimento.jpg>
@@ -1238,78 +1238,104 @@ put line 1520.
 (pdftex.def)             Requested size: 176.4044pt x 133.94087pt.
 [33 <./figures//Linde.jpg> <./figures//LindeTs.jpg> <./figures//Claude.jpg> <./
 figures//Impiantomisto.jpg>]
-<figures//impiantoinverso.jpg, id=808, 328.22626pt x 262.73157pt>
+<figures//impiantoinverso.jpg, id=828, 328.22626pt x 262.73157pt>
 File: figures//impiantoinverso.jpg Graphic file (type jpg)
 <use figures//impiantoinverso.jpg>
 Package pdftex.def Info: figures//impiantoinverso.jpg  used on input line 1535.
 
 (pdftex.def)             Requested size: 220.50887pt x 176.5103pt.
-<figures//impiantoinversoTs.jpg, id=809, 311.28796pt x 193.84921pt>
+<figures//impiantoinversoTs.jpg, id=829, 311.28796pt x 193.84921pt>
 File: figures//impiantoinversoTs.jpg Graphic file (type jpg)
 <use figures//impiantoinversoTs.jpg>
 Package pdftex.def Info: figures//impiantoinversoTs.jpg  used on input line 153
 7.
 (pdftex.def)             Requested size: 176.4044pt x 109.85332pt.
-<figures//Electrolux.jpg, id=810, 329.73187pt x 366.24329pt>
+<figures//Electrolux.jpg, id=830, 329.73187pt x 366.24329pt>
 File: figures//Electrolux.jpg Graphic file (type jpg)
 <use figures//Electrolux.jpg>
 Package pdftex.def Info: figures//Electrolux.jpg  used on input line 1559.
 (pdftex.def)             Requested size: 220.50887pt x 244.93465pt.
  [34 <./figures//impiantoinversoadassorbimento.jpg> <./figures//impiantoinverso
 .jpg> <./figures//impiantoinversoTs.jpg>] [35 <./figures//Electrolux.jpg>]
-<figures//linee_corrente.png, id=826, 1175.39125pt x 447.6725pt>
+<figures//linee_corrente.png, id=846, 1175.39125pt x 447.6725pt>
 File: figures//linee_corrente.png Graphic file (type png)
 <use figures//linee_corrente.png>
 Package pdftex.def Info: figures//linee_corrente.png  used on input line 1600.
 (pdftex.def)             Requested size: 396.91327pt x 151.16833pt.
-<figures//traiettorie.png, id=827, 540.0175pt x 469.755pt>
+<figures//traiettorie.png, id=847, 540.0175pt x 469.755pt>
 File: figures//traiettorie.png Graphic file (type png)
 <use figures//traiettorie.png>
 Package pdftex.def Info: figures//traiettorie.png  used on input line 1622.
 (pdftex.def)             Requested size: 176.4044pt x 153.44986pt.
  [36 <./figures//linee_corrente.png>]
-<figures//lineedifumo.png, id=837, 494.84875pt x 406.51875pt>
+<figures//lineedifumo.png, id=857, 494.84875pt x 406.51875pt>
 File: figures//lineedifumo.png Graphic file (type png)
 <use figures//lineedifumo.png>
 Package pdftex.def Info: figures//lineedifumo.png  used on input line 1637.
 (pdftex.def)             Requested size: 176.4044pt x 144.91374pt.
- [37 <./figures//traiettorie.png> <./figures//lineedifumo.png>] [38] (fisica_te
-cnica.lof)
+<figures//condottoasezionevariabile.jpg, id=858, 275.22826pt x 124.66576pt>
+File: figures//condottoasezionevariabile.jpg Graphic file (type jpg)
+<use figures//condottoasezionevariabile.jpg>
+Package pdftex.def Info: figures//condottoasezionevariabile.jpg  used on input 
+line 1647.
+(pdftex.def)             Requested size: 176.4044pt x 79.90564pt.
+ [37 <./figures//traiettorie.png> <./figures//lineedifumo.png> <./figures//cond
+ottoasezionevariabile.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1711.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1711.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1711.
+
+<figures//condottodefoperativaz_a.jpg, id=872, 249.93375pt x 78.89474pt>
+File: figures//condottodefoperativaz_a.jpg Graphic file (type jpg)
+<use figures//condottodefoperativaz_a.jpg>
+Package pdftex.def Info: figures//condottodefoperativaz_a.jpg  used on input li
+ne 1714.
+(pdftex.def)             Requested size: 176.4044pt x 55.68579pt.
+[38 <./figures//condottodefoperativaz_a.jpg>]
+<figures//equazioneEulero.jpg, id=882, 233.07076pt x 184.89075pt>
+File: figures//equazioneEulero.jpg Graphic file (type jpg)
+<use figures//equazioneEulero.jpg>
+Package pdftex.def Info: figures//equazioneEulero.jpg  used on input line 1733.
+
+(pdftex.def)             Requested size: 132.30666pt x 104.95715pt.
+ [39 <./figures//equazioneEulero.jpg>] [40] (fisica_tecnica.lof)
 \tf@lof=\write6
 \openout6 = `fisica_tecnica.lof'.
 
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 1653.
+(hyperref)                be the same. Added a new anchor on input line 1793.
 
-[39] (fisica_tecnica.lot)
+[41] (fisica_tecnica.lot)
 \tf@lot=\write7
 \openout7 = `fisica_tecnica.lot'.
 
- [40] (fisica_tecnica.equ)
+ [42] (fisica_tecnica.equ)
 \tf@equ=\write8
 \openout8 = `fisica_tecnica.equ'.
 
- [41] (fisica_tecnica.ind
-[42
+ [43] (fisica_tecnica.ind
+[44
 
 
 ]) (fisica_tecnica.aux)
-
-Package rerunfilecheck Warning: File `fisica_tecnica.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `fisica_tecnica.out':
-(rerunfilecheck)             Before: E82DEBE0075F962F3F2F555475637DB4;14244
-(rerunfilecheck)             After:  B44938483B18324B1D024135FC88F95D;14165.
+Package rerunfilecheck Info: File `fisica_tecnica.out' has not changed.
+(rerunfilecheck)             Checksum: 66B2DCEC32E7E1D75B86A24CFACD71D7;15210.
  ) 
 Here is how much of TeX's memory you used:
- 15033 strings out of 478927
- 226653 string characters out of 2852534
- 561961 words of memory out of 3000000
- 32309 multiletter control sequences out of 15000+600000
+ 15081 strings out of 478927
+ 227874 string characters out of 2852534
+ 563122 words of memory out of 3000000
+ 32335 multiletter control sequences out of 15000+600000
  426387 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,66p,746b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1346,9 +1372,9 @@ nts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/rebec/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/rebec/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/rebec/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on fisica_tecnica.pdf (42 pages, 5311028 bytes).
+Output written on fisica_tecnica.pdf (44 pages, 5358542 bytes).
 PDF statistics:
- 1452 PDF objects out of 1728 (max. 8388607)
- 251 named destinations out of 1000 (max. 500000)
- 913 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1515 PDF objects out of 1728 (max. 8388607)
+ 270 named destinations out of 1000 (max. 500000)
+ 960 words of extra memory for PDF output out of 10000 (max. 10000000)
 
