@@ -77,9 +77,13 @@
 \contentsline {subsection}{\numberline {2.3}Equazione di Bernoulli generalizzata}{38}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {}Definizione operativa dell'attrito $z_a$}{38}{subsubsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.4}Equazione di Eulero}{39}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Tesine}{40}{section.3}%
-\contentsline {section}{\numberline {4}Indici}{41}{section.4}%
-\contentsline {subsection}{Elenco delle figure}{41}{section*.1}%
-\contentsline {subsection}{Elenco delle tabelle}{42}{section*.1}%
-\contentsline {subsection}{Elenco delle equazioni}{43}{section*.1}%
-\contentsline {subsection}{Indice analitico}{44}{section*.1}%
+\contentsline {subsection}{\numberline {2.5}Legge di Newton}{40}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Diagramma del fattore di attrito $\lambda $ in funzione di $Re$}{40}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Perdite di pressione concentrate}{41}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Moto di un fluido Newtoniano tra due piani paralleli}{41}{subsection.2.8}%
+\contentsline {section}{\numberline {3}Tesine}{42}{section.3}%
+\contentsline {section}{\numberline {4}Indici}{43}{section.4}%
+\contentsline {subsection}{Elenco delle figure}{43}{section*.1}%
+\contentsline {subsection}{Elenco delle tabelle}{44}{section*.1}%
+\contentsline {subsection}{Elenco delle equazioni}{45}{section*.1}%
+\contentsline {subsection}{Indice analitico}{46}{section*.1}%

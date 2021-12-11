@@ -1772,10 +1772,93 @@ Integrando otteniamo:
  Avendo fissato le due sezioni corrisponde ad aver fissato un contorno termodinamico. Non compare l'attrito perché è ricavata dal secondo principio della termodinamica; compare il tempo ma a regime stazionario è l'equazione di Bernoulli classica.
  
 
+Vediamo le tre equazioni costitutive dei tre fenomeni di trasporto (trasporto della quantità di moto, della massa e del calore); 
+\subsection{Legge di Newton}
+è una legge che lega la causa (gradiente di velocità) con l'effetto (sforzo di taglio)
+\begin{equation}
+	\tau=\mu \frac{d w}{d y}
+\end{equation}
+\myequations{sforzo di taglio}
+con $\mu$ \textbf{Viscosità cinematica}
+La viscosità cinematica è solo una proprietà fisica del fluido.
 
 
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{diagrammifluid.jpg}
+	\end{center}
+	\caption{distinzione dei fluidi}
+\end{figure}
+ \begin{itemize}
+ 	\item fluido Newtoniano; l'effetto aumenta in proporzione con la viscosità cinematica
+ 	\item fluido NON Newtoniano; si distinguono i fluidi che hanno uno sforzo di taglio residuo al cessare della causa e i fluidi pseudoplastici e dilatanti.
+ \end{itemize}
 
+\subsection{Diagramma del fattore di attrito $\lambda$ in funzione di $Re$}
 
+\begin{itemize}
+	\item $Re<2100$ moto laminare
+	\item $2100<Re<3600$ regime di transizione
+	\item $Re>3600$ moto turbolento
+\end{itemize}
+
+Dove $ R e=\frac{w D \rho}{\mu}$
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{Moody.jpg}
+	\end{center}
+	\caption{Diagramma di Moody}
+\end{figure}
+
+\subsection{Perdite di pressione concentrate}
+\begin{minipage}[T]{0.3\columnwidth}
+\begin{figure}[H]
+	\caption{Allargamento di sezione}
+	\begin{center}
+		\includegraphics[width=\columnwidth]{Allargamentosezione.jpg}
+	\end{center}
+	
+\end{figure}
+$\Delta p=\gamma \frac{w_{1}^{2}}{2 g} \lambda^{\prime}$
+
+$\lambda^{\prime}=\left(1-\frac{A_{1}}{A_{2}}\right)^{2}$
+\end{minipage}
+\hfill
+\begin{minipage}[T]{0.3\columnwidth}
+	\begin{figure}[H]
+		\caption{Restringimento di sezione}
+		\begin{center}
+			\includegraphics[width=\columnwidth]{Restringimentosezione.jpg}
+		\end{center}
+		
+	\end{figure}
+	$\lambda^{\prime}=\left(\frac{1}{\Psi}-1\right)^{2}=\left(\frac{A_{2}}{A_{c}}-1\right)^{2}$
+\end{minipage}
+\hfill
+\begin{minipage}[T]{0.3\columnwidth}
+	\begin{figure}[H]
+		\caption{Gomito a 90°}
+		\begin{center}
+			\includegraphics[width=0.7\columnwidth]{gomito.jpg}
+		\end{center}
+	\end{figure}
+\end{minipage}
+
+\subsection{Moto di un fluido Newtoniano tra due piani paralleli}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\columnwidth]{pianiparalleli.jpg}
+	\end{center}
+	\caption{Fluido newtoniano tra due piani paralleli}
+\end{figure}
+Facendo il bilancio delle forze si trova: $d \tau d x=-d z d p \Rightarrow \frac{d \tau}{d z}=-\frac{d p}{d x}$
+
+Considerando l'equazione costitutiva del fluido newtoniano, derivandola due volte si ottiene: $\mu \frac{d^{2} w}{d z^{2}}=-\frac{d p}{d x}=\cos t$.
+
+Integrando due volte si ottiene:
+\begin{equation}
+	w=-\frac{1}{\mu} \cdot \frac{d p}{d x} \cdot \frac{z^{2}}{2}+c_{1} z+c_{2}
+\end{equation}
 
 
 \end{itemize}
