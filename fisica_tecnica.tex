@@ -8,7 +8,7 @@
 \providecommand*{\input@path}{}
 \edef\input@path{{figures/}{}\input@path}% prepend
 \makeatother
-  
+  \usepackage{multicol}
 \usepackage{amsmath}
 \numberwithin{equation}{section}% numera eq come #section.#formula
 \usepackage{amsthm}
@@ -21,6 +21,12 @@
  \usepackage{import}
 \usepackage{xcolor}
 \usepackage{geometry}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	linkcolor=black,
+	urlcolor=black
+}
 \geometry{a4paper, top=2cm, bottom=2cm, left=2.5cm, right=2.5cm,  heightrounded, bindingoffset=5mm}
 \setlength{\parindent}{0pt} %riduce l'indentazione dei paragrafi
 % Quanto segue serve per inserire l'elenco di equazioni
@@ -68,7 +74,7 @@ Novità rispetto al programma:
 \begin{itemize}
 	\item Al posto degli esercizi sulla trasmissione del calore verranno raccontate alcune esperienze.
 	\item 	\textbf{Orale}: tre domande di teoria (termodinamica, termofluidodinamica, termocinetica o trasporto di massa) 
-	\item \textbf{Scritto}: due esercitazioni, una sulle miscele aria-vapore (studio del benessere ambientale, saper regolare ambienti in ambienti clinici), cicli frigoriferi, terza domanda semi teorica (raccontare una delle esercitazioni citate sopra). 
+	\item \textbf{Scritto}: due esercitazioni, una sulle \textcolor{red}{miscele aria-vapore }(studio del benessere ambientale, saper regolare ambienti in ambienti clinici), \textcolor{red}{cicli frigoriferi}, terza domanda semi teorica (raccontare una delle esercitazioni citate sopra). 
 	\item Esercitazioni sulla criochirurgia, sulla termoregolazione del corpo umano, sul trasporto di massa in aorta aneurismatica, sul trasporto di massa nel circolo di Willis e sull’acustica ovvero rumore provocato dalle valvole stenotiche. 
 	\item Non ci sono esercizi sulla trasmissione del calore e termofluidodinamica.
 	\item Testo: Problematiche di fisica tecnica in ingegneria medica (9 capitoli, da Texmat). Risultati di lavori fatti da colleghi o in tesi di dottorato o nella tesi magistrale ecc.
@@ -241,7 +247,7 @@ $M_t=M_{t+\Delta t}$
 \begin{figure}[h!]
 	\begin{center}
 %		\includegraphics[width=0.6\columnwidth]{sistemaaperto.jpg}
-		 \input{sistemaperto.pdf_tex}
+		 \input{figures/sistemaperto.pdf_tex}
 	\end{center}
 \end{figure}
 
@@ -328,16 +334,46 @@ Esperienza di Torricelli $\frac{w^{2}}{2 g}=h \rightarrow w=\sqrt{2 g h}$.
 
 Applicando il 1° principio (trascurando calore e lavoro) otteniamo $w_{2}^{2}=2 g\left(z_{1}-z_{2}\right)=2 g h$ da cui si torna al teorema di Torricelli.
 
+\subsubsection{Generalizzazione dei sistemi aperti}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{sistemiapertigen.png}
+	\end{center}
+\end{figure}
+
+Siamo in regime stazionario. Vale il principio di conservazione della portata in massa $\sum_{e=1}^{m} G_{e}=\sum_{u=1}^{n} G_{u}$.
+
+Vale il primo principio della termodinamica per i sistemi aperti e possiamo moltiplicarlo per le portate $G=G_1=G_2$.  Ovvero otteniamo:
+
+\begin{equation}
+	\dot{Q}-P_{f}=\sum_{u=1}^{n} G_{u}\left(h_{u}+e_{c u}+e_{p u}\right)-\sum_{e=1}^{m} G_{e}\left(h_{e}+e_{c e}+e_{p e}\right)
+\end{equation}
+\myequations{generalizzazione del 1° principio per i sistemi aperti}
+
+Possiamo estenderla al regime \textcolor{red}{ non} stazionario:
+
+  $\Longrightarrow$ la portata non si conserva: $\sum_{\rho} G_{e}-\sum_{u} G_{u}=\frac{d M}{d t}=\frac{M_{f}-M_{i}}{\Delta t}$
+  
+  Allora, applichiamo il primo principio della termodinamica considerando l'intervallo di tempo d'interesse ($\Delta t$), ovvero: 
+  \begin{equation}
+  	Q-L_{f}=\sum_{u} G_{u} \Delta t\left(h_{u}+e_{c u}+e_{p u}\right)-\sum_{e} G_{e} \Delta t\left(h_{e}+e_{c e}+e_{p e}\right)+M_{f} e_{t f}-M_{i} e_{t i}
+  \end{equation}
+
+Abbiamo aggiunto un termine che contiene l'energia totale (è variata sia l'energia potenziale che cinetica) e la quantità di massa che risulta variata. 
+
+
+
 \subsection{Calore}
 \index{Calore}
 \textbf{Definizione operativa}: il calore si misura come il lavoro scambiato da un sistema in un'esperienza di Joule. Ovvero un sistema chiuso che compie una trasformazione ciclica. 
 
 \subsection{Secondo principio della termodinamica}
  \index{Secondo principio}
-\textbf{Fromulazione di Plank}:
+\textbf{Formulazione di Plank}:
 E' impossibile che l'unico risultato di una cessione di calore ad un sistema chiuso che compie trasformazioni cicliche sia la produzione di calore.
 
-\textbf{Fromulazione di Clausius}:
+\textbf{Formulazione di Clausius}:
 E' impossibile che per un sistema chiuso che compie trasformazioni cicliche l'unico risultato sia la sottrazione di calore da una sorgente inferiore e la cessione di calore ad una sorgente superiore senza alcun effetto compensatorio.
 
 \begin{figure}[H]
@@ -586,8 +622,1163 @@ Il rendimento della pompa di calore $\eta_{PC}={Q_1\over L}=\frac{T_{1}}{T_{1}-T
 Il secondo termine contiene le irreversibilità, se la trasformazione è reversibile $\tau=0$.
 Il diagramma Ts è lo stesso rettangolo del ciclo frigorifero. 
 
+\subsection{Diagrammi termodinamici}
+
+\subsubsection{Isobare nel $Ts$}
+
+Partendo dal differenziale esatto dell'entalpia e dalla \eqref{eq:entalpiaentropia} e considerando che per un'isobara $dp=0$, abbiamo che: $d h=\left(\frac{\partial h}{\partial T}\right)_{p} d T=c_{p} d T=T d s$.
+Calore specifico isobaro:
+\begin{equation}
+	\left(\frac{\partial h}{\partial T}\right)_{p}=c_{p}
+	\label{eq:calore_specifico_isobaro}
+\end{equation}
+\myequations{Calore specifico isobaro}
+
+Possiamo misurare le derivate parziali (sono quantità fisiche): $\left(\frac{\partial T}{\partial s}\right)_{p}=\frac{T}{c_{p}}>0$
+
+Oss: se $cp\approx cost \Longrightarrow$ la pendenza cresce con la temperatura $T$.  Allora la curva isobara ha la concavità verso l’alto,$\rightarrow$ curva crescente
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{isobara_Ts.png}
+		\caption{Isobara}
+	\end{center}
+\end{figure}
+
+\begin{itemize}
+	\item Espansore, in \textcolor{red}{rosso}, tratteggiata la trasformazione reale irreversibile in cui è presente $\Delta s_s$. 
+	\item Compressore, in \textcolor{green}{verde}, discorso analogo
+\end{itemize}
+In entrambi i casi la temperatura del caso irreversibile è più alta del caso reversibile. Nel caso irreversibile si ottiene meno lavoro che viene dissipato sotto forma di calore per le irreversibilità. 
+\newline
+Nel diagramma $Ts$ l'isobara a pressione maggiore si trova sopra.
+
+Considerando \eqref{eq:sistemi_aperti_coefficienti} se la trasformazione è isoentropica e  sfruttando \eqref{eq:coeff_dilatazione_isobara} abbiamo:
+\begin{equation}
+\frac{c_{p}}{T} d T=\left(\frac{\partial v}{\partial T}\right)_{p} d p \Rightarrow \frac{d T}{d p}=\frac{v \beta T}{c_{p}}>0
+\end{equation}
+ Quindi, muovendosi lungo un’isoentropica, ad un aumento di temperatura corrisponde un aumento di pressione.
+ \newline
+ 
+ Abbiamo anche la pendenza dell'isocora è maggiore di quella dell'isobara.
+Vedi pg. \pageref{relazioni_cv_cp}.
 
 
+
+
+
+\subsubsection{Isobare nel diagramma $hs$}
+
+Prendiamo il differenziale dell'entalpia e ricordiamo  \eqref{eq:entalpiaentropia} e per un'isobara $dp=0$, abbiamo che: $d h=\left(\frac{\partial h}{\partial s}\right)_{p} d s=T d s \Rightarrow\left(\frac{\partial h}{\partial s}\right)_{p}=T$ 
+La pendenza dell'isobara nel piano $hs$ è $T$.
+Oss: se $cp\approx cost \Longrightarrow$ la pendenza cresce con la temperatura $T$.  Allora la curva isobara ha la concavità verso l’alto,$\rightarrow$ curva crescente
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{isobara_hs.png}
+		\caption{Isobara}
+	\end{center}
+\end{figure}
+
+\begin{itemize}
+	\item Espansore, in \textcolor{red}{rosso}, tratteggiata la trasformazione reale irreversibile in cui è presente $\Delta s_s$. 
+	\item Compressore, in \textcolor{green}{verde}, discorso analogo
+	\item Valvola di laminazione, l'entalpia di ingresso è uguale a quella di uscita (orizzontale). È irreversibile e arriva ad una pressione di uscita inferiore. 
+\end{itemize}
+In entrambi i casi l'entalpia del caso irreversibile è più alta del caso reversibile. 
+
+\subsubsection{Diagramma $pv$}
+
+In generale la legge politropica $pv^n=cost$.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{diagpv.png}
+		\caption{Diagramma $pv$}
+	\end{center}
+\end{figure}
+
+In particolare:
+\begin{itemize}
+	\item \textit{Isobara}: $n=0$ allora $p=cost$ $\Rightarrow$ retta orizzontale
+\item \textit{Isocora}: $n\to \infty$ allora $v=cost$ $\Rightarrow$ retta verticale 
+\item \textit{Isoterma}: $n=1$, iperpbole equilatera
+	\item \textit{Isoentropica} $n=k$, pendenza maggiore dell'isoterma
+\end{itemize}
+
+Tra il minimo e massimo valore di $n$ possiamo considerare tutte le trasformazioni termodinamiche.
+
+
+\subsubsection{Esperienza di Andrews}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\columnwidth]{andrews.png}
+		\caption{Diagramma $pv$ delle sostanze}
+	\end{center}
+\end{figure}
+
+A partire dall'esperienza del pistone andiamo a comprimere con delle isoterme con temperature via via decrescenti. 
+
+Ad alte temperature l'isoterma è un'iperbole equilatera.
+
+Diminuendo la temperatura la curva presenta due flessi. 
+
+A temperature ancora minori la pendenza dei due flessi diventa orizzontale. 
+
+Il \textbf{punto critico C} è il punto nell'intorno del quale l'isoterma ha una pendenza orizzontale $\longrightarrow$ punto fisso della sostanza. Individua l'isoterma critica da cui si possono determinare pressione e volume critico.
+
+Per le isoterme al di sopra della $T$ critica abbiamo la zona dei gas.
+
+Più ci si allontana dal punto critico più i gas si comportano come gas perfetti. 
+
+Gas $\longrightarrow$ sostanza che rimane nello stato aeriforme in una compressione isoterma.
+
+Per temperature minori della $T_C$  aumenta la pressione e il volume diminuisce. 
+
+
+In corrispondenza della \textit{curva limite superiore} inizia il passaggio di stato aeriforme $\to$ liquido (inizio condensazione).  
+Continuando a comprimere la curva rimane a pressione costante (interno della campana). Si forma sempre più liquido, è una \textit{condensazione isoterma}. Sempre più aeriforme si trasforma in liquido che rimane in equilibrio con il suo vapore $\rightarrow$ trasformazione isotermobarica. 
+In corrispondenza della curva limite inferiore tutto l'aeriforme è diventato liquido. 
+Continuando a comprimere la pressione cresce e poiché abbiamo un liquido il volume si mantiene praticamente costante (curva quasi verticale). 
+
+Nel diagramma le scale del volume sono diverse tra dx e sx.
+
+A $T$ inferiori la condensazione inizia a volumi specifici maggiori e il punto limite superiore che chiamiamo $v_v$ (\textbf{vapor saturo}) si trova a destra e  si ottiene il liquido per volumi specifici minori e il punto limite inferiore si sposta a sinistra.
+
+Unendo tutti i punti limite si ottengono le curve limiti, inferiore e superiore, che delimitano la \textbf{campana dei vapori}.
+
+Vapore surriscaldato $\longrightarrow$ aereiforme compreso tra la curva limite superiore e l'isoterma critica.
+
+All'iinterno della campana $\longrightarrow $ vapore saturo umido
+
+Tra la curva limite inferiore e l'isoterma critica $\longrightarrow$liquido sottoraffreddato.
+
+Per distinguere qualsiasi punto è sufficiente conoscere $p$ e $v$ ma all'interno della campana servono tre parametri:\begin{itemize}
+	\item $T$
+	\item $p$
+	\item \textit{Titolo del vapore}: $x={M_V\over M_V+M_L}$
+
+\end{itemize}
+
+Possiamo definire il volume specifico all'interno delle curve limite in funzione del titolo:
+\begin{equation}
+	v=v_L+x\left(v_V-v_L\right)
+\end{equation}
+\myequations{Volume specifico all'interno delle curve limite in funzione del titolo}
+
+\subsubsection{Diagramma $pT$ delle sostanze}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{ptsostanze.png}
+		\caption{Diagramma $pT$ delle sostanze}
+	\end{center}
+\end{figure}
+
+L’acqua è l’unica sostanza che per compressione si liquefa, perché la curva di liquefazione sta a sinistra dell’isoterma.
+Un altro punto fisso del diagramma è il punto critico C con $𝑝 =221$ Bar e $𝑇 =374$.
+
+\subsubsection{Diagramma $pvT$}
+
+Vale per tutte le sostanze esclusa l'acqua.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\columnwidth]{pvT.png}
+		\caption{Diagramma $pvT$ delle sostanze}
+	\end{center}
+\end{figure}
+
+Dalla definizione di $c_d$ 
+otteniamo:
+\begin{equation}
+c_d=T\left(\frac{\partial p}{\partial T}\right)_{v}=\left.\frac{q}{\Delta v}\right|_{T}
+\end{equation}
+\myequations{Equazione di Clapeyron}
+
+Nota come equazione di Clapeyron.
+In un cambiamento di stato a $T$ costante abbiamo che $q=\Delta v \cdot T\left(\frac{\partial p}{\partial T}\right)_{v}$.
+L’equazione di Clapeyron mette in relazione il calore latente del passaggio di stato con l’equazione di equilibrio di $p_e$ e $𝑇_e$ .
+\newline
+
+\textsc{[vedi appunti]}
+\newline
+
+\subsubsection{Diagramma $hs$}
+
+\textsc{[vedi appunti per come passare dal diagramma $pv$ al diagramma $hs$]}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{hs.png}
+		\caption{Diagramma $hs$ delle sostanze}
+	\end{center}
+\end{figure}
+
+Nel diagramma $h𝑠$ la pendenza dell’isobara è pari alla temperatura e ha una concavità verso l’alto: $\left(\frac{\partial h}{\partial s}\right)_{p}=T$.
+
+La campana dei vapori era molto piccola vicino all’origine, così come il punto critico. Infatti, più ci si allontana dalla campana, più il comportamento del gas si avvicina a quello del gas perfetto.  
+
+Le curve limite nel diagramma $h𝑠$ hanno un flesso e il punto di flesso è il punto critico $C$.
+
+Le isoterme all'interno sono delle rette e all'esterno della curva limite superiore sono subito quasi orizzontali poiché il gas tende ad essere un gas perfetto.
+
+La curva limite inferiore è sempre un esponenziale cresce fino al punto critico (flesso). Anche la curva limite superiore: ha la concavità verso il basso, esponenziale crescente.
+
+\subsubsection{Diagramma $Ts$ delle sostanze}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{Ts.png}
+		\caption{Diagramma $Ts$ delle sostanze}
+	\end{center}
+\end{figure}
+
+Abbiamo visto che nel diagramma $𝑇𝑠$ la pendenza dell’isobara è pari a $\left(\frac{\partial T}{\partial s}\right)_{p}=\frac{T}{c_{p}}$ con concavità verso l’alto.
+
+Le isobare all’esterno delle curve limite hanno sempre concavità verso l’alto. La pendenza dell'isobara, prima e dopo le curve limite, è la stessa. 
+
+Tra 4 e 2 l’isobara deve essere anche isoterma (cambiamento di stato). 
+
+Considerando isobare a pressione minore l’andamento sarà simile, quindi le curve hanno l’andamento di una campana gaussiana, dove il punto critico è nella sommità.
+
+
+
+\subsection{Proprietà della sostanze}
+
+\subsubsection{Gas perfetti e coefficienti}
+Obbediscono all'equazione di stato dei gas perfetti 
+\begin{equation}
+	pv=RT
+		\label{eq:gas_perfetti}
+\end{equation}
+\myequations{Legge di stato dei gas perfetti}
+
+La costante specifica di gas $R={R_u\over p.m.}$
+
+Note le funzioni termodinamiche generiche, possiamo procedere come se fossero espressioni matematiche, tutto quello che otteniamo ha un significato fisico ed è rappresentato da grandezze misurabili.
+
+Sostanza che scambia calore e subisce una variazione di temperatura ha una corrispondente variazione del suo volume specifico: $d v=\left(\frac{\partial v}{\partial T}\right)_{p} d T+\left(\frac{\partial v}{\partial p}\right)_{T} d p$. Da cui la quantità misurabile, il \textbf{coefficiente di dilatazione isobara}:
+\begin{equation}
+	\left(\frac{\partial v}{\partial T}\right)_{p} \frac{1}{v}=\beta
+\label{eq:coeff_dilatazione_isobara}
+\end{equation}
+
+E il \textbf{coefficiente di compressione isoterma}:
+\begin{equation}
+	\left(\frac{\partial v}{\partial p}\right)_{T}\left(-\frac{1}{v}\right)=\gamma
+\end{equation}
+
+Se le variazioni di volume specifico avvengono a sezione costante, possiamo dividere per la sezione e ottenere il \textbf{coefficiente di dilatazione lineare}:
+\begin{equation}
+\frac{1}{x}\left(\frac{\partial x}{\partial T}\right)_{p}=\alpha
+\end{equation}
+
+Quindi l'equazione differenziale del volume specifico: 
+\begin{equation}
+	d v=\beta v d T-\gamma v d p
+	\label{eq:differenziale_volume_specifico}
+\end{equation}
+\myequations{Equazione differenziale del volume specifico}
+
+
+Abbiamo visto le relazioni tra $c_v$ e $c_p$, cioè \eqref{eq:cp-cv} e \eqref{eq:cp/cv}, e  \eqref{eq:cp-cv-R}  \eqref{eq:cp/cv-k} e che questi, per i gas perfetti, dipendono solo da $T$. Inoltre vale che 
+\begin{equation}
+	\begin{aligned}
+d u=c_{v}(T) d T\\
+dh=c_{p}(T) d T
+	\end{aligned}
+\end{equation}
+
+E possiamo trovare il \textbf{coefficiente di dilatazione isobara $\beta$} per i gas perfetti \begin{equation}
+\beta=\frac{1}{v}\left(\frac{\partial v}{\partial T}\right)_{p}=\frac{1}{v} \cdot \frac{R}{P}=\frac{R}{R T}=\frac{1}{T} \Rightarrow \beta=\frac{1}{T}
+\end{equation}
+\newline
+\subsubsection{Conferma sperimentale $d u=c_{v}(T) d T$ e $dh=c_{p}(T) d T$}
+
+Nell'esperienza di Joule c'è un gas che compie una trasformazione in cui varia il suo volume e la temperatura rimane costante.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.3\columnwidth]{confermasperimentale.png}
+	\end{center}
+\end{figure}
+
+Quindi applichiamo il primo principio della termodinamica per sistemi chiusi:
+\begin{itemize}
+\item non scambia lavoro
+\item $q=0$ temperatura costante
+\item velocità nulla
+\item non cambia la quota del baricentro
+\end{itemize}
+
+$\Longrightarrow$ $du=0$ e il suo differenziale esatto $ u(v, T) \rightarrow d u=\left(\frac{\partial u}{\partial v}\right)_{T} d v+\left(\frac{\partial u}{\partial T}\right)_{v} d T$ in cui c'è una variazione di volume ($dv\neq 0$) otteniamo che $\left(\frac{\partial u}{\partial v}\right)_{T}=0$. Ovvero abbiamo confermato che \underline{$u$ è funzione solo della temperatura} e non del volume specifico.
+\newline
+
+Considerando l'esperienza di Joule-Thompson 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.3\columnwidth]{jouleT.png}
+	\end{center}
+\end{figure}
+
+Applichiamo il primo principio della termodinamica per sistemi aperti e con considerazioni analoghe alle precedenti $\Longrightarrow$ $dh=0$.  Ne facciamo il differenziale: $h(p, T) \rightarrow d h=\left(\frac{\partial h}{\partial T}\right)_{p} d T+\left(\frac{\partial h}{\partial p}\right)_{T} d p$ e, considerando che c'è un $dp\neq 0$, troviamo che $\left(\frac{\partial h}{\partial p}\right)_{T}=0$. Ovvero abbiamo confermato che \underline{$h$ è funzione solo della temperatura} e non della pressione.
+\newline
+
+In condizioni reali però $dT\neq 0$ e se un gas espande si ottiene una variazione della temperatura (diminuzione) e quindi $h=h\left(p,T\right)$. 
+
+Possiamo rappresentare l'esperienza in un diagramma $pT$ rappresentando esperienze successive con pressioni sempre più basse otteniamo un andamento inizialmente crescente e poi decrescente. Unendo i massimi troviamo la curva dove $c_{JT}=0$. 
+
+In particolare, il \textbf{coefficiente di Joule-Thompson}:
+\begin{equation}
+C_{J T}=\left.\left(\frac{\Delta T}{\Delta p}\right)\right|_{h}=-\frac{\left(\frac{\partial h}{\partial p}\right)_{T}}{c_{p}}
+\end{equation}
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{jt-pt.png}
+		\caption{Esperienza Joule-Thompson sul $pT$}
+	\end{center}
+\end{figure}
+
+Conviene leggerle dal dx verso sx (nell'esperienza andiamo da $p$ maggiori a $p$ minori). 
+
+Di solito, un gas che si espande si raffredda, ma questo vale nel tratto a sx del massimo. Esiste una temperatura in cui$ c_{JT}=0$ , nota come \textbf{temperatura limite} o di inversione. A partire da questa il gas che si espande si riscalda sempre.
+
+Sperimentalmente si misura un $\Delta T/\Delta p$ e si ottiene un proporzionalità a $\Delta p/T^2$ come:  $ c_{J T}=\frac{\Delta T}{\Delta p}=\frac{\Delta p}{T^{2}} \cdot k \rightarrow\left\{\begin{array}{l}
+	\text { se } k>0, \Delta T>0 \\
+	\text { se } k<0, \Delta T<0
+\end{array}\right.$ (legge empirica).
+
+
+\subsubsection{Calore specifico}
+
+\begin{equation}
+c={dq\over dT}
+\end{equation}
+
+Dipende dalla trasformazione in quanto $dq$ non è differenziale esatto.
+\begin{itemize}
+\item Se è adiabatica $dq=0\Rightarrow c=0$
+\item Se è isoterma $dT=0$ ma $dq=0\Rightarrow c=\pm \infty$
+\end{itemize}
+
+\textbf{Sistemi chiusi}
+Partendo dal primo principio della termodinamica e considerando una trasformazione reversibile (per cui $dl=pdv$), otteniamo: $dq=du+pdv$.
+Sostituendo nel calore specifico otteniamo $c=\frac{d q}{d T}=\frac{d u}{d T}+p \frac{d v}{d T}$.
+Quindi il differenziale esatto di $u=u(T,v)$ e possiamo dividere per $dT$ e sostituire nell'espressione del calore specifico, poi moltiplichiamo il tutto per $dT$:
+\begin{equation}
+dq=\left(\frac{\partial u}{\partial T}\right)_{v} d T+\left[p+\left(\frac{\partial u}{\partial v}\right)_{T}\right]{dv}
+\end{equation}
+
+Se la trasformazione è isocora allora otteniamo il \textbf{calore specifico a volume costante} 
+\begin{equation}
+c_{v}=\left(\frac{\partial u}{\partial T}\right)_{v}
+\label{eq:cv}
+\end{equation}
+\myequations{Calore specifico a volume costante}
+In queste condizioni vale che $dq=c_vdT$ e quindi possiamo misurarlo come $c_{v}=\left.\frac{d q}{d T}\right|_{v}=\left.\frac{q}{\Delta T}\right|_{v}$
+
+Se la trasformazione è isoterma allora otteniamo il \textbf{calore specifico di dilatazione isoterma} 
+\begin{equation}
+c_{d}=\left[p+\left(\frac{\partial u}{\partial v}\right)_{T}\right] 
+\end{equation}
+\myequations{Calore specifico di dilatazione isoterma }
+In queste condizioni vale che $dq=c_ddv$ e allora possiamo misurarlo: $c_{d}=\left.\frac{d q}{d v}\right|_{T}$. Possibile solo nei passaggi di stato.
+
+Quindi per i \textbf{sistemi chiusi} vale che:
+\begin{equation}
+dq=c_vdT+c_ddv 
+\label{eq:calore_sistemi_chiusi}
+\end{equation}
+\myequations{Calore per sistemi chiusi}
+E  il calore specifico possiamo esprimerlo come:
+\begin{equation}
+c=c_v+c_d{dv\over dT}
+\end{equation}
+\myequations{Calore specifico per sistemi chiusi}
+
+
+\textbf{Sistemi aperti}
+Partiamo dal primo primo principio della termodinamica per sistemi aperti e supponendo la trasformazione reversibile ($dl_f=-vdp$). Otteniamo che $dq=dh-vdp$. Allora sostituendo nella relazione del calore specifico otteniamo $c=\frac{d q}{d T}=\frac{d h}{d T}-v \frac{d p}{d T}$. Quindi possiamo fare il differenziale esatto di $h=h(p,T)$ e dividere per $dT$. Poi sostituiamo nell'espressione del calore specifico e moltiplichiamo per $dT$, quindi otteniamo:
+\begin{equation}
+d q=\left(\frac{\partial h}{\partial T}\right)_{p} d T+\left[\left(\frac{\partial h}{\partial p}\right)_{T}-v\right] d p
+\end{equation}
+
+
+Se la trasformazione è isobara allora otteniamo il \textbf{calore specifico a pressione costante} 
+\begin{equation}
+	c_{p}=\left(\frac{\partial h}{\partial T}\right)_{p}
+	\label{eq:cp}
+\end{equation}
+\myequations{Calore specifico a pressione costante}
+In queste condizioni vale che $dq=c_pdT$ e quindi possiamo misurarlo come $c_{p}=\left.\frac{d q}{d T}\right|_{p}=\left.\frac{q}{\Delta T}\right|_{p}$
+
+Se la trasformazione è isoterma allora otteniamo il \textbf{calore specifico di comprimibilità isoterma} 
+\begin{equation}
+	c_{c}=\left[\left(\frac{\partial h}{\partial p}\right)_{T}-v\right]
+\end{equation}
+\myequations{Calore specifico di comprimibilità isoterma }
+In queste condizioni vale che $dq=c_cdp$ e allora possiamo misurarlo: $c_{c}=\left.\frac{d q}{d p}\right|_{T}$. Possibile solo nei passaggi di stato.
+
+Quindi per i \textbf{sistemi aperti} vale che:
+\begin{equation}
+	dq=c_pdT+c_cdp 
+	\label{eq:calore_sistemi_aperti}
+\end{equation}
+\myequations{Calore per sistemi aperti}
+E  il calore specifico possiamo esprimerlo come:
+\begin{equation}
+	c=c_p+c_c{dp\over dT}
+\end{equation}
+\myequations{Calore specifico per sistemi aperti}
+
+\subsubsection{Equazioni di Maxwell}
+
+Introduciamo due nuove grandezze funzioni di stato:
+\begin{itemize}
+\item Energia libera di Gibbs $e_u=u-Ts$
+\item Entalpia libera di Helmotz $e_h=h-Ts$
+\end{itemize}
+
+Possiamo farne i differenziali esatti (considerando anche \eqref{eq:energiainternaentropia} e \eqref{eq:entalpiaentropia}) otteniamo:
+\begin{itemize}
+	\item $de_u=-pdv-sdT$
+	\item $de_h=vdp-sdT$
+\end{itemize}
+
+Nei passaggi di tasto (isotermobariche) abbiamo $de_h=0$.
+
+Per un'isoterma abbiamo $p d v=-d e_{u} \rightarrow \int_{1}^{2} p d v=l_{21}=e_{u 1}-e_{u 2}$ quindi riconduciamo il calcolo del lavoro ad una variazione di una funzioni di stato. 
+
+Applicando il teorema di Swartz all'energia libera, entalpia libera, energia interna e entalpia otteniamo le quattro \textbf{equazioni di Maxwell}
+\begin{equation}
+\left.\begin{aligned}
+	-\left(\frac{\partial p}{\partial T}\right)_{v}&=-\left(\frac{\partial s}{\partial v}\right)_{T} \\
+	\left(\frac{\partial v}{\partial T}\right)_{p}&=-\left(\frac{\partial s}{\partial p}\right)_{T} \\
+	\left(\frac{\partial T}{\partial v}\right)_{s}&=-\left(\frac{\partial p}{\partial s}\right)_{v} \\
+	\left(\frac{\partial T}{\partial p}\right)_{s}&=\left(\frac{\partial v}{\partial s}\right)_{p}
+\end{aligned}\right.
+\end{equation}
+\myequations{Equazioni di Maxwell}
+
+Cerchiamo delle espressioni analitiche per $c_d$ e $c_c$.
+Dalla definizione di entropia $ds=dq/T$ sostituiamo la definizione di calore \eqref{eq:calore_sistemi_chiusi}. Poi possiamo farne il differenziale esatto $ds=ds(T,v)$ e otteniamo:
+\begin{equation}
+d s=\left(\frac{\partial s}{\partial T}\right)_{v} d T+\left(\frac{\partial s}{\partial v}\right)_{T} d v
+\end{equation}
+
+\begin{itemize}
+\item Trasformazioni isocore $c_{v}=\left(\frac{\partial s}{\partial T}\right)_{v} T$
+\item Trasformazioni isoterme $c_{d}=\left(\frac{\partial s}{\partial v}\right)_{T} T$
+\end{itemize}
+
+Quindi dalla prima equazione di Maxwell: 
+\begin{equation}
+c_{d}=T\left(\frac{\partial p}{\partial T}\right)_{v}
+\end{equation}
+
+Nota l'equazione di stato possiamo calcolarlo analiticamente. 
+\newline
+
+
+Dalla definizione di entropia $ds=dq/T$ sostituiamo la definizione di calore \eqref{eq:calore_sistemi_aperti}. Poi possiamo farne il differenziale esatto $ds=ds(T,p)$ e otteniamo:
+\begin{equation}
+d s=\left(\frac{\partial s}{\partial T}\right)_{p} d T+\left(\frac{\partial s}{\partial p}\right)_{T} d p
+\end{equation}
+
+\begin{itemize}
+	\item Trasformazioni isobare $c_{p}=T\left(\frac{\partial s}{\partial T}\right)_{p}$
+	\item Trasformazioni isoterme $c_{c}=T\left(\frac{\partial s}{\partial p}\right)_{T}$
+\end{itemize}
+
+Quindi dalla seconda equazione di Maxwell: 
+\begin{equation}
+c_{c}=-T\left(\frac{\partial v}{\partial T}\right)_{p}
+\end{equation}
+Nota l'equazione di stato possiamo calcolarlo analiticamente. 
+\newline
+
+In conclusione: 
+
+\begin{multicols}{2}
+	\begin{center}
+\textbf{Sistemi chiusi}
+	\end{center}
+
+\begin{equation}
+\begin{aligned}
+	&d q=c_{v} d T+T\left(\frac{\partial p}{\partial T}\right)_{v} d v \\
+	&d u=c_{v} d T+\left[T\left(\frac{\partial p}{\partial T}\right)_{v}-p\right] d v \\
+	&d s=\frac{c_{v}}{T} d T+\left(\frac{\partial p}{\partial T}\right)_{v} d v
+\end{aligned}
+	\label{eq:sistemi_chiusi_coefficienti}
+\end{equation}
+
+
+\begin{center}
+\textbf{Sistemi aperti}
+\end{center}
+\begin{equation}
+\begin{aligned}
+	&d q=c_{p} d T-T\left(\frac{\partial v}{\partial T}\right)_{p} d p \\
+	&d h=c_{p} d T+\left[v-T\left(\frac{\partial v}{\partial T}\right)_{p}\right] d p \\
+	&d s=\frac{c_{p}}{T} d T-\left(\frac{\partial v}{\partial T}\right)_{p} d p 
+\end{aligned}
+\label{eq:sistemi_aperti_coefficienti}
+\end{equation}
+
+
+
+
+\end{multicols}
+
+\subsubsection{Relazioni tra calori specifici}\label{relazioni_cv_cp}
+
+ Consideriamo l'ultima da \eqref{eq:sistemi_chiusi_coefficienti} se la trasformazione è isocora abbiamo la pendenza dell'isocora sul piano $Ts$:
+ \begin{equation}
+d s=\left.\frac{c_{v}}{T} d T \Rightarrow \frac{d T}{d s}\right|_{v}=\left.\frac{T}{c_{v}}\right|_{v}
+ \end{equation}
+
+Considerando  l'ultima da \eqref{eq:sistemi_aperti_coefficienti} se la trasformazione è isobara otteniamo la pendenza dell'isobara sul piano $Ts$:
+\begin{equation}
+d s=\left.\frac{c_{p}}{T} d T \Rightarrow \frac{d T}{d s}\right|_{p}=\left.\frac{T}{c_{p}}\right|_{p}
+\end{equation}
+
+Poiché $c_p>c_v$ (lo dimostreremo) la pendenza dell'isobara è minore dell'isocora.
+\newline
+
+Considerando  l'ultima da \eqref{eq:sistemi_aperti_coefficienti} esplicitiamo $c_p$ e dall'ultima da \eqref{eq:sistemi_chiusi_coefficienti} esplicitiamo $c_v$. Dalla loro differenza otteniamo: 
+\begin{equation}
+	c_{p}-c_{v}=\left(\frac{\partial v}{\partial T}\right)_{p} T \frac{d p}{d T}+\left(\frac{\partial p}{\partial T}\right)_{v} T \frac{d v}{d T}
+\end{equation}
+
+Consideriamo il differenziale esatto di $p=p(T,v)$ e dividiamo per $dT$ allora sostituiamo in $c_p-c_v$ e otteniamo:
+
+\begin{equation}
+	c_{p}-c_{v}=\left(\frac{\partial v}{\partial T}\right)_{p} T\left(\frac{\partial p}{\partial T}\right)_{v}
+		\label{eq:cp-cv}
+\end{equation}
+Avendo semplificato grazie al teorema dei differenziali esatti.
+\newline
+
+Oss: per i gas perfetti otteniamo $p v=R T \rightarrow\left(\frac{\partial p}{\partial T}\right)_{v}=\frac{R}{v}$ e $\left(\frac{\partial v}{\partial p}\right)_{T}=-\frac{R T}{p^{2}}$.
+Quindi otteniamo \begin{equation}
+	c_{p}-c_{v}=T \frac{R^{2}}{v^{2}} \cdot \frac{R T}{p^{2}}=R \Rightarrow {c}_{{p}}-{c}_{v}=\boldsymbol{R}
+		\label{eq:cp-cv-R}
+\end{equation}
+\newline
+Se è isoentropica dalle ultime di  \eqref{eq:sistemi_aperti_coefficienti} e  \eqref{eq:sistemi_chiusi_coefficienti} possiamo esplicitare $c_p$ e $c_v$ e considerarne il rapporto: \begin{equation}
+\frac{c_{p}}{c_{v}}=-\frac{\left(\frac{\partial v}{\partial T}\right)_{p}}{\left(\frac{\partial p}{\partial T}\right)_{v}} \cdot \frac{\left(\frac{\partial p}{\partial T}\right)_{s}}{\left(\frac{\partial v}{\partial T}\right)_{s}}=\left(\frac{\partial v}{\partial p}\right)_{T}\left(\frac{\partial p}{\partial v}\right)_{s}
+	\label{eq:cp/cv}
+\end{equation}
+Dove ho semplificato il $\partial T$
+
+Inoltre $\frac{\left(\frac{\partial v}{\partial T}\right)_{p}}{\left(\frac{\partial p}{\partial T}\right)_{v}}=-\left(\frac{\partial v}{\partial p}\right)_{T}$ per Swartz (il prodotto dei 3 è $-1$) . 
+\newline
+Oss: nei gas perfetti: 
+$p v=R T \rightarrow\left(\frac{\partial v}{\partial p}\right)_{T}=-\frac{R T}{p^{2}}$
+e quindi per le trasformazioni \textbf{isoentropiche} \begin{equation}
+	pv^k=\operatorname{cost}
+\end{equation}
+
+Facendone la derivata possiamo ricavare 
+\begin{equation}
+\left(\frac{\partial p}{\partial v}\right)_{s}=-k p \frac{v^{k-1}}{v^{k}}=-k \frac{p}{v}
+\end{equation}
+
+E allora:
+
+\begin{equation}
+\frac{c_{p}}{c_{v}}=+\frac{R T}{p^{2}} \cdot k \frac{p}{v}=\frac{R T}{p v} k=k \Rightarrow \frac{\boldsymbol{c}_{\boldsymbol{p}}}{\boldsymbol{c}_{v}}=\boldsymbol{k}
+	\label{eq:cp/cv-k}
+\end{equation}
+
+\subsubsection{Dipendenza di $c_v$ da $v$}
+
+Considerando la definizione di $c_v$ \eqref{eq:cv} deriviamolo rispetto $v$ a $T$ costante e invertiamo l'ordine di integrazione. Quindi ricordando l'espressione di $du$ per i sistemi chiusi \eqref{eq:sistemi_chiusi_coefficienti} calcoliamo il $\left(\partial u\over \partial v\right)_T$, sostituiamo e otteniamo: 
+\begin{equation}
+\left(\frac{\partial c_{v}}{\partial v}\right)_{T}=T\left(\frac{\partial^{2} p}{\partial T^{2}}\right)_{v}
+\end{equation}
+\myequations{Relazione tra $c_v$ e $v$}
+
+\subsubsection{Dipendenza di $c_p$ da $p$}
+
+Considerando la definizione di $c_p$ \eqref{eq:cp} deriviamolo rispetto $p$ a $T$ costante e invertiamo l'ordine di integrazione. Quindi ricordando l'espressione di $dh$ per i sistemi chiusi \eqref{eq:sistemi_aperti_coefficienti} calcoliamo il $\left(\partial h\over \partial p\right)_T$, sostituiamo e otteniamo: 
+\begin{equation}
+	\left(\frac{\partial c_{p}}{\partial p}\right)_{T}=-T\left(\frac{\partial^{2} v}{\partial T^{2}}\right)_{p}
+\end{equation}
+\myequations{Relazione tra $c_p$ e $p$}
+
+\subsection{Gas reali}
+
+DA COMPLETARE 
+\subsubsection{Equazione del virale}
+
+DA COMPLETARE 
+
+\subsubsection{Equazioni di Van der Waals}
+
+DA COMPLETARE 
+
+\subsubsection{Equazione di Dieterici}
+
+DA COMPLETARE 
+
+\subsubsection{Equazione di Bethelot}
+
+DA COMPLETARE 
+
+\subsection{Teorema di Guoj-Stodola}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.3\columnwidth]{guoj.png}
+	\end{center}
+\end{figure}
+
+Applicando il primo principio e considerando che $\dot{Q}=\dot{Q}_{A}+\sum_{i=1}^{m} \dot{Q}_{i}$ possiamo applicare il secondo principio tenendo conto delle irreversibilità $\frac{\dot{Q}}{T}=\Delta S-\Delta \mathrm{s}_{\mathrm{S}}$, otteniamo:
+\begin{equation}
+\dot{L}=\underbrace{\sum_{i} \dot{Q}_{l}\left(1-\frac{T_{A}}{T_{i}}\right)+\sum G_{e}\left(h_{e}-T_{A} s_{e}+e_{c e}+e_{p e}\right)-\sum G_{u}\left(h_{u}-T_{A} s_{u}+e_{c u}+e_{p u}\right)}_{\dot{L}_{\max}}-T_{A} \Delta s_{s}
+\end{equation}
+\myequations{Teorema di Guoi-Stodola}
+
+Si osservi che il lavoro ottenibile per un sistema aperto è massimo quando non ci sono irreversibilità. Questo lavoro dipende dai calori scambiati con le sorgenti, dall'entalpia e dal termine $T_As$.
+\newline
+\subsection{Exergia}
+Nel caso di \textbf{sistemi chiusi} si torna alla macchina motrice di Watt (e Carnot se reversibili) e spariscono i termini legati alle correnti entranti/uscenti. 
+$ \dot{L}=\sum_{i} \dot{Q}_{l}\left(1-\frac{T_{A}}{T_{i}}\right)$.	
+	In particolare, con una sola sorgente, abbiamo l'\textbf{exergia} del sistema chiuso
+	\begin{equation}
+	L_{\max }^{\cdot}=\dot{Q}_{l}\left(1-\frac{T_{A}}{T_{i}}\right)=\dot{E}_{x}
+\end{equation}
+\myequations{Exergia del sistema chiuso}
+
+	È il lavoro massimo ottenuto dal sistema chiuso che scambia calore con una sola sorgente	
+Facciamo il diagramma dell’exergia per unità di calore scambiato in modulo, in funzione della temperatura $T_1$ della sorgente, fissata la temperatura ambiente $T_a$ in cui identifichiamo il ciclo diretto ( $\frac{\left|E_{x}\right|}{\left|\dot{Q_{1}}\right|}$ aumenta verso la saturazione) e ciclo inverso ($\frac{\left|E_{x}\right|}{\left|\dot{Q_{1}}\right|}$ aumenta in maniera inversa).
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{diagrammaexergia.png}
+	\end{center}
+\caption{Diagramma dell'exergia per unità di calore}
+\end{figure}
+
+Per un \textbf{sistema aperto} che scambia calore con l'ambiente il termine $\sum_{i} \dot{Q}_{l}\left(1-\frac{T_{A}}{T_{i}}\right)=0$ è nullo. Considerando una sola corrente entrante e una uscente e il regime stazionario ($G_e=G_u=G$) otteniamo un certo $\dot L_{\max}$ e possiamo dividere per la portata ottenendo la grandezza intensiva:
+\begin{equation}
+l_{\max }=\left(h_{e}-T_{a} s_{e}\right)-\left(h_{u}-T_{a} s_{u}\right)
+\end{equation}
+
+Dove identifichiamo l'\textbf{exergia del sistema aperto}:
+\begin{equation}
+e_x=h-T_a s
+\end{equation}
+\myequations{Exergia del sisitema aperto}
+
+Quindi il lavoro massimo che si può ottenere da un sistema aperto con portata di ingresso e di uscita e che scambia lavoro solo con l’ambiente è la differenza tra l'exergia di ingresso equella di uscita $l_{\max}=e_{xe}-e_{xu}$.
+\newline
+
+\textbf{Oss:} l’exergia è un caso particolare dell’entalpia libera dove la temperatura è solo la temperatura ambiente $T_A$ .
+
+È una funzione di stato, definita a meno di una costante. Scegliamo come stato di riferimento l'ambiente, dove l'exergia è nulla: stato morto (poiché l’energia è il lavoro massimo che si può ottenere sia in un sistema chiuso che in un sistema aperto, è chiaro che non si può ottenere lavoro da un sistema che scambia calore solo con l’ambiente).
+
+\subsubsection{Diagramma exergia-entalpia}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{exergiaentalpia.png}
+	\end{center}
+	\caption{Diagramma exergia-entalpia}
+\end{figure}
+
+\begin{itemize}
+\item \textit{Isoentropiche}: sono rette a 45°, $\left(\frac{\partial e_{x}}{\partial h}\right)_{S}=1$
+\item \textit{Isobare}: $\left(\frac{\partial e_{x}}{\partial h}\right)_{p}=1-T_{a}\left(\frac{\partial s}{\partial h}\right)_{p}=1-\frac{T_{a}}{T}$, quindi i due casi a seconda che $T >T_A$ (pendenza positiva)e $T<T_A$ (pendenza negativa)
+\item \textit{Isoterme}: per tutti i gas perfetti sono isoentalpiche $\Rightarrow$ rette verticali
+\item \textit{Isocore}: $\left(\frac{\partial e_{x}}{\partial h}\right)_{v}=1 \frac{T_{a}}{k T}$. Se $𝑘𝑇>𝑇_a$ allora pendenza positiva, se $𝑘𝑇=𝑇_a$ allora pendenza zero, se $𝑘𝑇<𝑇_a$ allora pendenza negativa.
+\end{itemize}
+
+\subsection{Trasformazioni termodinamiche}
+
+Per i gas perfetti le trasformazioni termodinamiche sono:
+\begin{enumerate}
+	\item $p v^{k}=\operatorname{cost}$
+	\item $\frac{T}{p^{\frac{k-1}{k}}}=\operatorname{cost}$
+	\item $T v^{k-1}=\operatorname{cost}$
+\end{enumerate}
+
+
+(3.)
+\newline
+Partiamo dall'espressione generale del $ds$ per i sistemi chiusi :
+\begin{equation}
+d s=c_{v} \frac{d T}{T}+\left(\frac{\partial p}{\partial t}\right)_{v} d v=c_{v} \frac{d T}{T}+R \frac{d v}{v}
+\end{equation}
+Consideriamo una trasformazione isoentropica e supponiamo anche $c_v=\operatorname{cost}$ $\longrightarrow$ ipotesi di politropica, integriamo la relazione ed eliminiamo i logaritmi e ($k={c_p\over c_v}$) otteniamo:
+\begin{equation}
+T v^{\frac{c_{p}-c_{v}}{c_{v}}}=T v^{k-1}=\operatorname{cost}
+\end{equation}
+ \newline
+ 
+ (2.)
+ \newline 
+Partiamo dall'espressione generale del $ds$ per i sistemi aperti :
+ \begin{equation}
+d s=c_{p} \frac{d T}{T}-\left(\frac{\partial v}{\partial t}\right)_{p} d p=c_{p} \frac{d T}{T}-R \frac{d p}{p}
+ \end{equation}
+ Consideriamo una trasformazione isoentropica e supponiamo anche $c_p=\operatorname{cost}$ $\longrightarrow$ ipotesi di politropica, integriamo la relazione ed eliminiamo i logaritmi e ($k={c_p\over c_v}$) otteniamo:
+\begin{equation}
+\frac{T^{c_{p}}}{p^{R}}=\operatorname{cost} \rightarrow \frac{T}{p^{\frac{R}{c_{p}}}}=\operatorname{cost} \rightarrow \frac{T}{p^{\frac{c_{p}-c_{v}}{c_{p}}}}=\operatorname{cost} \Rightarrow \frac{T}{p^{\frac{k-1}{k}}}=\operatorname{cost}
+\end{equation}
+\newline
+
+(1.)
+\newline
+Consideriamo l'equazione dei gas perfetti e ne facciamo la derivata esplicitando $d T=\frac{p}{R} d v+\frac{v}{R} d p$ allora lo sostituiamo in $ds$  per i sistemi chiusi. Se la trasformazione è isoentropica, integriamo ed eliminiamo i logartimi, allora otteniamo:
+\begin{equation}
+v^{c_{p}} \cdot p^{c_{v}}=\operatorname{cost}\longrightarrow v^{\frac{c_{p}}{c_{v}}} \cdot p=\operatorname{cost} \Rightarrow p v^{k}=\operatorname{cost}
+\end{equation}
+
+\subsection{Miscele aria umida}
+
+\subsection{Impianti frigoriferi}
+
+\subsubsection{Ciclo frigorifero a compressione di vapore}
+Consideriamo ammoniaca $NH_3$.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\columnwidth]{compressionedivapore.png}
+	\end{center}
+	\caption{Ciclo frigorifero a compressione di vapore}
+\end{figure}
+
+\begin{itemize}
+\item Compressione isoentropica
+\item L'inizio di $23$ è solo raffreddamento, poi condensa 
+\item Valvola di laminazione $\rightarrow$ irreversibile 
+\end{itemize}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\columnwidth]{diagrammicompressionedivapore.png}
+	\end{center}
+	\caption{Ciclo frigorifero a compressione di vapore sui diagrammi}
+\end{figure}
+
+Possiamo vederla anche sul piano $ph$.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{compressionedivaporeph.png}
+	\end{center}
+	\caption{Ciclo frigorifero a compressione di vapore sui diagrammi}
+\end{figure}
+
+\subsubsection{Progettazione}
+
+Vogliamo la cella frigorifera a $T_1=-20^\circ$ con $T_2=T_a=20^\circ$.  Dovremo avere la cella con fluido a temperature più basse (vaporizzatore) e il condensatore a temperature più alte dell'ambiente (cede calore). Quindi avremo il ciclo in \textcolor{red}{rosso}.
+
+
+\begin{itemize}
+	\item $q_{14}=h_1-h_4$, calore sottratto durante la vaporizzazione a temperatura inferiore
+	\item $l_{12}=h_2-h_1$ lavoro speso ad ogni ciclo (compressore)
+	\item $q_{23}=h_2-h_3$ calore ceduto dal condensatore 
+	\item $\eta_{f}=\frac{h_{1}-h_{4}}{h_{2}-h_{1}}=\frac{q_{1}}{l_{12}}$ 
+\end{itemize}
+
+
+\subsubsection{Ciclo con camera di separazione (Flash)}
+
+Spezziamo in due la fase di compressione ottenendo 3 livelli di pressione, sono necessarie due valvole di laminazione e due compressori. Si aggiunge una camera di separazione che prende il vapore saturo in testa ed esce con liquido saturo (va al vaporizzatore) e con il vapore vado a miscelarlo con il vapore compresso dal primo compressore (livello intermedio di pressione). 
+
+\begin{figure}[H]
+	\begin{center}
+		\centering%
+	\subfigure[Schema impianto]{
+		\includegraphics[width=0.3\columnwidth]{flash.png}}
+	\subfigure[Diagrammi]{
+		\includegraphics[width=0.4\columnwidth]{flashciclo.png}	}
+	\end{center}
+	\caption{Ciclo frigorifero con camera di separazione }
+\end{figure}
+
+Oss. Con un solo compressore il ciclo sarebbe stato $1 \to 2\to6\to 10 $ si riduce il salto di temperatura e pressione (divergenza delle isobare a dx) nonché di entalpia e quindi il calore sottratto dal vaporizzatore è più piccolo. Allora aumenta il rendimento avendo ridotto l'effetto svantaggioso della vaporizzazione nella valvola. 
+
+
+
+\subsubsection{Frigorifero ad H\ped {2}O con eiettore }
+
+Si parla di ciclo di raffrescamento. 
+
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Schema impianto]{
+		\includegraphics[width=0.4\columnwidth]{frigoh2o.png}}
+\subfigure[Diagrammi]{
+		\includegraphics[width=0.4\columnwidth]{h2odiagrammi.png}}
+	\end{center}
+	\caption{Ciclo frigorifero ad H\ped{2}O}
+\end{figure}
+
+Il vapore in uscita dalla caldaia si espande isoentropicamente fino alla pressione inferiore (stato 7) poi si mescola con il vapore saturo 3 per dare lo stato 8 che viene compresso isoentropicamente nell'eiettore fino allo stato 4 di vapore saturo secco.
+
+Nella trasformazione $5\to6$ il fluido viene scaldato nella caldaia tramite il calore $q_c$ proveniente dall'esterno e in 6 si ottiene vapore saturo secco ala pressione superiore, $p_{\max}$. 
+
+L'eiettore non è un compressore ma è un tubo in cui facciamo entrare due fluidi a pressione diversa e per meccanismi termofluidodinamici aumenta la pressione. 
+
+Consuma meno potenza quindi il rendimento è elevato, $$\eta=\frac{\dot{Q}_{f}}{\dot{Q}_{c}}=\frac{\left(h_{3}-h_{2}\right)}{\left(h_{6}-h_{5}\right)} \frac{1 k g}{y k g}$$.
+
+
+\subsubsection{Frigorifero ad aria}
+
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Schema impianto]{
+			\includegraphics[width=0.3\columnwidth]{frigoriferoadaria.png}}
+		\subfigure[Diagramma $pv$]{
+			\includegraphics[width=0.3\columnwidth]{ariapv.png}}
+		\subfigure[Diagramma $Ts$]{
+	\includegraphics[width=0.3\columnwidth]{ariats.png}}
+	\end{center}
+	\caption{Ciclo frigorifero ad aria}
+\end{figure}
+
+
+È richiesto meno lavoro $l_c-l_e$ dove $l_e$ viene recuperato dall'espansore che va a sostituire la valvola di laminazione per sfruttare la pressione superiore dell'aria. 
+
+Su $pv$ $1\to 2$ e $3\to 4$ sono adiabatiche reversibili (isoentropiche).
+Rendimento:
+\begin{equation}
+\eta=\frac{q_{f}}{l_{c}-l_{e}}=\frac{h_{3}-h_{2}}{\left(h_{4}-h_{3}\right)-\left(h_{1}-h_{2}\right)}=\cdots=\frac{1}{\frac{T_{1}}{T_{2}}-1}=\frac{1}{r_{p}^{\alpha}-1}
+\end{equation}
+\myequations{Rendimento frigorifero ad aria}
+
+
+\subsubsection{Impianti di aria condizionata per aerei}
+
+Prendiamo l'aria compressa dal compressore del motore (2) e comprimiamo ancora ma più finemente (altro compressore) quindi raffreddamento isobaro e poi espansione fino alla temperatura desiderata (espansore molto piccolo che permette di controllare finemente la pressione e scaricarla poi nella cabina dell’aereo con pressione e temperatura pari a quella interna alla cabina).
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{frigoaerei.png}
+	\end{center}
+	\caption{Impianto frigorifero per aerei}
+\end{figure}
+
+\subsection{Impianti a liquefazione dei gas}
+\subsubsection{Pictet}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{Pictet.jpg}
+	\end{center}
+	\caption{Cicli frigoriferi a compressione di vapore in serie}
+\end{figure}
+con questi quattro impianti in serie si riuscì ad ottenere l'aria liquida; 
+
+\subsubsection{Linde}
+L'impianto di liquefazione di Linde viene utilizzato per la liquefazione dell'aria;
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Schema impianto]{
+			\includegraphics[width=0.3\columnwidth]{Linde.jpg}}
+		\subfigure[Diagramma $Ts$]{
+			\includegraphics[width=0.3\columnwidth]{LindeTs.jpg}}
+			\end{center}
+	\caption{Impianto Liquefazione dell'aria}
+\end{figure}
+
+il punto 1 non è alla stessa temperatura del punto critico C, perchè $T_C=-140°C$ mentre il punto 1 lo consideriamo a temperatura ambiente $T_1=20°C$.
+Nel transitorio (in \textcolor{red}{rosso}), cioè durante il primo giro, non c'è raffreddamento tra 3 e 4, quindi questi coincidono e l'espansione è fuori la curva. nei cicli successivi 4 si sposta sempre più in basso fino a che l'espansione in 5 entri dentro la curva.
+Il \textbf{regime stazionario } è rappresentato dalla curva in \textcolor{green}{verde}.
+
+\subsubsection{Claude}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{Claude.jpg}
+	\end{center}
+	\caption{ciclo Claude}
+\end{figure}
+Si tratta di una modifica del ciclo Linde.
+La modifica consiste nel sostituire la valvola di laminazione con un espansore, quindi essendo la curva di raffreddamento più verticale, entra prima nelle curve limiti e il raffreddamento risulta più efficiente.
+
+\subsubsection{Impinto misto}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{Impiantomisto.jpg}
+	\end{center}
+	\caption{Impianto di liquefazione misto Linde-Claude}
+\end{figure}
+
+\subsection{Impianti inverso ad assorbimento}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{impiantoinversoadassorbimento.jpg}
+	\end{center}
+	\caption{Impianto inverso ad assorbimento}
+\end{figure}
+
+La parte di sinistra dell'impianto è identica al ciclo frigorifero a compressione di vapore. La parte destra dell'impianto invece, sostituisce il compressore.
+
+Nel lato sinistro dell'impianto si trova l'ammoniaca vapore che ha una grande capacità di essere assorbita dall'acqua. 
+La valvola di laminazione nella parte destra dell'impianto è importante altrimenti il circuito non funziona, perchè sopra è presente una pressione alta e sotto una pressione più bassa.
+
+la pompa comprime il liquido, va nel desorbitore dove viene scaldato e poi viene separato e l'acqua povera di ammoniaca passa nello scambiatore controcorrente.
+
+\begin{figure}[H]
+	\begin{center}
+		\subfigure[Schema impianto]{
+			\includegraphics[width=0.5\columnwidth]{impiantoinverso.jpg}}
+		\subfigure[Diagramma $Ts$]{
+			\includegraphics[width=0.4\columnwidth]{impiantoinversoTs.jpg}}
+	\end{center}
+	\caption{Impianto inverso}
+\end{figure}
+
+Nel $Ts$ viene riportata solo la parte di sinistra in cui circola solo ammoniaca. la trasformazione 3-4 \textbf{NON} si può disegnare nel diagramma dell'$NH_3$.
+
+\textbf{Rendimento limite del ciclo frigorifero ad assorbimento}:
+\begin{equation}
+	\eta_{fa}=\frac{T_g - T_a}{T_g} \cdot \frac{T_f}{T_a -T_f}
+\end{equation}
+\myequations{Rendimento limite del ciclo frigorifero ad assorbimento }
+
+\textbf{Rendimento limite della pompa di calore ad assorbimento}:
+\begin{equation}
+	\eta_{pca}= 1+ \frac{T_g - T_a}{T_g} \cdot \frac{T_f}{T_a -T_f}
+\end{equation}
+\myequations{Rendimento limite della pompa di calore ad assorbimento}
+
+\subsubsection{Electrolux}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\columnwidth]{Electrolux.jpg}
+	\end{center}
+	\caption{Frigorifero Electrolux}
+\end{figure}
+La camera di separazione in basso raccoglie l'acqua liquida e in alto si prende l'ammoniaca.
+
+sono presenti tre fluidi che danno origine a tre circuiti:
+\begin{itemize}
+	\item Circuito dell'acqua: tra generatore, separatore e assorbitore
+	\item Circuito dell'idrogeno: tra assorbitore ed evaporatore
+	\item Circuito dell'ammoniaca: è presente ovunque, il suo movimento è dovuto alla differenza della sua pressione di vapore.
+\end{itemize}
+
+Dopo il condensatore l'$NH_3$ vapore scende nell'assorbitore spinto dall'idrogeno; 
+\newpage
+\section{Termofluidodinamica}
+
+\subsection{Linee di flusso}
+
+\begin{itemize}
+	\item Linea di percorso, insieme dei punti dello spazio occupato dal baricentro della particella
+	\item Linea di corrente, curva che ha come tangente in ogni suo punto il vettore velocità(ci focalizziamo sulla direzione della particella). 
+	\item Linee di fumo, linea che collega i punti passati per un punto fisso nello spazio nei tempi precedenti (si calcolano dalle traiettorie invertendo il senso del tempo)
+\end{itemize}
+
+N.B A regime stazionario le tre linee di flusso coincidono.
+
+\subsubsection{Linee di corrente}
+Supponiamo un moto bidimensionale sul piano $xy$. Per arrivare ad una relazione tra x ed y si esegue:
+\begin{itemize}
+\item sostituzione, $v=y$ e $u={x\over 1+t}$
+\item separazione di variabili
+\item integrazione 
+\end{itemize}
+
+Abbiamo:
+\begin{equation}
+\left(\frac{x}{x_{0}}\right)^{1+t}=\left(\frac{y}{y_{0}}\right)
+\end{equation}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.9\columnwidth]{linee_corrente.png}
+	\end{center}
+	\caption{Linee di corrente}
+\end{figure}
+
+\subsubsection{Traiettorie}
+
+Leghiamo $x$ ed $y$ al tempo $t$ con passaggi analoghi al precedente. Otteniamo:
+\begin{equation}
+\left\{\begin{array}{l}
+	\frac{y}{y_{0}}=e^{\left(t-\vartheta_{0}\right)} \\
+	\frac{x}{x_{0}}=\frac{1+t}{1+\vartheta_{0}}
+\end{array}\right.
+\end{equation}
+
+Possiamo eliminare il tempo tra le due e legare $x$ ed $y$, cioè dalla seconda ricaviamo il tempo e lo sostituiamo nella prima:
+\begin{equation}
+\frac{y}{y_{0}}=\exp \left[\left(\frac{x}{x_{0}}-1\right)\left(1+\vartheta_{0}\right)\right] \xrightarrow{\theta_0=0,x_0=1=y_0} y=\exp (x-1)=e^{x-1}
+\end{equation}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{traiettorie.png}
+	\end{center}
+	\caption{Traiettorie}
+\end{figure}
+
+\subsubsection{Linee di fumo}
+
+Si va indietro nel tempo fino all'istante iniziale da dove viene generata la linea.
+Sostituiamo $x_0=\xi_x$, $y_0=\xi_y$  e $\theta_0=\tau$ nelle traiettorie. $\tau$ è l'istante precedente a $t$. Otteniamo:
+\begin{equation}
+y=\xi_{y} \exp \left[\frac{x-\xi_{x}}{x}(t+1)\right] \text{oppure} y=\xi_{y} \cdot \exp \left[\frac{x-\xi_{x}}{x}(1+\tau)\right]
+\end{equation}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{lineedifumo.png}
+	\end{center}
+	\caption{Linee di fumo, $ y=\xi_{y} \cdot \exp \left[\frac{x-\xi_{x}}{x}(1+\tau)\right]$}
+\end{figure}
+
+\subsection{Principio di conservazione della massa di Leonardo da Vinci}
+il principio o legge di conservazione della massa afferma che la massa rimane costante se le velocità in gioco sono molto inferiori alla velocità della luce.
+Consideriamo un fluido che scorre in un condotto a sezione variabile:
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{condottoasezionevariabile.jpg}
+	\end{center}
+	\caption{Principio di conservazione della massa}
+\end{figure}
+La portata è data da: $G=\frac{w S}{v}=w S \rho$
+se il regime è stazionario la portata è costante e possiamo scrivere:
+\begin{equation}
+	w_{1} S_{1} \rho_{1}=w_{2} S_{2} \rho_{2}
+\end{equation}
+con $w$ indichiamo la velocità media; 
+
+Si possono distinguere due  tipi di moto:
+\begin{itemize}
+	\item Moto incompribilie: $\rho_{1}=\rho_{2} \rightarrow w_{1} S_{1}=w_{2} S_{2} \Rightarrow \text { se } S \uparrow w \downarrow;  \text { se } S \downarrow w \uparrow$
+	\item Moto comprimibile: $\rho_1 \ne \rho_2$
+	
+	Se $S_1=S_2$
+	\begin{itemize}
+		\item se il fluido si dilata $v_{2}>v_{1}  \rightarrow  w_{2}>w_{1}$
+		\item se il fluido si comprime $v_{2}<v_{1}  \rightarrow  w_{2}<w_{1}$ $\longrightarrow$ \textbf{Compressione dinamica}
+	\end{itemize}
+
+Se $w_{1}=w_{2} \rightarrow S_{1} \rho_{1}=S_{2} \rho_{2} \Rightarrow \frac{s_{1}}{s_{2}}=\frac{\rho_{2}}{\rho_{1}}=\frac{v_{1}}{v_{2}}$
+
+$\Rightarrow S_{2}<S_{1} \longrightarrow v_{2}<v_{1} $
+
+Facendo il differenziale della portata e dividendo per la portata stessa, si ottiene:
+\begin{equation}
+	0=\frac{d w}{w}+\frac{d S}{S}+\frac{d \rho}{\rho}
+\end{equation}
+\myequations{Differenziale della portata}
+
+\subsection{Equazione di Bernoulli generalizzata}
+Si ricava dall'equazione di conservazione dell'energia per sistema aperti;
+
+Da \eqref{1principiodiff} sostituendo le equazioni costitutive di $dh$ e $dq$ si ottiene:
+\begin{equation}
+	T d s_{s}+d l_{f}+v d p+\frac{d w^{2}}{2}+g d z=0
+\end{equation}
+\myequations{Equazione di Bernoulli generalizzata}
+
+Significato fisico dei termini dell'equazione :
+\begin{itemize}
+	\item $de_p$ carico potenziale o effettivo
+	\item $de_c$ carico cinetico
+	\item $vdp=\frac{dp}{\rho}$ carico piezometrico
+	\item $dl_f=gdz_f$ carico del lavoro scambiato
+	\item $dz_a$ carico di attrito ($gdz_a=Tds_s$)
+\end{itemize}
+
+Sostituendo e dividendo per $g$ si ottiene l'equazione differenziale di Bernoulli generalizzata:
+\begin{equation}
+	d z_{a}+d z_{f}+\frac{d p}{\gamma}+\frac{d w^{2}}{2 g}+d z=0
+\end{equation}
+\myequations{Equazione differenziale di Bernoulli generalizzata}
+
+In termini finiti, si integra tra la sezione $1$ e $2$ e si ottiene:
+\begin{equation}
+	z_{a}+z_{f}+\frac{P_{2}}{\gamma}+\frac{w_{2}^{2}}{2 g}+z_{2}=\frac{p_{1}}{\gamma}+\frac{w_{1}^{2}}{2 g}+z_{1}
+\end{equation}
+\myequations{Equazione di Bernoulli generalizzata in termini finiti} 
+
+I tre carichi (effettivo, cinetico e piezometrico) si conservano. Se sono presenti organi meccanici e attriti si aggiungono $z_f$ e $z_a$. S e sono nulli si ritorna all'equazione di Bernoulli semplificata.
+
+\subsubsection{Definizione operativa dell'attrito $z_a$}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\columnwidth]{condottodefoperativaz_a.jpg}
+	\end{center}
+	\caption{Definizione operativa dell'attrito}
+\end{figure}
+
+\begin{itemize}
+	\item il condotto è orizzontale $z_1=z_2$
+	\item non ci sono organi motori $z_f=0$
+	\item $w_1=w_2$
+\end{itemize}
+
+l'equazione di Bernoulli generalizzata diventa:
+\begin{equation}
+	z_{a}=\frac{p_{1}-p_{2}}{\gamma}
+\end{equation}
+
+\subsection{Equazione di Eulero}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.3\columnwidth]{equazioneEulero.jpg}
+	\end{center}
+	\caption{Equazione di Eulero}
+\end{figure}
+
+Passiamo dal moto stazionario a quello \textbf{NON} stazionario.
+Le forze che agiscono sono:
+\begin{itemize}
+	\item Forza sulla faccia superiore $pdA$
+	\item Forza sulla faccia inferiore $\left(p+\frac{\partial p}{\partial s} d s\right) d A$
+	\item Forza di gravità 
+\end{itemize}
+
+Applichiamo il secondo principio della dinamica, in cui la somma delle forze esterne è pari alla derivata temporale della quantità di moto:
+\begin{equation}
+	d m \frac{d w}{d t}+w \frac{d w}{d t}=p d A-\left(p+\frac{\partial p}{\partial s} d s\right) d A+g d m \cos \varphi
+\end{equation}
+
+Sostituendo l'espressione di $dm=\rho ds dA$ e semplificando il $ds$ si ottiene:
+\begin{equation}
+\frac{d w}{d t}=-\frac{1}{\rho} \frac{\partial p}{\partial s}+g \cos \varphi
+\label{eq:secondoprincipiodelladinamica}
+\end{equation}
+\myequations{Secondo principio della dinamica} 
+
+Suppondendo $w=w(s,t)$ deriviamo rispetto al tempo e imponiamo l'uguaglianza con \eqref{eq:secondoprincipiodelladinamica}
+
+Sapendo che $d z=-d s \cos \varphi $ e moltiplicando per $ds$ otteniamo l'equazione di Eulero:
+\begin{equation}
+	\frac{\partial w}{\partial t} d s+w d w+\frac{d p}{\rho}+g d z=0
+\end{equation}
+\myequations{Equazione di Eulero in forma differenziale}
+
+Integrando otteniamo:
+ \begin{equation}
+ 	\int_{1}^{2} \frac{\partial w}{\partial t} d s+\frac{w_{2}^{2}}{2}+\frac{p_{2}}{\rho}+g z_{2}=\frac{w_{1}^{2}}{2}+\frac{p_{1}}{\rho}+g z_{1}
+ \end{equation}
+ \myequations{Equazione di Eulero in forma integrale}
+ 
+ Avendo fissato le due sezioni corrisponde ad aver fissato un contorno termodinamico. Non compare l'attrito perché è ricavata dal secondo principio della termodinamica; compare il tempo ma a regime stazionario è l'equazione di Bernoulli classica.
+ 
+
+
+
+
+
+
+
+\end{itemize}
 \newpage
 \section{Tesine}
 
