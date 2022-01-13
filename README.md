@@ -7,8 +7,7 @@
 ⌨️ [About LaTeχ](https://alessandromastrofini.it/2021/10/04/documento-latex/)
 <br>
 
-![Wallpaper](https://github.com/mastroalex/fisicatecnica/blob/main/figures/cicloinverso.png)
-<br>
+
 
 # Table of contents
 
